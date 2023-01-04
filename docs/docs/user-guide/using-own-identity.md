@@ -1,3 +1,8 @@
+---
+title: Use your own Azure AD identity
+sidebar_position: 9
+---
+
 # Use your own Azure AD identity
 
 When you use the CLI for Microsoft 365 to connect to your tenant for the first time, you are presented with a `Permissions requested` prompt from Azure, by accepting this prompt you are consenting to using the `PnP Microsoft 365 Management Shell` Azure AD application with your tenant as well as the permissions that it requires.
@@ -83,7 +88,7 @@ You will be presented with the `Configured permissions` section again but this t
 !!! attention
     Note that when executing tenant level SharePoint Online commands, the CLI will attempt to autodiscover your tenant URL.
 
-    It will first check for the presence of an environment variable containing the tenant URL, which can be set by using [`m365 spo set`](../../cmd/spo/spo-set/) command.
+    It will first check for the presence of an environment variable containing the tenant URL, which can be set by using [`m365 spo set`](../../cmd/groups/spo/spo-set/) command.
     
     If this cannot be found, a request will be made to the Microsoft Graph. For this request to be successful, you must ensure that you have at least the `Sites.Read.All` permission granted to your application.
 

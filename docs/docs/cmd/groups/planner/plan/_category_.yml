@@ -1,0 +1,7 @@
+collapsible: true
+collapsed: true
+link:
+  type: generated-index
+  title: Microsoft Planner plan (plan)
+  description: All the commands available for a Microsoft Planner plan.
+  slug: /cmd/groups/planner/plan

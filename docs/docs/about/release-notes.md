@@ -6,17 +6,17 @@
 
 **Power Platform:**
 
-- [pp aibuildermodel list](../cmd/pp/aibuildermodel/aibuildermodel-list.md) - list available AI builder models in the specified Power Platform environment [#4174](https://github.com/pnp/cli-microsoft365/issues/4174)
+- [pp aibuildermodel list](../cmd/groups/pp/aibuildermodel/aibuildermodel-list.md) - list available AI builder models in the specified Power Platform environment [#4174](https://github.com/pnp/cli-microsoft365/issues/4174)
 
 **Purview:**
 
-- [purview retentionlabel get](../cmd/purview/retentionlabel/retentionlabel-get.md) - get a retention label [#4146](https://github.com/pnp/cli-microsoft365/issues/4146)
+- [purview retentionlabel get](../cmd/groups/purview/retentionlabel/retentionlabel-get.md) - get a retention label [#4146](https://github.com/pnp/cli-microsoft365/issues/4146)
 
 **SharePoint:**
 
-- [spo file sharinglink list](../cmd/spo/file/file-sharinglink-list.md) - lists all the sharing links of a specific file [#4023](https://github.com/pnp/cli-microsoft365/issues/4023)
-- [spo listitem record lock](../cmd/spo/listitem/listitem-record-lock.md) - locks the list item record [#4237](https://github.com/pnp/cli-microsoft365/issues/4237)
-- [spo listitem record unlock](../cmd/spo/listitem/listitem-record-unlock.md) - unlocks the list item record [#4239](https://github.com/pnp/cli-microsoft365/issues/4239)
+- [spo file sharinglink list](../cmd/groups/spo/file/file-sharinglink-list.md) - lists all the sharing links of a specific file [#4023](https://github.com/pnp/cli-microsoft365/issues/4023)
+- [spo listitem record lock](../cmd/groups/spo/listitem/listitem-record-lock.md) - locks the list item record [#4237](https://github.com/pnp/cli-microsoft365/issues/4237)
+- [spo listitem record unlock](../cmd/groups/spo/listitem/listitem-record-unlock.md) - unlocks the list item record [#4239](https://github.com/pnp/cli-microsoft365/issues/4239)
 
 ### Changes
 
@@ -31,44 +31,44 @@
 
 **Azure AD:**
 
-- [aad group get](../cmd/aad/group/group-get.md) - get information about a specified Azure AD Group [#3786](https://github.com/pnp/cli-microsoft365/issues/3786) 
+- [aad group get](../cmd/groups/aad/group/group-get.md) - get information about a specified Azure AD Group [#3786](https://github.com/pnp/cli-microsoft365/issues/3786) 
 
 **Context:**
 
-- [context init](../cmd/context/context-init.md) - initiates CLI for Microsoft 365 context in the current working folder [#4042](https://github.com/pnp/cli-microsoft365/issues/4042)
-- [context remove](../cmd/context/context-remove.md) - removes the CLI for Microsoft 365 context in the current working folder [#4043](https://github.com/pnp/cli-microsoft365/issues/4043)
+- [context init](../cmd/groups/context/context-init.md) - initiates CLI for Microsoft 365 context in the current working folder [#4042](https://github.com/pnp/cli-microsoft365/issues/4042)
+- [context remove](../cmd/groups/context/context-remove.md) - removes the CLI for Microsoft 365 context in the current working folder [#4043](https://github.com/pnp/cli-microsoft365/issues/4043)
 
 **Planner:**
 
-- [planner plan set](../cmd/planner/plan/plan-set.md) - updates a Microsoft Planner plan [#3346](https://github.com/pnp/cli-microsoft365/issues/3346)
+- [planner plan set](../cmd/groups/planner/plan/plan-set.md) - updates a Microsoft Planner plan [#3346](https://github.com/pnp/cli-microsoft365/issues/3346)
 
 **Power Platform:**
 
-- [pp chatbot get](../cmd/pp/chatbot/chatbot-get.md) - get information about the specified chatbot [#4107](https://github.com/pnp/cli-microsoft365/issues/4107)
-- [pp chatbot remove](../cmd/pp/chatbot/chatbot-remove.md) - removes the specified chatbot [#4106](https://github.com/pnp/cli-microsoft365/issues/4106)
-- [pp dataverse table row list](../cmd/pp/dataverse/dataverse-table-row-list.md) - lists table rows for the given Dataverse table [#3791](https://github.com/pnp/cli-microsoft365/issues/3791)
-- [pp solution publisher add](../cmd/pp/solution/solution-publisher-add.md) - adds a specified publisher in a given environment [#3977](https://github.com/pnp/cli-microsoft365/issues/3977)
-- [pp dataverse table row remove](../cmd/pp/dataverse/dataverse-table-row-remove.md) - removes a row from a dataverse table in a given environment [#4030](https://github.com/pnp/cli-microsoft365/issues/4030)
+- [pp chatbot get](../cmd/groups/pp/chatbot/chatbot-get.md) - get information about the specified chatbot [#4107](https://github.com/pnp/cli-microsoft365/issues/4107)
+- [pp chatbot remove](../cmd/groups/pp/chatbot/chatbot-remove.md) - removes the specified chatbot [#4106](https://github.com/pnp/cli-microsoft365/issues/4106)
+- [pp dataverse table row list](../cmd/groups/pp/dataverse/dataverse-table-row-list.md) - lists table rows for the given Dataverse table [#3791](https://github.com/pnp/cli-microsoft365/issues/3791)
+- [pp solution publisher add](../cmd/groups/pp/solution/solution-publisher-add.md) - adds a specified publisher in a given environment [#3977](https://github.com/pnp/cli-microsoft365/issues/3977)
+- [pp dataverse table row remove](../cmd/groups/pp/dataverse/dataverse-table-row-remove.md) - removes a row from a dataverse table in a given environment [#4030](https://github.com/pnp/cli-microsoft365/issues/4030)
 
 **Purview:**
 
-- [purview retentionlabel list](../cmd/purview/retentionlabel/retentionlabel-list.md) - get a list of retention labels [#4144](https://github.com/pnp/cli-microsoft365/issues/4144)
-- [purview retentionlabel remove](../cmd/purview/retentionlabel/retentionlabel-remove.md) - deletes a retention label [#4149](https://github.com/pnp/cli-microsoft365/issues/4149)
-- [purview retentionlabel set](../cmd/purview/retentionlabel/retentionlabel-set.md) - updates a retention label [#4148](https://github.com/pnp/cli-microsoft365/issues/4148)
+- [purview retentionlabel list](../cmd/groups/purview/retentionlabel/retentionlabel-list.md) - get a list of retention labels [#4144](https://github.com/pnp/cli-microsoft365/issues/4144)
+- [purview retentionlabel remove](../cmd/groups/purview/retentionlabel/retentionlabel-remove.md) - deletes a retention label [#4149](https://github.com/pnp/cli-microsoft365/issues/4149)
+- [purview retentionlabel set](../cmd/groups/purview/retentionlabel/retentionlabel-set.md) - updates a retention label [#4148](https://github.com/pnp/cli-microsoft365/issues/4148)
 
 **Search:**
 
-- [search externalconnection schema add](../cmd/search/externalconnection/externalconnection-schema-add.md) - adds a schema to a specific external connection [#3171](https://github.com/pnp/cli-microsoft365/issues/3171)
+- [search externalconnection schema add](../cmd/groups/search/externalconnection/externalconnection-schema-add.md) - adds a schema to a specific external connection [#3171](https://github.com/pnp/cli-microsoft365/issues/3171)
 
 **SharePoint:**
 
-- [spo listitem retentionlabel remove](../cmd/spo/listitem/listitem-retentionlabel-remove.md) - clears the retention label from a list item [#4162](https://github.com/pnp/cli-microsoft365/issues/4162)
-- [spo site appcatalog list](../cmd/spo/site/site-appcatalog-list.md) - list all site collection app catalogs within the tenant [#4231](https://github.com/pnp/cli-microsoft365/issues/4231)
-- [spo web retentionlabel list](../cmd/spo/web/web-retentionlabel-list.md) - gets a list of retention labels that are available on a site [#4152](https://github.com/pnp/cli-microsoft365/issues/4152)
+- [spo listitem retentionlabel remove](../cmd/groups/spo/listitem/listitem-retentionlabel-remove.md) - clears the retention label from a list item [#4162](https://github.com/pnp/cli-microsoft365/issues/4162)
+- [spo site appcatalog list](../cmd/groups/spo/site/site-appcatalog-list.md) - list all site collection app catalogs within the tenant [#4231](https://github.com/pnp/cli-microsoft365/issues/4231)
+- [spo web retentionlabel list](../cmd/groups/spo/web/web-retentionlabel-list.md) - gets a list of retention labels that are available on a site [#4152](https://github.com/pnp/cli-microsoft365/issues/4152)
 
 **Teams:**
 
-- [teams meeting attendancereport list](../cmd/teams/meeting/meeting-attendancereport-list.md) - lists all attendance reports for a given meeting [#3907](https://github.com/pnp/cli-microsoft365/issues/3907)
+- [teams meeting attendancereport list](../cmd/groups/teams/meeting/meeting-attendancereport-list.md) - lists all attendance reports for a given meeting [#3907](https://github.com/pnp/cli-microsoft365/issues/3907)
 
 ### Changes
 
@@ -116,42 +116,42 @@
 
 **Azure Active Directory:**
 
-- [aad app list](../cmd/aad/app/app-list.md) - retrieves a list of Azure AD app registrations [#3742](https://github.com/pnp/cli-microsoft365/issues/3742)
-- [aad user guest add](../cmd/aad/user/user-guest-add.md) - invites an external user to the organization [#3298](https://github.com/pnp/cli-microsoft365/issues/3298)
+- [aad app list](../cmd/groups/aad/app/app-list.md) - retrieves a list of Azure AD app registrations [#3742](https://github.com/pnp/cli-microsoft365/issues/3742)
+- [aad user guest add](../cmd/groups/aad/user/user-guest-add.md) - invites an external user to the organization [#3298](https://github.com/pnp/cli-microsoft365/issues/3298)
 
 **Outlook:**
 
-- [outlook message get](../cmd/outlook/message/message-get.md) - retrieves specified message [#3868](https://github.com/pnp/cli-microsoft365/issues/3868)
+- [outlook message get](../cmd/groups/outlook/message/message-get.md) - retrieves specified message [#3868](https://github.com/pnp/cli-microsoft365/issues/3868)
 
 **Power Platform:**
 
-- [pp card clone](../cmd/pp/card/card-clone.md) - clones a specific Microsoft Power Platform card in the specified Power Platform environment [#3790](https://github.com/pnp/cli-microsoft365/issues/3790)
-- [pp card remove](../cmd/pp/card/card-remove.md) - removes the specified Microsoft Power Platform card in the specified Power Platform environment [#3781](https://github.com/pnp/cli-microsoft365/issues/3781)
-- [pp chatbot list](../cmd/pp/chatbot/chatbot-list.md) - lists Microsoft Power Platform chatbot in the specified Power Platform environment [#3650](https://github.com/pnp/cli-microsoft365/issues/3650)
-- [pp dataverse table get](../cmd/pp/dataverse/dataverse-table-get.md) - lists a dataverse table in a given environment [#3726](https://github.com/pnp/cli-microsoft365/issues/3726)
-- [pp dataverse table remove](../cmd/pp/dataverse/dataverse-table-remove.md) - removes a dataverse table in a given environment [#4031](https://github.com/pnp/cli-microsoft365/issues/4031)
-- [pp solution remove](../cmd/pp/solution/solution-remove.md) - removes the specified solution in the specified Power Platform environment [#3723](https://github.com/pnp/cli-microsoft365/issues/3723)
-- [pp solution publisher get](../cmd/pp/solution/solution-publisher-get.md) - gets information about the specified publisher in a given environment [#3949](https://github.com/pnp/cli-microsoft365/issues/3949)
-- [pp solution publisher list](../cmd/pp/solution/solution-publisher-list.md) - lists publishers in a given environment [#3766](https://github.com/pnp/cli-microsoft365/issues/3766)
-- [pp solution publisher remove](../cmd/pp/solution/solution-publisher-remove.md) - removes the specified publisher in a given environment [#3950](https://github.com/pnp/cli-microsoft365/issues/3950)
+- [pp card clone](../cmd/groups/pp/card/card-clone.md) - clones a specific Microsoft Power Platform card in the specified Power Platform environment [#3790](https://github.com/pnp/cli-microsoft365/issues/3790)
+- [pp card remove](../cmd/groups/pp/card/card-remove.md) - removes the specified Microsoft Power Platform card in the specified Power Platform environment [#3781](https://github.com/pnp/cli-microsoft365/issues/3781)
+- [pp chatbot list](../cmd/groups/pp/chatbot/chatbot-list.md) - lists Microsoft Power Platform chatbot in the specified Power Platform environment [#3650](https://github.com/pnp/cli-microsoft365/issues/3650)
+- [pp dataverse table get](../cmd/groups/pp/dataverse/dataverse-table-get.md) - lists a dataverse table in a given environment [#3726](https://github.com/pnp/cli-microsoft365/issues/3726)
+- [pp dataverse table remove](../cmd/groups/pp/dataverse/dataverse-table-remove.md) - removes a dataverse table in a given environment [#4031](https://github.com/pnp/cli-microsoft365/issues/4031)
+- [pp solution remove](../cmd/groups/pp/solution/solution-remove.md) - removes the specified solution in the specified Power Platform environment [#3723](https://github.com/pnp/cli-microsoft365/issues/3723)
+- [pp solution publisher get](../cmd/groups/pp/solution/solution-publisher-get.md) - gets information about the specified publisher in a given environment [#3949](https://github.com/pnp/cli-microsoft365/issues/3949)
+- [pp solution publisher list](../cmd/groups/pp/solution/solution-publisher-list.md) - lists publishers in a given environment [#3766](https://github.com/pnp/cli-microsoft365/issues/3766)
+- [pp solution publisher remove](../cmd/groups/pp/solution/solution-publisher-remove.md) - removes the specified publisher in a given environment [#3950](https://github.com/pnp/cli-microsoft365/issues/3950)
 
 **SharePoint:**
 
-- [spo file version list](../cmd/spo/file/file-version-list.md) - retrieves all versions of a file [#3953](https://github.com/pnp/cli-microsoft365/issues/3953)
-- [spo folder roleassignment add](../cmd/spo/folder/folder-roleassignment-add.md) - adds a role assignment from the specified folder [#3703](https://github.com/pnp/cli-microsoft365/issues/3703)
-- [spo hubsite connect](../cmd/spo/hubsite/hubsite-connect.md) - connect a hub site to a parent hub site [#3759](https://github.com/pnp/cli-microsoft365/issues/3759)
-- [spo hubsite disconnect](../cmd/spo/hubsite/hubsite-disconnect.md) - disconnect a hub site from its parent hub site [#3760](https://github.com/pnp/cli-microsoft365/issues/3760)
-- [spo file version restore](../cmd/spo/file/file-version-restore.md) - restores a specific version of a specified file [#3956](https://github.com/pnp/cli-microsoft365/issues/3956)
-- [spo file version get](../cmd/spo/file/file-version-get.md) - gets information about a specific version of a specified file [#3954](https://github.com/pnp/cli-microsoft365/issues/3954)
-- [spo file version clear](../cmd/spo/file/file-version-clear.md) - removes all version history of a specified file [#3957](https://github.com/pnp/cli-microsoft365/issues/3957)
-- [spo file version remove](../cmd/spo/file/file-version-remove.md) - removes a specific version of a specified file [#3955](https://github.com/pnp/cli-microsoft365/issues/3955)
-- [spo listitem batch add](../cmd/spo/listitem/listitem-batch-add.md) - creates list items in a batch. [#2029](https://github.com/pnp/cli-microsoft365/issues/2029)
+- [spo file version list](../cmd/groups/spo/file/file-version-list.md) - retrieves all versions of a file [#3953](https://github.com/pnp/cli-microsoft365/issues/3953)
+- [spo folder roleassignment add](../cmd/groups/spo/folder/folder-roleassignment-add.md) - adds a role assignment from the specified folder [#3703](https://github.com/pnp/cli-microsoft365/issues/3703)
+- [spo hubsite connect](../cmd/groups/spo/hubsite/hubsite-connect.md) - connect a hub site to a parent hub site [#3759](https://github.com/pnp/cli-microsoft365/issues/3759)
+- [spo hubsite disconnect](../cmd/groups/spo/hubsite/hubsite-disconnect.md) - disconnect a hub site from its parent hub site [#3760](https://github.com/pnp/cli-microsoft365/issues/3760)
+- [spo file version restore](../cmd/groups/spo/file/file-version-restore.md) - restores a specific version of a specified file [#3956](https://github.com/pnp/cli-microsoft365/issues/3956)
+- [spo file version get](../cmd/groups/spo/file/file-version-get.md) - gets information about a specific version of a specified file [#3954](https://github.com/pnp/cli-microsoft365/issues/3954)
+- [spo file version clear](../cmd/groups/spo/file/file-version-clear.md) - removes all version history of a specified file [#3957](https://github.com/pnp/cli-microsoft365/issues/3957)
+- [spo file version remove](../cmd/groups/spo/file/file-version-remove.md) - removes a specific version of a specified file [#3955](https://github.com/pnp/cli-microsoft365/issues/3955)
+- [spo listitem batch add](../cmd/groups/spo/listitem/listitem-batch-add.md) - creates list items in a batch. [#2029](https://github.com/pnp/cli-microsoft365/issues/2029)
 
 **Teams:**
 
-- [teams meeting get](../cmd/teams/meeting/meeting-get.md) - get specified meeting details [#3900](https://github.com/pnp/cli-microsoft365/issues/3900)
-- [teams meeting list](../cmd/teams/meeting/meeting-list.md) - retrieve all online meetings for a given user or shared mailbox [#3899](https://github.com/pnp/cli-microsoft365/issues/3899)
-- [teams team app list](../cmd/teams/team/team-app-list.md) - list apps installed in the specified team [#4129](https://github.com/pnp/cli-microsoft365/issues/4129)
+- [teams meeting get](../cmd/groups/teams/meeting/meeting-get.md) - get specified meeting details [#3900](https://github.com/pnp/cli-microsoft365/issues/3900)
+- [teams meeting list](../cmd/groups/teams/meeting/meeting-list.md) - retrieve all online meetings for a given user or shared mailbox [#3899](https://github.com/pnp/cli-microsoft365/issues/3899)
+- [teams team app list](../cmd/groups/teams/team/team-app-list.md) - list apps installed in the specified team [#4129](https://github.com/pnp/cli-microsoft365/issues/4129)
 
 ### Changes
 
@@ -243,32 +243,32 @@
 
 **Power Platform:**
 
-- [pp card get](../cmd/pp/card/card-get.md) - gets a specific Microsoft Power Platform card in the specified Power Platform environment [#3770](https://github.com/pnp/cli-microsoft365/issues/3770)
-- [pp card list](../cmd/pp/card/card-list.md) - lists Microsoft Power Platform cards in the specified Power Platform environment [#3767](https://github.com/pnp/cli-microsoft365/issues/3767)
-- [pp dataverse table list](../cmd/pp/dataverse/dataverse-table-list.md) - lists dataverse tables in a given environment [#3653](https://github.com/pnp/cli-microsoft365/issues/3653)
-- [pp gateway get](../cmd/pp/gateway/gateway-get.md) - gets information about the specified gateway [#3653](https://github.com/pnp/cli-microsoft365/issues/3653)
-- [pp solution get](../cmd/pp/solution/solution-get.md) - gets a specific solution in a given environment [#3722](https://github.com/pnp/cli-microsoft365/issues/3722)
-- [pp solution list](../cmd/pp/solution/solution-list.md) - lists solutions in a given environment [#3711](https://github.com/pnp/cli-microsoft365/issues/3711)
-- [pp tenant settings list](../cmd/pp/tenant/tenant-settings-list.md) - lists the global Power Platform tenant settings [#3657](https://github.com/pnp/cli-microsoft365/issues/3657)
-- [pp environment get](../cmd/pp/environment/environment-get.md) - gets information about the specified Power Platform environment. [#3710](https://github.com/pnp/cli-microsoft365/issues/3710)
+- [pp card get](../cmd/groups/pp/card/card-get.md) - gets a specific Microsoft Power Platform card in the specified Power Platform environment [#3770](https://github.com/pnp/cli-microsoft365/issues/3770)
+- [pp card list](../cmd/groups/pp/card/card-list.md) - lists Microsoft Power Platform cards in the specified Power Platform environment [#3767](https://github.com/pnp/cli-microsoft365/issues/3767)
+- [pp dataverse table list](../cmd/groups/pp/dataverse/dataverse-table-list.md) - lists dataverse tables in a given environment [#3653](https://github.com/pnp/cli-microsoft365/issues/3653)
+- [pp gateway get](../cmd/groups/pp/gateway/gateway-get.md) - gets information about the specified gateway [#3653](https://github.com/pnp/cli-microsoft365/issues/3653)
+- [pp solution get](../cmd/groups/pp/solution/solution-get.md) - gets a specific solution in a given environment [#3722](https://github.com/pnp/cli-microsoft365/issues/3722)
+- [pp solution list](../cmd/groups/pp/solution/solution-list.md) - lists solutions in a given environment [#3711](https://github.com/pnp/cli-microsoft365/issues/3711)
+- [pp tenant settings list](../cmd/groups/pp/tenant/tenant-settings-list.md) - lists the global Power Platform tenant settings [#3657](https://github.com/pnp/cli-microsoft365/issues/3657)
+- [pp environment get](../cmd/groups/pp/environment/environment-get.md) - gets information about the specified Power Platform environment. [#3710](https://github.com/pnp/cli-microsoft365/issues/3710)
 
 **SharePoint:**
 
-- [spo eventreceiver remove](../cmd/spo/eventreceiver/eventreceiver-remove.md) - removes event receivers for the specified web, site, or list. [#3307](https://github.com/pnp/cli-microsoft365/issues/3307)
-- [spo file roleassignment add](../cmd/spo/file/file-roleassignment-add.md) - adds role assignment to a file [#3702](https://github.com/pnp/cli-microsoft365/issues/3702)
-- [spo file roleassignment remove](../cmd/spo/file/file-roleassignment-remove.md) - removes a role assignment from a file [#3693](https://github.com/pnp/cli-microsoft365/issues/3693)
-- [spo file roleinheritance break](../cmd/spo/file/file-roleinheritance-break.md) - breaks inheritance of file [#3593](https://github.com/pnp/cli-microsoft365/issues/3593)
-- [spo file roleinheritance reset](../cmd/spo/file/file-roleinheritance-reset.md) - restores the role inheritance of a file [#3595](https://github.com/pnp/cli-microsoft365/issues/3595)
-- [spo folder roleassignment remove](../cmd/spo/folder/folder-roleassignment-remove.md) - removes a role assignment from the specified folder [#3701](https://github.com/pnp/cli-microsoft365/issues/3701)
-- [spo folder roleinheritance break](../cmd/spo/folder/folder-roleinheritance-break.md) - breaks the role inheritance of a folder [#3598](https://github.com/pnp/cli-microsoft365/issues/3598)
-- [spo folder roleinheritance reset](../cmd/spo/folder/folder-roleinheritance-reset.md) - restores the role inheritance of a folder [#3603](https://github.com/pnp/cli-microsoft365/issues/3603)
-- [spo listitem roleassignment add](../cmd/spo/listitem/listitem-roleassignment-add.md) - adds a role assignment to a listitem [#3539](https://github.com/pnp/cli-microsoft365/issues/3539)
-- [spo web roleinheritance break](../cmd//spo/web/web-roleinheritance-break.md) - break role inheritance of subsite [#3547](https://github.com/pnp/cli-microsoft365/issues/3547)
+- [spo eventreceiver remove](../cmd/groups/spo/eventreceiver/eventreceiver-remove.md) - removes event receivers for the specified web, site, or list. [#3307](https://github.com/pnp/cli-microsoft365/issues/3307)
+- [spo file roleassignment add](../cmd/groups/spo/file/file-roleassignment-add.md) - adds role assignment to a file [#3702](https://github.com/pnp/cli-microsoft365/issues/3702)
+- [spo file roleassignment remove](../cmd/groups/spo/file/file-roleassignment-remove.md) - removes a role assignment from a file [#3693](https://github.com/pnp/cli-microsoft365/issues/3693)
+- [spo file roleinheritance break](../cmd/groups/spo/file/file-roleinheritance-break.md) - breaks inheritance of file [#3593](https://github.com/pnp/cli-microsoft365/issues/3593)
+- [spo file roleinheritance reset](../cmd/groups/spo/file/file-roleinheritance-reset.md) - restores the role inheritance of a file [#3595](https://github.com/pnp/cli-microsoft365/issues/3595)
+- [spo folder roleassignment remove](../cmd/groups/spo/folder/folder-roleassignment-remove.md) - removes a role assignment from the specified folder [#3701](https://github.com/pnp/cli-microsoft365/issues/3701)
+- [spo folder roleinheritance break](../cmd/groups/spo/folder/folder-roleinheritance-break.md) - breaks the role inheritance of a folder [#3598](https://github.com/pnp/cli-microsoft365/issues/3598)
+- [spo folder roleinheritance reset](../cmd/groups/spo/folder/folder-roleinheritance-reset.md) - restores the role inheritance of a folder [#3603](https://github.com/pnp/cli-microsoft365/issues/3603)
+- [spo listitem roleassignment add](../cmd/groups/spo/listitem/listitem-roleassignment-add.md) - adds a role assignment to a listitem [#3539](https://github.com/pnp/cli-microsoft365/issues/3539)
+- [spo web roleinheritance break](../cmd/groups//spo/web/web-roleinheritance-break.md) - break role inheritance of subsite [#3547](https://github.com/pnp/cli-microsoft365/issues/3547)
 
 **To Do:**
 
-- [todo list get](../cmd/todo/list/list-get.md) - returns a specific Microsoft To Do task list [#3847](https://github.com/pnp/cli-microsoft365/issues/3847)
-- [todo task get](../cmd/todo/task/task-get.md) - returns a specific task from a Microsoft To Do task list [#3846](https://github.com/pnp/cli-microsoft365/issues/3846)
+- [todo list get](../cmd/groups/todo/list/list-get.md) - returns a specific Microsoft To Do task list [#3847](https://github.com/pnp/cli-microsoft365/issues/3847)
+- [todo task get](../cmd/groups/todo/task/task-get.md) - returns a specific task from a Microsoft To Do task list [#3846](https://github.com/pnp/cli-microsoft365/issues/3846)
 
 ### Changes
 
@@ -328,23 +328,23 @@
 
 **global:**
 
-- [request](../cmd/request.md) - executes the specified web request using CLI for Microsoft 365 [#3512](https://github.com/pnp/cli-microsoft365/issues/3512)
+- [request](../cmd/groups/request.md) - executes the specified web request using CLI for Microsoft 365 [#3512](https://github.com/pnp/cli-microsoft365/issues/3512)
 
 **OneNote:**
 
-- [onenote notebook list](../cmd/onenote/notebook/notebook-list.md) - retrieves a list of notebooks [#3097](https://github.com/pnp/cli-microsoft365/issues/3097)
+- [onenote notebook list](../cmd/groups/onenote/notebook/notebook-list.md) - retrieves a list of notebooks [#3097](https://github.com/pnp/cli-microsoft365/issues/3097)
 
 **Microsoft Graph:**
 
-- [graph changelog list](../cmd/graph/changelog/changelog-list.md) - retrieves an overview of specific API-level changes in Microsoft Graph v1.0 and beta [#2061](https://github.com/pnp/cli-microsoft365/issues/2061)
+- [graph changelog list](../cmd/groups/graph/changelog/changelog-list.md) - retrieves an overview of specific API-level changes in Microsoft Graph v1.0 and beta [#2061](https://github.com/pnp/cli-microsoft365/issues/2061)
 
 **SharePoint:**
 
-- [spo contenttype set](../cmd/spo/contenttype/contenttype-set.md) - updates existing content type [#3613](https://github.com/pnp/cli-microsoft365/issues/3613)
-- [spo listitem roleassignment remove](../cmd/spo/listitem/listitem-roleassignment-remove.md) - removes a role assignment from a listitem [#3543](https://github.com/pnp/cli-microsoft365/issues/3543)
-- [spo roledefinition add](../cmd/spo/roledefinition/roledefinition-add.md) - adds a new roledefinition to web [#3271](https://github.com/pnp/cli-microsoft365/issues/3271)
-- [spo web roleassignment add](../cmd/spo/web/web-roleassignment-add.md) - adds a role assignment to web permissions [#3549](https://github.com/pnp/cli-microsoft365/issues/3549)
-- [spo web roleassignment remove](../cmd/spo/web/web-roleassignment-remove.md) - removes a role assignment from web permissions [#3550](https://github.com/pnp/cli-microsoft365/issues/3550)
+- [spo contenttype set](../cmd/groups/spo/contenttype/contenttype-set.md) - updates existing content type [#3613](https://github.com/pnp/cli-microsoft365/issues/3613)
+- [spo listitem roleassignment remove](../cmd/groups/spo/listitem/listitem-roleassignment-remove.md) - removes a role assignment from a listitem [#3543](https://github.com/pnp/cli-microsoft365/issues/3543)
+- [spo roledefinition add](../cmd/groups/spo/roledefinition/roledefinition-add.md) - adds a new roledefinition to web [#3271](https://github.com/pnp/cli-microsoft365/issues/3271)
+- [spo web roleassignment add](../cmd/groups/spo/web/web-roleassignment-add.md) - adds a role assignment to web permissions [#3549](https://github.com/pnp/cli-microsoft365/issues/3549)
+- [spo web roleassignment remove](../cmd/groups/spo/web/web-roleassignment-remove.md) - removes a role assignment from web permissions [#3550](https://github.com/pnp/cli-microsoft365/issues/3550)
 
 ### Changes
 
@@ -379,18 +379,18 @@
 
 **Bookings:**
 
-- [booking business get](../cmd/booking/business/business-get.md) - retrieves the specified Microsoft Bookings business [#3534](https://github.com/pnp/cli-microsoft365/issues/3534)
-- [booking business list](../cmd/booking/business/business-list.md) - Lists all Microsoft Bookings businesses that are created for the tenant [#3532](https://github.com/pnp/cli-microsoft365/issues/3532)
+- [booking business get](../cmd/groups/booking/business/business-get.md) - retrieves the specified Microsoft Bookings business [#3534](https://github.com/pnp/cli-microsoft365/issues/3534)
+- [booking business list](../cmd/groups/booking/business/business-list.md) - Lists all Microsoft Bookings businesses that are created for the tenant [#3532](https://github.com/pnp/cli-microsoft365/issues/3532)
 
 **SharePoint:**
 
-- [spo list roleassignment add](../cmd/spo/list/list-roleassignment-add.md) - adds a role assignment to list permissions [#3300](https://github.com/pnp/cli-microsoft365/issues/3300)
-- [spo list roleassignment remove](../cmd/spo/list/list-roleassignment-remove.md) - removes a role assignment from list permissions [#3542](https://github.com/pnp/cli-microsoft365/issues/3542)
-- [spo web roleinheritance reset](../cmd/spo/web/web-roleinheritance-reset.md) - restores role inheritance of subsite [#3548](https://github.com/pnp/cli-microsoft365/issues/3548)
+- [spo list roleassignment add](../cmd/groups/spo/list/list-roleassignment-add.md) - adds a role assignment to list permissions [#3300](https://github.com/pnp/cli-microsoft365/issues/3300)
+- [spo list roleassignment remove](../cmd/groups/spo/list/list-roleassignment-remove.md) - removes a role assignment from list permissions [#3542](https://github.com/pnp/cli-microsoft365/issues/3542)
+- [spo web roleinheritance reset](../cmd/groups/spo/web/web-roleinheritance-reset.md) - restores role inheritance of subsite [#3548](https://github.com/pnp/cli-microsoft365/issues/3548)
 
 **Search:**
 
-- [search externalConnections remove](../cmd/search/externalconnection/externalconnection-remove.md) - allows the administrator to remove a specific external connection used in Microsoft Search [#3170](https://github.com/pnp/cli-microsoft365/issues/3170)
+- [search externalConnections remove](../cmd/groups/search/externalconnection/externalconnection-remove.md) - allows the administrator to remove a specific external connection used in Microsoft Search [#3170](https://github.com/pnp/cli-microsoft365/issues/3170)
 
 ### Changes
 
@@ -413,7 +413,7 @@
 
 **SharePoint:**
 
-- [spo file rename](../cmd/spo/file/file-rename.md) - renames a file [#1763](https://github.com/pnp/cli-microsoft365/issues/1763)
+- [spo file rename](../cmd/groups/spo/file/file-rename.md) - renames a file [#1763](https://github.com/pnp/cli-microsoft365/issues/1763)
 
 ### Changes
 
@@ -428,22 +428,22 @@
 
 **Planner:**
 
-- [planner plan remove](../cmd/planner/plan/plan-remove.md) - removes the Microsoft Planner plan [#3336](https://github.com/pnp/cli-microsoft365/issues/3336)
-- [planner tenant settings set](../cmd/planner/tenant/tenant-settings-set.md) - sets Microsoft Planner configuration of the tenant [#3356](https://github.com/pnp/cli-microsoft365/issues/3356)
+- [planner plan remove](../cmd/groups/planner/plan/plan-remove.md) - removes the Microsoft Planner plan [#3336](https://github.com/pnp/cli-microsoft365/issues/3336)
+- [planner tenant settings set](../cmd/groups/planner/tenant/tenant-settings-set.md) - sets Microsoft Planner configuration of the tenant [#3356](https://github.com/pnp/cli-microsoft365/issues/3356)
 
 **Search:**
 
-- [search externalconnection get](../cmd/search/externalconnection/externalconnection-get.md) - allows the administrator to get a specific external connection for use in Microsoft Search [#3169](https://github.com/pnp/cli-microsoft365/issues/3169)
+- [search externalconnection get](../cmd/groups/search/externalconnection/externalconnection-get.md) - allows the administrator to get a specific external connection for use in Microsoft Search [#3169](https://github.com/pnp/cli-microsoft365/issues/3169)
 
 **SharePoint:**
 
-- [spo roledefinition get](../cmd/spo/roledefinition/roledefinition-get.md) - gets specified role definition from web [#3270](https://github.com/pnp/cli-microsoft365/issues/3270)
-- [spo group set](../cmd/spo/group/group-set.md) - updates a group in the specified site [#3499](https://github.com/pnp/cli-microsoft365/pull/3499)
-- [spo group add](../cmd/spo/group/group-add.md) - creates group in the specified site [#3493](https://github.com/pnp/cli-microsoft365/pull/3493)
+- [spo roledefinition get](../cmd/groups/spo/roledefinition/roledefinition-get.md) - gets specified role definition from web [#3270](https://github.com/pnp/cli-microsoft365/issues/3270)
+- [spo group set](../cmd/groups/spo/group/group-set.md) - updates a group in the specified site [#3499](https://github.com/pnp/cli-microsoft365/pull/3499)
+- [spo group add](../cmd/groups/spo/group/group-add.md) - creates group in the specified site [#3493](https://github.com/pnp/cli-microsoft365/pull/3493)
 
 **Teams:**
 
-- [teams cache remove](../cmd/teams/cache/cache-remove.md) - removes the Microsoft Teams client cache [#3205](https://github.com/pnp/cli-microsoft365/issues/3205)
+- [teams cache remove](../cmd/groups/teams/cache/cache-remove.md) - removes the Microsoft Teams client cache [#3205](https://github.com/pnp/cli-microsoft365/issues/3205)
 
 ### Changes
 
@@ -487,21 +487,21 @@
 
 **Azure Active Directory:**
 
-- [aad o365group recyclebinitem remove](../cmd/aad/o365group/o365group-recyclebinitem-remove.md) - permanently deletes a Microsoft 365 Group from the recycle bin in the current tenant [#1982](https://github.com/pnp/cli-microsoft365/issues/1982)
+- [aad o365group recyclebinitem remove](../cmd/groups/aad/o365group/o365group-recyclebinitem-remove.md) - permanently deletes a Microsoft 365 Group from the recycle bin in the current tenant [#1982](https://github.com/pnp/cli-microsoft365/issues/1982)
 
 **Planner:**
 
-- [planner task checklistitem add](../cmd/planner/task/task-checklistitem-add.md) - adds a new checklist item to a Planner task [#3280](https://github.com/pnp/cli-microsoft365/issues/3280)
-- [planner task checklistitem list](../cmd/planner/task/task-checklistitem-list.md) - lists the checklist items of a Planner task [#3280](https://github.com/pnp/cli-microsoft365/issues/3281)
-- [planner task checklistitem remove](../cmd/planner/task/task-checklistitem-remove.md) - removes a checklist item from a Planner task [#3282](https://github.com/pnp/cli-microsoft365/issues/3282)
-- [planner task reference remove](../cmd/planner/task/task-reference-remove.md) - removes a reference from a Microsoft Planner task [#3285](https://github.com/pnp/cli-microsoft365/issues/3285)
-- [planner task remove](../cmd/planner/task/task-remove.md) - removes a Microsoft Planner task [#3227](https://github.com/pnp/cli-microsoft365/issues/3227)
-- [planner tenant settings list](../cmd/planner/tenant/tenant-settings-list.md) - lists the Microsoft Planner configuration of the tenant [#3255](https://github.com/pnp/cli-microsoft365/issues/3355)
+- [planner task checklistitem add](../cmd/groups/planner/task/task-checklistitem-add.md) - adds a new checklist item to a Planner task [#3280](https://github.com/pnp/cli-microsoft365/issues/3280)
+- [planner task checklistitem list](../cmd/groups/planner/task/task-checklistitem-list.md) - lists the checklist items of a Planner task [#3280](https://github.com/pnp/cli-microsoft365/issues/3281)
+- [planner task checklistitem remove](../cmd/groups/planner/task/task-checklistitem-remove.md) - removes a checklist item from a Planner task [#3282](https://github.com/pnp/cli-microsoft365/issues/3282)
+- [planner task reference remove](../cmd/groups/planner/task/task-reference-remove.md) - removes a reference from a Microsoft Planner task [#3285](https://github.com/pnp/cli-microsoft365/issues/3285)
+- [planner task remove](../cmd/groups/planner/task/task-remove.md) - removes a Microsoft Planner task [#3227](https://github.com/pnp/cli-microsoft365/issues/3227)
+- [planner tenant settings list](../cmd/groups/planner/tenant/tenant-settings-list.md) - lists the Microsoft Planner configuration of the tenant [#3255](https://github.com/pnp/cli-microsoft365/issues/3355)
 
 **SharePoint Online:**
 
-- [spo eventreceiver list](../cmd/spo/eventreceiver/eventreceiver-list.md) - lists all event receivers attached to the specified site, web or list [#3305](https://github.com/pnp/cli-microsoft365/issues/3305)
-- [spo roledefinition remove](../cmd/spo/roledefinition/roledefinition-remove.md) - removes the role definition from the specified site [#3272](https://github.com/pnp/cli-microsoft365/issues/3272)
+- [spo eventreceiver list](../cmd/groups/spo/eventreceiver/eventreceiver-list.md) - lists all event receivers attached to the specified site, web or list [#3305](https://github.com/pnp/cli-microsoft365/issues/3305)
+- [spo roledefinition remove](../cmd/groups/spo/roledefinition/roledefinition-remove.md) - removes the role definition from the specified site [#3272](https://github.com/pnp/cli-microsoft365/issues/3272)
 
 ### Changes
 
@@ -537,37 +537,37 @@
 
 **Apps:**
 
-- [app open](../cmd/planner/bucket/bucket-get.md) - returns deep link of the current AD app to open the Azure portal on the Azure AD app registration management page [#2940](https://github.com/pnp/cli-microsoft365/issues/2940)
+- [app open](../cmd/groups/planner/bucket/bucket-get.md) - returns deep link of the current AD app to open the Azure portal on the Azure AD app registration management page [#2940](https://github.com/pnp/cli-microsoft365/issues/2940)
 
 **Planner:**
 
-- [planner task reference add](../cmd/planner/task/task-reference-add.md) - adds a new reference to a Planner task [#3283](https://github.com/pnp/cli-microsoft365/issues/3283)
-- [planner task reference list](../cmd/planner/task/task-reference-list.md) - retrieve the references associated to a Planner task [#3284](https://github.com/pnp/cli-microsoft365/issues/3284)
-- [planner bucket get](../cmd/planner/bucket/bucket-get.md) - retrieves a planner bucket [#3226](https://github.com/pnp/cli-microsoft365/issues/3226)
-- [planner bucket remove](../cmd/planner/bucket/bucket-remove.md) - removes a Microsoft Planner bucket from a plan [#2742](https://github.com/pnp/cli-microsoft365/issues/2742)
+- [planner task reference add](../cmd/groups/planner/task/task-reference-add.md) - adds a new reference to a Planner task [#3283](https://github.com/pnp/cli-microsoft365/issues/3283)
+- [planner task reference list](../cmd/groups/planner/task/task-reference-list.md) - retrieve the references associated to a Planner task [#3284](https://github.com/pnp/cli-microsoft365/issues/3284)
+- [planner bucket get](../cmd/groups/planner/bucket/bucket-get.md) - retrieves a planner bucket [#3226](https://github.com/pnp/cli-microsoft365/issues/3226)
+- [planner bucket remove](../cmd/groups/planner/bucket/bucket-remove.md) - removes a Microsoft Planner bucket from a plan [#2742](https://github.com/pnp/cli-microsoft365/issues/2742)
 
 **Power Platform:**
 
-- [pp gateway list](../cmd/pp/gateway/gateway-list.md) - returns a list of gateways for which the user is an admin [#3276](https://github.com/pnp/cli-microsoft365/issues/3276)
+- [pp gateway list](../cmd/groups/pp/gateway/gateway-list.md) - returns a list of gateways for which the user is an admin [#3276](https://github.com/pnp/cli-microsoft365/issues/3276)
 
 **SharePoint Online:**
 
-- [spo eventreceiver get](../cmd/spo/eventreceiver/eventreceiver-get.md) - retrieves specific event receiver for a web, site or list [#3308](https://github.com/pnp/cli-microsoft365/issues/3308)
-- [spo field list](../cmd/spo/field/field-list.md) - retrieves columns for the specified list or site [#2695](https://github.com/pnp/cli-microsoft365/issues/2695)
-- [spo list roleinheritance break](../cmd/spo/list/list-roleinheritance-break.md) - breaks role inheritance on list or library [#3198](https://github.com/pnp/cli-microsoft365/issues/3198)
-- [spo list roleinheritance reset](../cmd/spo/list/list-roleinheritance-reset.md) - restores role inheritance on list or library [#3220](https://github.com/pnp/cli-microsoft365/issues/3220)
-- [spo list view add](../cmd/spo/list/list-view-add.md) - adds a new view to a SharePoint list [#1834](https://github.com/pnp/cli-microsoft365/issues/1834)
-- [spo listitem roleinheritance break](../cmd/spo/listitem/listitem-roleinheritance-break.md) - breaks inheritance of list item [#3199](https://github.com/pnp/cli-microsoft365/issues/3199)
-- [spo listitem roleinheritance reset](../cmd/spo/listitem/listitem-roleinheritance-reset.md) - restores the role inheritance of list item, file, or folder [#3238](https://github.com/pnp/cli-microsoft365/issues/3238)
-- [spo roledefinition list](../cmd/spo/roledefinition/roledefinition-list.md) - gets list of role definitions for the specified site [#3237](https://github.com/pnp/cli-microsoft365/issues/3237)
+- [spo eventreceiver get](../cmd/groups/spo/eventreceiver/eventreceiver-get.md) - retrieves specific event receiver for a web, site or list [#3308](https://github.com/pnp/cli-microsoft365/issues/3308)
+- [spo field list](../cmd/groups/spo/field/field-list.md) - retrieves columns for the specified list or site [#2695](https://github.com/pnp/cli-microsoft365/issues/2695)
+- [spo list roleinheritance break](../cmd/groups/spo/list/list-roleinheritance-break.md) - breaks role inheritance on list or library [#3198](https://github.com/pnp/cli-microsoft365/issues/3198)
+- [spo list roleinheritance reset](../cmd/groups/spo/list/list-roleinheritance-reset.md) - restores role inheritance on list or library [#3220](https://github.com/pnp/cli-microsoft365/issues/3220)
+- [spo list view add](../cmd/groups/spo/list/list-view-add.md) - adds a new view to a SharePoint list [#1834](https://github.com/pnp/cli-microsoft365/issues/1834)
+- [spo listitem roleinheritance break](../cmd/groups/spo/listitem/listitem-roleinheritance-break.md) - breaks inheritance of list item [#3199](https://github.com/pnp/cli-microsoft365/issues/3199)
+- [spo listitem roleinheritance reset](../cmd/groups/spo/listitem/listitem-roleinheritance-reset.md) - restores the role inheritance of list item, file, or folder [#3238](https://github.com/pnp/cli-microsoft365/issues/3238)
+- [spo roledefinition list](../cmd/groups/spo/roledefinition/roledefinition-list.md) - gets list of role definitions for the specified site [#3237](https://github.com/pnp/cli-microsoft365/issues/3237)
 
 **Search:**
 
-- [search externalConnections list](../cmd/search/externalconnection/externalconnection-list.md) - lists external connections defined in Microsoft Search [#2790](https://github.com/pnp/cli-microsoft365/issues/2790)
+- [search externalConnections list](../cmd/groups/search/externalconnection/externalconnection-list.md) - lists external connections defined in Microsoft Search [#2790](https://github.com/pnp/cli-microsoft365/issues/2790)
 
 **Tenant:**
 
-- [tenant security alerts list](../cmd/tenant/security/security-alerts-list.md) - gets the security alerts for a tenant [#2635](https://github.com/pnp/cli-microsoft365/issues/2635)
+- [tenant security alerts list](../cmd/groups/tenant/security/security-alerts-list.md) - gets the security alerts for a tenant [#2635](https://github.com/pnp/cli-microsoft365/issues/2635)
 
 ### Changes
 
@@ -592,23 +592,23 @@
 
 **Azure Active Directory:**
 
-- [aad user signin list](../cmd/aad/user/user-signin-list.md) - retrieves the Azure AD user sign-ins for your tenant [#2910](https://github.com/pnp/cli-microsoft365/issues/2910)
+- [aad user signin list](../cmd/groups/aad/user/user-signin-list.md) - retrieves the Azure AD user sign-ins for your tenant [#2910](https://github.com/pnp/cli-microsoft365/issues/2910)
 
 **Planner:**
 
-- [planner bucket set](../cmd/planner/bucket/bucket-set.md) - updates a Microsoft Planner bucket [#3230](https://github.com/pnp/cli-microsoft365/issues/3230)
+- [planner bucket set](../cmd/groups/planner/bucket/bucket-set.md) - updates a Microsoft Planner bucket [#3230](https://github.com/pnp/cli-microsoft365/issues/3230)
 
 **Power Platform:**
 
-- [pp environment list](../cmd/pp/environment/environment-list.md) - lists Microsoft Power Platform environments [#3061](https://github.com/pnp/cli-microsoft365/issues/3061)
-- [pp managementapp list](../cmd/pp/managementapp/managementapp-list.md) - lists management applications for Power Platform [#2977](https://github.com/pnp/cli-microsoft365/issues/2977)
+- [pp environment list](../cmd/groups/pp/environment/environment-list.md) - lists Microsoft Power Platform environments [#3061](https://github.com/pnp/cli-microsoft365/issues/3061)
+- [pp managementapp list](../cmd/groups/pp/managementapp/managementapp-list.md) - lists management applications for Power Platform [#2977](https://github.com/pnp/cli-microsoft365/issues/2977)
 
 **Teams:**
 
-- [teams channel member remove](../cmd/teams/channel/channel-member-remove.md) - remove the specified member from the specified Microsoft Teams private team channel [#3175](https://github.com/pnp/cli-microsoft365/issues/3175)
-- [teams channel member set](../cmd/teams/channel/channel-member-set.md) - updates the role of the specified member in the specified Microsoft Teams private team channel [#3177](https://github.com/pnp/cli-microsoft365/issues/3177)
-- [teams channel membership list](../cmd/teams/channel/channel-member-list.md) - lists users for the specified Microsoft Teams channel [#3176](https://github.com/pnp/cli-microsoft365/issues/3176)
-- [teams chat get](../cmd/teams/chat/chat-get.md) - gets a Microsoft Teams chat conversation by id, participants or chat name [#3017](https://github.com/pnp/cli-microsoft365/issues/3017)
+- [teams channel member remove](../cmd/groups/teams/channel/channel-member-remove.md) - remove the specified member from the specified Microsoft Teams private team channel [#3175](https://github.com/pnp/cli-microsoft365/issues/3175)
+- [teams channel member set](../cmd/groups/teams/channel/channel-member-set.md) - updates the role of the specified member in the specified Microsoft Teams private team channel [#3177](https://github.com/pnp/cli-microsoft365/issues/3177)
+- [teams channel membership list](../cmd/groups/teams/channel/channel-member-list.md) - lists users for the specified Microsoft Teams channel [#3176](https://github.com/pnp/cli-microsoft365/issues/3176)
+- [teams chat get](../cmd/groups/teams/chat/chat-get.md) - gets a Microsoft Teams chat conversation by id, participants or chat name [#3017](https://github.com/pnp/cli-microsoft365/issues/3017)
 
 ### Changes
 
@@ -643,28 +643,28 @@
 
 **Azure Active Directory:**
 
-- [aad o365group conversation post list](../cmd/aad/o365group/o365group-conversation-post-list.md) - lists conversation posts of a Microsoft 365 Group [#3017](https://github.com/pnp/cli-microsoft365/issues/3017)
+- [aad o365group conversation post list](../cmd/groups/aad/o365group/o365group-conversation-post-list.md) - lists conversation posts of a Microsoft 365 Group [#3017](https://github.com/pnp/cli-microsoft365/issues/3017)
 
 **Microsoft 365 apps:**
 
-- [app get](../cmd/app/app-get.md) - retrieves information about the current Azure AD app [#2942](https://github.com/pnp/cli-microsoft365/issues/2942)
+- [app get](../cmd/groups/app/app-get.md) - retrieves information about the current Azure AD app [#2942](https://github.com/pnp/cli-microsoft365/issues/2942)
 
 **Planner:**
 
-- [planner plan details get](../cmd/planner/plan/plan-get.md) - retrieve the planner details about the specified plan [#3051](https://github.com/pnp/cli-microsoft365/issues/3051)
+- [planner plan details get](../cmd/groups/planner/plan/plan-get.md) - retrieve the planner details about the specified plan [#3051](https://github.com/pnp/cli-microsoft365/issues/3051)
 
 **Power Platform:**
 
-- [pp managementapp add](../cmd/pp/managementapp/managementapp-add.md) - registers management application for Power Platform [#2917](https://github.com/pnp/cli-microsoft365/issues/2917)
+- [pp managementapp add](../cmd/groups/pp/managementapp/managementapp-add.md) - registers management application for Power Platform [#2917](https://github.com/pnp/cli-microsoft365/issues/2917)
 
 **SharePoint:**
 
-- [spo site recyclebinitem restore](../cmd/spo/site/site-recyclebinitem-restore.md) - restores given items from the site recycle bin [#2882](https://github.com/pnp/cli-microsoft365/issues/2882)
-- [spo app teamspackage download](../cmd/spo/app/app-teamspackage-download.md) - downloads Teams app package for an SPFx solution [#2934](https://github.com/pnp/cli-microsoft365/issues/2934)
+- [spo site recyclebinitem restore](../cmd/groups/spo/site/site-recyclebinitem-restore.md) - restores given items from the site recycle bin [#2882](https://github.com/pnp/cli-microsoft365/issues/2882)
+- [spo app teamspackage download](../cmd/groups/spo/app/app-teamspackage-download.md) - downloads Teams app package for an SPFx solution [#2934](https://github.com/pnp/cli-microsoft365/issues/2934)
 
 **SharePoint Framework:**
 
-- [spfx project doctor](../cmd/spfx/project/project-doctor.md) - validates correctness of a SharePoint Framework project [#3057](https://github.com/pnp/cli-microsoft365/issues/3057)
+- [spfx project doctor](../cmd/groups/spfx/project/project-doctor.md) - validates correctness of a SharePoint Framework project [#3057](https://github.com/pnp/cli-microsoft365/issues/3057)
 
 ### Changes
 
@@ -695,35 +695,35 @@
 
 **Azure Active Directory:**
 
-- [aad app remove](../cmd/aad/app/app-remove.md) - removes an Azure AD app registration [#3008](https://github.com/pnp/cli-microsoft365/issues/3008)
-- [aad o365group conversation list](../cmd/aad/o365group/o365group-conversation-list.md) - lists conversations for the specified Microsoft 365 group [#3030](https://github.com/pnp/cli-microsoft365/issues/3030)
+- [aad app remove](../cmd/groups/aad/app/app-remove.md) - removes an Azure AD app registration [#3008](https://github.com/pnp/cli-microsoft365/issues/3008)
+- [aad o365group conversation list](../cmd/groups/aad/o365group/o365group-conversation-list.md) - lists conversations for the specified Microsoft 365 group [#3030](https://github.com/pnp/cli-microsoft365/issues/3030)
 
 **Microsoft 365:**
 
-- [tenant serviceannouncement health get](../cmd/tenant/serviceannouncement/serviceannouncement-health-get.md) - retrieves a tenant health information [#2950](https://github.com/pnp/cli-microsoft365/issues/2950)
-- [tenant serviceannouncement health list](../cmd/tenant/serviceannouncement/serviceannouncement-health-list.md) - lists the tenant health information [#2947](https://github.com/pnp/cli-microsoft365/issues/2947)
-- [tenant serviceannouncement healthissue get](../cmd/tenant/serviceannouncement/serviceannouncement-healthissue-get.md) - retrieves a specified service health issue for the tenant [#2951](https://github.com/pnp/cli-microsoft365/issues/2951)
-- [tenant serviceannouncement healthissue list](../cmd/tenant/serviceannouncement/serviceannouncement-healthissue-list.md) - retrieves all service health issues for the tenant [#2948](https://github.com/pnp/cli-microsoft365/issues/2948)
-- [tenant serviceannouncement message get](../cmd/tenant/serviceannouncement/serviceannouncement-message-get.md) - retrieves a specified service update message for the tenant [#2952](https://github.com/pnp/cli-microsoft365/issues/2952)
-- [tenant serviceannouncement message list](../cmd/tenant/serviceannouncement/serviceannouncement-message-list.md) - retrieves all service update messages for the tenant [#2949](https://github.com/pnp/cli-microsoft365/issues/2949)
+- [tenant serviceannouncement health get](../cmd/groups/tenant/serviceannouncement/serviceannouncement-health-get.md) - retrieves a tenant health information [#2950](https://github.com/pnp/cli-microsoft365/issues/2950)
+- [tenant serviceannouncement health list](../cmd/groups/tenant/serviceannouncement/serviceannouncement-health-list.md) - lists the tenant health information [#2947](https://github.com/pnp/cli-microsoft365/issues/2947)
+- [tenant serviceannouncement healthissue get](../cmd/groups/tenant/serviceannouncement/serviceannouncement-healthissue-get.md) - retrieves a specified service health issue for the tenant [#2951](https://github.com/pnp/cli-microsoft365/issues/2951)
+- [tenant serviceannouncement healthissue list](../cmd/groups/tenant/serviceannouncement/serviceannouncement-healthissue-list.md) - retrieves all service health issues for the tenant [#2948](https://github.com/pnp/cli-microsoft365/issues/2948)
+- [tenant serviceannouncement message get](../cmd/groups/tenant/serviceannouncement/serviceannouncement-message-get.md) - retrieves a specified service update message for the tenant [#2952](https://github.com/pnp/cli-microsoft365/issues/2952)
+- [tenant serviceannouncement message list](../cmd/groups/tenant/serviceannouncement/serviceannouncement-message-list.md) - retrieves all service update messages for the tenant [#2949](https://github.com/pnp/cli-microsoft365/issues/2949)
 
 **Outlook:**
 
-- [outlook room list](../cmd/outlook/room/room-list.md) - get a collection of all available rooms [#2963](https://github.com/pnp/cli-microsoft365/issues/2963)
-- [outlook roomlist list](../cmd/outlook/roomlist/roomlist-list.md) - get a collection of available roomlists [#3002](https://github.com/pnp/cli-microsoft365/issues/3002)
+- [outlook room list](../cmd/groups/outlook/room/room-list.md) - get a collection of all available rooms [#2963](https://github.com/pnp/cli-microsoft365/issues/2963)
+- [outlook roomlist list](../cmd/groups/outlook/roomlist/roomlist-list.md) - get a collection of available roomlists [#3002](https://github.com/pnp/cli-microsoft365/issues/3002)
 
 **Planner:**
 
-- [planner task get](../cmd/planner/task/task-get.md) - retrieves the the specified planner task [#3019](https://github.com/pnp/cli-microsoft365/issues/3019)
-- [planner task details get](../cmd/planner/task/task-get.md) - retrieves the details of the specified planner task [#3015](https://github.com/pnp/cli-microsoft365/issues/3015)
+- [planner task get](../cmd/groups/planner/task/task-get.md) - retrieves the the specified planner task [#3019](https://github.com/pnp/cli-microsoft365/issues/3019)
+- [planner task details get](../cmd/groups/planner/task/task-get.md) - retrieves the details of the specified planner task [#3015](https://github.com/pnp/cli-microsoft365/issues/3015)
 
 **SharePoint:**
 
-- [spo group user remove](../cmd/spo/group/group-member-remove.md) - removes the specified user from a SharePoint group [#2642](https://github.com/pnp/cli-microsoft365/issues/2642)
+- [spo group user remove](../cmd/groups/spo/group/group-member-remove.md) - removes the specified user from a SharePoint group [#2642](https://github.com/pnp/cli-microsoft365/issues/2642)
 
 **Teams:**
 
-- [teams chat message send](../cmd/teams/chat/chat-message-send.md) - Sends a chat message to a Microsoft Teams chat conversation [#2916](https://github.com/pnp/cli-microsoft365/issues/2916)
+- [teams chat message send](../cmd/groups/teams/chat/chat-message-send.md) - Sends a chat message to a Microsoft Teams chat conversation [#2916](https://github.com/pnp/cli-microsoft365/issues/2916)
 
 ### Changes
 
@@ -768,22 +768,22 @@
 
 **Azure Active Directory:**
 
-- [aad group list](../cmd/aad/group/group-list.md) - lists Azure AD groups [#2622](https://github.com/pnp/cli-microsoft365/issues/2622)
-- [aad user hibp](../cmd/aad/user/user-hibp.md) - allows you to retrieve all accounts that have been pwned with the specified username [#2476](https://github.com/pnp/cli-microsoft365/issues/2476)
+- [aad group list](../cmd/groups/aad/group/group-list.md) - lists Azure AD groups [#2622](https://github.com/pnp/cli-microsoft365/issues/2622)
+- [aad user hibp](../cmd/groups/aad/user/user-hibp.md) - allows you to retrieve all accounts that have been pwned with the specified username [#2476](https://github.com/pnp/cli-microsoft365/issues/2476)
 
 **Planner:**
 
-- [planner task set](../cmd/planner/task/task-set.md) - updates a Microsoft Planner task [#2824](https://github.com/pnp/cli-microsoft365/issues/2824)
+- [planner task set](../cmd/groups/planner/task/task-set.md) - updates a Microsoft Planner task [#2824](https://github.com/pnp/cli-microsoft365/issues/2824)
 
 **SharePoint:**
 
-- [spo site recyclebinitem list](../cmd/spo/site/site-recyclebinitem-list.md) - lists items from recycle bin [#2875](https://github.com/pnp/cli-microsoft365/issues/2875)
+- [spo site recyclebinitem list](../cmd/groups/spo/site/site-recyclebinitem-list.md) - lists items from recycle bin [#2875](https://github.com/pnp/cli-microsoft365/issues/2875)
 
 **Teams:**
 
-- [teams chat list](../cmd/teams/chat/chat-list.md) - lists all Microsoft Teams chat conversations for the current user [#2893](https://github.com/pnp/cli-microsoft365/issues/2893)
-- [teams chat member list](../cmd/teams/chat/chat-member-list.md) - lists all members from a Microsoft Teams chat conversation [#2896](https://github.com/pnp/cli-microsoft365/issues/2896)
-- [teams chat message list](../cmd/teams/chat/chat-message-list.md) - lists all messages from a Microsoft Teams chat conversation [#2860](https://github.com/pnp/cli-microsoft365/issues/2860)
+- [teams chat list](../cmd/groups/teams/chat/chat-list.md) - lists all Microsoft Teams chat conversations for the current user [#2893](https://github.com/pnp/cli-microsoft365/issues/2893)
+- [teams chat member list](../cmd/groups/teams/chat/chat-member-list.md) - lists all members from a Microsoft Teams chat conversation [#2896](https://github.com/pnp/cli-microsoft365/issues/2896)
+- [teams chat message list](../cmd/groups/teams/chat/chat-message-list.md) - lists all messages from a Microsoft Teams chat conversation [#2860](https://github.com/pnp/cli-microsoft365/issues/2860)
 
 ### Changes
 
@@ -801,24 +801,24 @@
 
 **Azure Active Directory:**
 
-- [aad app get](../cmd/aad/app/app-get.md) - gets an Azure AD app registration [#2835](https://github.com/pnp/cli-microsoft365/issues/2835)
-- [aad user password validate](../cmd/aad/user/user-password-validate.md) - checks a user's password against the organization's password validation policy [#2846](https://github.com/pnp/cli-microsoft365/issues/2846)
+- [aad app get](../cmd/groups/aad/app/app-get.md) - gets an Azure AD app registration [#2835](https://github.com/pnp/cli-microsoft365/issues/2835)
+- [aad user password validate](../cmd/groups/aad/user/user-password-validate.md) - checks a user's password against the organization's password validation policy [#2846](https://github.com/pnp/cli-microsoft365/issues/2846)
 
 **Microsoft 365 apps:**
 
-- [app permission list](../cmd/app/permission/permission-list.md) - lists API permissions for the current AAD app [#2841](https://github.com/pnp/cli-microsoft365/issues/2841)
+- [app permission list](../cmd/groups/app/permission/permission-list.md) - lists API permissions for the current AAD app [#2841](https://github.com/pnp/cli-microsoft365/issues/2841)
 
 **Microsoft Search:**
 
-- [search externalconnection add](../cmd/search/externalconnection/externalconnection-add.md) - adds a new external connection to be defined for Microsoft Search [#2662](https://github.com/pnp/cli-microsoft365/issues/2662)
+- [search externalconnection add](../cmd/groups/search/externalconnection/externalconnection-add.md) - adds a new external connection to be defined for Microsoft Search [#2662](https://github.com/pnp/cli-microsoft365/issues/2662)
 
 **Planner:**
 
-- [planner task add](../cmd/planner/task/task-add.md) - adds a new Microsoft Planner task [#2255](https://github.com/pnp/cli-microsoft365/issues/2255)
+- [planner task add](../cmd/groups/planner/task/task-add.md) - adds a new Microsoft Planner task [#2255](https://github.com/pnp/cli-microsoft365/issues/2255)
 
 **SharePoint:**
 
-- [spo web installedlanguage list](../cmd/spo/web/web-installedlanguage-list.md) - lists all installed languages on site [#2833](https://github.com/pnp/cli-microsoft365/issues/2833)
+- [spo web installedlanguage list](../cmd/groups/spo/web/web-installedlanguage-list.md) - lists all installed languages on site [#2833](https://github.com/pnp/cli-microsoft365/issues/2833)
 
 ### Changes
 
@@ -845,16 +845,16 @@
 
 **Azure Active Directory:**
 
-- [aad sp add](../cmd/aad/sp/sp-add.md) - adds a service principal to a registered Azure AD app [#2583](https://github.com/pnp/cli-microsoft365/issues/2583)
+- [aad sp add](../cmd/groups/aad/sp/sp-add.md) - adds a service principal to a registered Azure AD app [#2583](https://github.com/pnp/cli-microsoft365/issues/2583)
 
 **File:**
 
-- [file list](../cmd/file/file-list.md) - Retrieves files from the specified folder and site [#2804](https://github.com/pnp/cli-microsoft365/issues/2804)
+- [file list](../cmd/groups/file/file-list.md) - Retrieves files from the specified folder and site [#2804](https://github.com/pnp/cli-microsoft365/issues/2804)
 
 **SharePoint:**
 
-- [spo contenttype list](../cmd/spo/contenttype/contenttype-list.md) - lists content types from specified site [#2777](https://github.com/pnp/cli-microsoft365/issues/2777)
-- [spo listitem attachment list](../cmd/spo/listitem/listitem-attachment-list.md) - gets the attachments associated to a list item [#2730](https://github.com/pnp/cli-microsoft365/issues/2730)
+- [spo contenttype list](../cmd/groups/spo/contenttype/contenttype-list.md) - lists content types from specified site [#2777](https://github.com/pnp/cli-microsoft365/issues/2777)
+- [spo listitem attachment list](../cmd/groups/spo/listitem/listitem-attachment-list.md) - gets the attachments associated to a list item [#2730](https://github.com/pnp/cli-microsoft365/issues/2730)
 
 ### Changes
 
@@ -887,7 +887,7 @@
 
 **Azure Active Directory:**
 
-- [aad user set](../cmd/aad/user/user-set.md) - updates information of the specified user [#1933](https://github.com/pnp/cli-microsoft365/issues/1933)
+- [aad user set](../cmd/groups/aad/user/user-set.md) - updates information of the specified user [#1933](https://github.com/pnp/cli-microsoft365/issues/1933)
 
 ### Changes
 
@@ -912,11 +912,11 @@
 
 **SharePoint:**
 
-- [spo group user list](../cmd/spo/group/group-member-list.md) - list members of a SharePoint Group [#2640](https://github.com/pnp/cli-microsoft365/issues/2640)
+- [spo group user list](../cmd/groups/spo/group/group-member-list.md) - list members of a SharePoint Group [#2640](https://github.com/pnp/cli-microsoft365/issues/2640)
 
 **Teams:**
 
-- [teams team get](../cmd/teams/team/team-get.md) - gets information about the specified Microsoft Teams team [#2506](https://github.com/pnp/cli-microsoft365/issues/2506)
+- [teams team get](../cmd/groups/teams/team/team-get.md) - gets information about the specified Microsoft Teams team [#2506](https://github.com/pnp/cli-microsoft365/issues/2506)
 
 ### Changes
 
@@ -953,13 +953,13 @@
 
 **SharePoint:**
 
-- [spo group user add](../cmd/spo/group/group-member-add.md) - add a user or multiple users to SharePoint Group [#2483](https://github.com/pnp/cli-microsoft365/issues/2483)
-- [spo site apppermission remove](../cmd/spo/site/site-apppermission-remove.md) - removes a specific application permission from a site [#2209](https://github.com/pnp/cli-microsoft365/issues/2209)
-- [spo app instance list](../cmd/spo/app/app-instance-list.md) - retrieves apps installed in a site [#2025](https://github.com/pnp/cli-microsoft365/issues/2209)
+- [spo group user add](../cmd/groups/spo/group/group-member-add.md) - add a user or multiple users to SharePoint Group [#2483](https://github.com/pnp/cli-microsoft365/issues/2483)
+- [spo site apppermission remove](../cmd/groups/spo/site/site-apppermission-remove.md) - removes a specific application permission from a site [#2209](https://github.com/pnp/cli-microsoft365/issues/2209)
+- [spo app instance list](../cmd/groups/spo/app/app-instance-list.md) - retrieves apps installed in a site [#2025](https://github.com/pnp/cli-microsoft365/issues/2209)
 
 **Planner:**
 
-- [planner plan get](../cmd/planner/plan/plan-get.md) - retrieves a Microsoft Planner plan [#2528](https://github.com/pnp/cli-microsoft365/issues/2528)
+- [planner plan get](../cmd/groups/planner/plan/plan-get.md) - retrieves a Microsoft Planner plan [#2528](https://github.com/pnp/cli-microsoft365/issues/2528)
 
 ### Changes
 
@@ -978,17 +978,17 @@
 
 **CLI:**
 
-- [cli doctor](../cmd/cli/cli-doctor.md) - retrieves diagnostic information about the current environment [#2157](https://github.com/pnp/cli-microsoft365/issues/2157)
+- [cli doctor](../cmd/groups/cli/cli-doctor.md) - retrieves diagnostic information about the current environment [#2157](https://github.com/pnp/cli-microsoft365/issues/2157)
 
 **OneDrive:**
 
-- [onedrive list](../cmd/onedrive/onedrive-list.md) - retrieves a list of OneDrive sites [#2230](https://github.com/pnp/cli-microsoft365/issues/2230)
+- [onedrive list](../cmd/groups/onedrive/onedrive-list.md) - retrieves a list of OneDrive sites [#2230](https://github.com/pnp/cli-microsoft365/issues/2230)
 
 **Planner:**
 
-- [planner bucket add](../cmd/planner/bucket/bucket-add.md) - adds a new Microsoft Planner bucket [#2254](https://github.com/pnp/cli-microsoft365/issues/2254)
-- [planner bucket list](../cmd/planner/bucket/bucket-list.md) - lists the Microsoft Planner buckets in a plan [#2556](https://github.com/pnp/cli-microsoft365/issues/2556)
-- [planner plan list](../cmd/planner/plan/plan-list.md) - returns a list of plans associated with a specified group [#2499](https://github.com/pnp/cli-microsoft365/issues/2499)
+- [planner bucket add](../cmd/groups/planner/bucket/bucket-add.md) - adds a new Microsoft Planner bucket [#2254](https://github.com/pnp/cli-microsoft365/issues/2254)
+- [planner bucket list](../cmd/groups/planner/bucket/bucket-list.md) - lists the Microsoft Planner buckets in a plan [#2556](https://github.com/pnp/cli-microsoft365/issues/2556)
+- [planner plan list](../cmd/groups/planner/plan/plan-list.md) - returns a list of plans associated with a specified group [#2499](https://github.com/pnp/cli-microsoft365/issues/2499)
 
 ### Changes
 
@@ -1012,24 +1012,24 @@
 
 **Azure Active Directory:**
 
-- [aad app role remove](../cmd/aad/app/app-role-remove.md) - deletes role from the specified Azure AD app registration [#2150](https://github.com/pnp/cli-microsoft365/issues/2150)
-- [aad app set](../cmd/aad/app/app-set.md) - updates Azure AD app registration [#2448](https://github.com/pnp/cli-microsoft365/issues/2448)
-- [aad o365group recyclebinitem clear](../cmd/aad/o365group/o365group-recyclebinitem-clear.md) - clears Microsoft 365 Groups from the recycle bin in the current tenant [#2033](https://github.com/pnp/cli-microsoft365/issues/2033)
+- [aad app role remove](../cmd/groups/aad/app/app-role-remove.md) - deletes role from the specified Azure AD app registration [#2150](https://github.com/pnp/cli-microsoft365/issues/2150)
+- [aad app set](../cmd/groups/aad/app/app-set.md) - updates Azure AD app registration [#2448](https://github.com/pnp/cli-microsoft365/issues/2448)
+- [aad o365group recyclebinitem clear](../cmd/groups/aad/o365group/o365group-recyclebinitem-clear.md) - clears Microsoft 365 Groups from the recycle bin in the current tenant [#2033](https://github.com/pnp/cli-microsoft365/issues/2033)
 
 **CLI:**
 
-- [cli config reset](../cmd/cli/config/config-reset.md) - resets the specified CLI configuration option to its default value [#2344](https://github.com/pnp/cli-microsoft365/issues/2344)
-- [cli issue](../cmd/cli/cli-issue.md) - returns, or opens a URL that takes the user to the right place in the CLI GitHub repo to create a new issue reporting bug, feedback, ideas, etc. [#1490](https://github.com/pnp/cli-microsoft365/issues/1490)
+- [cli config reset](../cmd/groups/cli/config/config-reset.md) - resets the specified CLI configuration option to its default value [#2344](https://github.com/pnp/cli-microsoft365/issues/2344)
+- [cli issue](../cmd/groups/cli/cli-issue.md) - returns, or opens a URL that takes the user to the right place in the CLI GitHub repo to create a new issue reporting bug, feedback, ideas, etc. [#1490](https://github.com/pnp/cli-microsoft365/issues/1490)
 
 **Microsoft 365:**
 
-- [tenant report office365activationcounts](../cmd/tenant/report/report-office365activationcounts.md) - gets the count of Microsoft 365 activations on desktops and devices [#2257](https://github.com/pnp/cli-microsoft365/issues/2257)
-- [tenant report office365activationsusercounts](../cmd/tenant/report/report-office365activationsusercounts.md) - gets the count of users that are enabled and those that have activated the Office subscription on desktop or devices or shared computers [#2258](https://github.com/pnp/cli-microsoft365/issues/2258)
-- [tenant report office365activationsuserdetail](../cmd/tenant/report/report-office365activationsuserdetail.md) - Get details about users who have activated Microsoft 365 [#2256](https://github.com/pnp/cli-microsoft365/issues/2256)
+- [tenant report office365activationcounts](../cmd/groups/tenant/report/report-office365activationcounts.md) - gets the count of Microsoft 365 activations on desktops and devices [#2257](https://github.com/pnp/cli-microsoft365/issues/2257)
+- [tenant report office365activationsusercounts](../cmd/groups/tenant/report/report-office365activationsusercounts.md) - gets the count of users that are enabled and those that have activated the Office subscription on desktop or devices or shared computers [#2258](https://github.com/pnp/cli-microsoft365/issues/2258)
+- [tenant report office365activationsuserdetail](../cmd/groups/tenant/report/report-office365activationsuserdetail.md) - Get details about users who have activated Microsoft 365 [#2256](https://github.com/pnp/cli-microsoft365/issues/2256)
 
 **SharePoint Framework:**
 
-- [spfx package generate](../cmd/spfx/package/package-generate.md) - generates SharePoint Framework solution package with a no-framework web part rendering the specified HTML snippet [#2367](https://github.com/pnp/cli-microsoft365/issues/2367)
+- [spfx package generate](../cmd/groups/spfx/package/package-generate.md) - generates SharePoint Framework solution package with a no-framework web part rendering the specified HTML snippet [#2367](https://github.com/pnp/cli-microsoft365/issues/2367)
 
 ### Changes
 
@@ -1072,23 +1072,23 @@
 
 **Azure Active Directory:**
 
-- [aad app role list](../cmd/aad/app/app-role-list.md) - gets Azure AD app registration roles [#2144](https://github.com/pnp/cli-microsoft365/issues/2144)
+- [aad app role list](../cmd/groups/aad/app/app-role-list.md) - gets Azure AD app registration roles [#2144](https://github.com/pnp/cli-microsoft365/issues/2144)
 
 **CLI:**
 
-- [cli config get](../cmd/cli/config/config-get.md) - gets value of a CLI for Microsoft 365 configuration option [#2343](https://github.com/pnp/cli-microsoft365/issues/2343)
+- [cli config get](../cmd/groups/cli/config/config-get.md) - gets value of a CLI for Microsoft 365 configuration option [#2343](https://github.com/pnp/cli-microsoft365/issues/2343)
 
 **File:**
 
-- [file add](../cmd/file/file-add.md) - uploads file to the specified site using Microsoft Graph [#2384](https://github.com/pnp/cli-microsoft365/issues/2384)
+- [file add](../cmd/groups/file/file-add.md) - uploads file to the specified site using Microsoft Graph [#2384](https://github.com/pnp/cli-microsoft365/issues/2384)
 
 **Power Apps:**
 
-- [pa app remove](../cmd/pa/app/app-remove.md) - removes the specified Power App [#2133](https://github.com/pnp/cli-microsoft365/issues/2133)
+- [pa app remove](../cmd/groups/pa/app/app-remove.md) - removes the specified Power App [#2133](https://github.com/pnp/cli-microsoft365/issues/2133)
 
 **SharePoint:**
 
-- [spo site apppermission set](../cmd/spo/site/site-apppermission-set.md) - updates a specific application permission for a site [#2210](https://github.com/pnp/cli-microsoft365/issues/2210)
+- [spo site apppermission set](../cmd/groups/spo/site/site-apppermission-set.md) - updates a specific application permission for a site [#2210](https://github.com/pnp/cli-microsoft365/issues/2210)
 
 ### Changes
 
@@ -1113,20 +1113,20 @@
 
 **Azure Active Directory:**
 
-- [aad app role add](../cmd/aad/app/app-role-add.md) - Adds role to the specified Azure AD app registration [#2145](https://github.com/pnp/cli-microsoft365/issues/2145)
+- [aad app role add](../cmd/groups/aad/app/app-role-add.md) - Adds role to the specified Azure AD app registration [#2145](https://github.com/pnp/cli-microsoft365/issues/2145)
 
 **Planner:**
 
-- [planner plan add](../cmd/planner/plan/plan-add.md) - adds a new Microsoft Planner plan [#2253](https://github.com/pnp/cli-microsoft365/issues/2253)
+- [planner plan add](../cmd/groups/planner/plan/plan-add.md) - adds a new Microsoft Planner plan [#2253](https://github.com/pnp/cli-microsoft365/issues/2253)
 
 **SharePoint:**
 
-- [spo site apppermission add](../cmd/spo/site/site-apppermission-add.md) - adds a specific application permissions to the site [#2208](https://github.com/pnp/cli-microsoft365/issues/2208)
-- [spo userprofile get](../cmd/spo/userprofile/userprofile-get.md) - gets SharePoint user profile properties for the specified user [#1670](https://github.com/pnp/cli-microsoft365/issues/1670)
+- [spo site apppermission add](../cmd/groups/spo/site/site-apppermission-add.md) - adds a specific application permissions to the site [#2208](https://github.com/pnp/cli-microsoft365/issues/2208)
+- [spo userprofile get](../cmd/groups/spo/userprofile/userprofile-get.md) - gets SharePoint user profile properties for the specified user [#1670](https://github.com/pnp/cli-microsoft365/issues/1670)
 
 **Microsoft Viva:**
 
-- [viva connections app create](../cmd/viva/connections/connections-app-create.md) - creates a Viva Connections desktop app package to upload to Microsoft Teams
+- [viva connections app create](../cmd/groups/viva/connections/connections-app-create.md) - creates a Viva Connections desktop app package to upload to Microsoft Teams
 
 ### Changes
 
@@ -1170,7 +1170,7 @@
 
 **Azure Active Directory:**
 
-- [aad policy list](../cmd/aad/policy/policy-list.md) - returns policies from Azure AD [#2164](https://github.com/pnp/cli-microsoft365/issues/2164)
+- [aad policy list](../cmd/groups/aad/policy/policy-list.md) - returns policies from Azure AD [#2164](https://github.com/pnp/cli-microsoft365/issues/2164)
 
 ### Changes
 
@@ -1188,12 +1188,12 @@
 
 **CLI:**
 
-- [cli config set](../cmd/cli/config/config-set.md) - sets CLI for Microsoft 365 configuration options [#1945](https://github.com/pnp/cli-microsoft365/issues/1945)
+- [cli config set](../cmd/groups/cli/config/config-set.md) - sets CLI for Microsoft 365 configuration options [#1945](https://github.com/pnp/cli-microsoft365/issues/1945)
 
 **SharePoint:**
 
-- [spo site apppermission get](../cmd/spo/site/site-apppermission-get.md) - gets a specific application permissions for the site [#2207](https://github.com/pnp/cli-microsoft365/issues/2207)
-- [spo site apppermission list](../cmd/spo/site/site-apppermission-list.md) - lists application permissions for a site [#2206](https://github.com/pnp/cli-microsoft365/issues/2206)
+- [spo site apppermission get](../cmd/groups/spo/site/site-apppermission-get.md) - gets a specific application permissions for the site [#2207](https://github.com/pnp/cli-microsoft365/issues/2207)
+- [spo site apppermission list](../cmd/groups/spo/site/site-apppermission-list.md) - lists application permissions for a site [#2206](https://github.com/pnp/cli-microsoft365/issues/2206)
 
 **Teams:**
 
@@ -1222,15 +1222,15 @@
 
 **Power Apps:**
 
-- [pa app get](../cmd/pa/app/app-get.md) - gets information about the specified Microsoft Power App [#2110](https://github.com/pnp/cli-microsoft365/issues/2110)
-- [pa environment get](../cmd/pa/environment/environment-get.md) - gets information about the specified Microsoft Power Apps environment [#2109](https://github.com/pnp/cli-microsoft365/issues/2109)
-- [pa environment list](../cmd/pa/environment/environment-list.md) - lists Microsoft Power Apps environments in the current tenant [#2108](https://github.com/pnp/cli-microsoft365/issues/2108)
+- [pa app get](../cmd/groups/pa/app/app-get.md) - gets information about the specified Microsoft Power App [#2110](https://github.com/pnp/cli-microsoft365/issues/2110)
+- [pa environment get](../cmd/groups/pa/environment/environment-get.md) - gets information about the specified Microsoft Power Apps environment [#2109](https://github.com/pnp/cli-microsoft365/issues/2109)
+- [pa environment list](../cmd/groups/pa/environment/environment-list.md) - lists Microsoft Power Apps environments in the current tenant [#2108](https://github.com/pnp/cli-microsoft365/issues/2108)
 
 **SharePoint:**
 
-- [spo page copy](../cmd/spo/page/page-copy.md) - creates a copy of a modern page or template [#2088](https://github.com/pnp/cli-microsoft365/issues/2088)
-- [spo site chrome set](../cmd/spo/site/site-chrome-set.md) - sets the chrome header and footer for the specified site [#2161](https://github.com/pnp/cli-microsoft365/issues/2161)
-- [spo site ensure](../cmd/spo/site/site-ensure.md) - ensures that the particular site collection exists and updates its properties if necessary [#1404](https://github.com/pnp/cli-microsoft365/issues/1404)
+- [spo page copy](../cmd/groups/spo/page/page-copy.md) - creates a copy of a modern page or template [#2088](https://github.com/pnp/cli-microsoft365/issues/2088)
+- [spo site chrome set](../cmd/groups/spo/site/site-chrome-set.md) - sets the chrome header and footer for the specified site [#2161](https://github.com/pnp/cli-microsoft365/issues/2161)
+- [spo site ensure](../cmd/groups/spo/site/site-ensure.md) - ensures that the particular site collection exists and updates its properties if necessary [#1404](https://github.com/pnp/cli-microsoft365/issues/1404)
 
 ### Changes
 
@@ -1273,12 +1273,12 @@
 
 **Adaptive Cards:**
 
-- [adaptivecard send](../cmd/adaptivecard/adaptivecard-send.md) - sends adaptive card to the specified URL [#2005](https://github.com/pnp/cli-microsoft365/issues/2005)
+- [adaptivecard send](../cmd/groups/adaptivecard/adaptivecard-send.md) - sends adaptive card to the specified URL [#2005](https://github.com/pnp/cli-microsoft365/issues/2005)
 
 **Azure Active Directory:**
 
-- [aad app add](../cmd/aad/app/app-add.md) - creates new Azure AD app registration [#1962](https://github.com/pnp/cli-microsoft365/issues/1962)
-- [aad o365group recyclebinitem list](../cmd/aad/o365group/o365group-recyclebinitem-list.md) - lists Groups from the recycle bin in the current tenant [#2032](https://github.com/pnp/cli-microsoft365/issues/2032)
+- [aad app add](../cmd/groups/aad/app/app-add.md) - creates new Azure AD app registration [#1962](https://github.com/pnp/cli-microsoft365/issues/1962)
+- [aad o365group recyclebinitem list](../cmd/groups/aad/o365group/o365group-recyclebinitem-list.md) - lists Groups from the recycle bin in the current tenant [#2032](https://github.com/pnp/cli-microsoft365/issues/2032)
 
 **Microsoft 365:**
 
@@ -1286,16 +1286,16 @@
 
 **File:**
 
-- [file convert pdf](../cmd/file/convert/convert-pdf.md) - converts the specified file to PDF using Microsoft Graph [#2010](https://github.com/pnp/cli-microsoft365/issues/2010)
+- [file convert pdf](../cmd/groups/file/convert/convert-pdf.md) - converts the specified file to PDF using Microsoft Graph [#2010](https://github.com/pnp/cli-microsoft365/issues/2010)
 
 **Power Automate:**
 
-- [flow run resubmit](../cmd/flow/run/run-resubmit.md) - resubmits a specific flow run for the specified Microsoft Flow [#1871](https://github.com/pnp/cli-microsoft365/issues/1871)
+- [flow run resubmit](../cmd/groups/flow/run/run-resubmit.md) - resubmits a specific flow run for the specified Microsoft Flow [#1871](https://github.com/pnp/cli-microsoft365/issues/1871)
 
 **SharePoint:**
 
-- [spo list view field set](../cmd/spo/list/list-view-field-set.md) - updates existing column in an existing view (eg. move to a specific position) [#2059](https://github.com/pnp/cli-microsoft365/issues/2059)
-- [spo page template list](../cmd/spo/page/page-template-list.md) - lists all page templates in the given site [#2065](https://github.com/pnp/cli-microsoft365/issues/2065)
+- [spo list view field set](../cmd/groups/spo/list/list-view-field-set.md) - updates existing column in an existing view (eg. move to a specific position) [#2059](https://github.com/pnp/cli-microsoft365/issues/2059)
+- [spo page template list](../cmd/groups/spo/page/page-template-list.md) - lists all page templates in the given site [#2065](https://github.com/pnp/cli-microsoft365/issues/2065)
 
 ### Changes
 
@@ -1328,16 +1328,16 @@
 
 **SharePoint:**
 
-- [spo list contenttype default set](../cmd/spo/list/list-contenttype-default-set.md) - sets the default content type for a list [#674](https://github.com/pnp/cli-microsoft365/issues/674)
+- [spo list contenttype default set](../cmd/groups/spo/list/list-contenttype-default-set.md) - sets the default content type for a list [#674](https://github.com/pnp/cli-microsoft365/issues/674)
 
 **Teams:**
 
-- [teams report directroutingcalls](../cmd/teams/report/report-directroutingcalls.md) - gets details about direct routing calls made within a given time period [#1772](https://github.com/pnp/cli-microsoft365/issues/1772)
-- [teams report pstncalls](../cmd/teams/report/report-pstncalls.md) - gets details about PSTN calls made within a given time period [#1771](https://github.com/pnp/cli-microsoft365/issues/1771)
+- [teams report directroutingcalls](../cmd/groups/teams/report/report-directroutingcalls.md) - gets details about direct routing calls made within a given time period [#1772](https://github.com/pnp/cli-microsoft365/issues/1772)
+- [teams report pstncalls](../cmd/groups/teams/report/report-pstncalls.md) - gets details about PSTN calls made within a given time period [#1771](https://github.com/pnp/cli-microsoft365/issues/1771)
 
 **Yammer:**
 
-- [yammer search](../cmd/yammer/yammer-search.md) - returns a list of messages, users, topics and groups that match the specified query [#1454](https://github.com/pnp/cli-microsoft365/issues/1454)
+- [yammer search](../cmd/groups/yammer/yammer-search.md) - returns a list of messages, users, topics and groups that match the specified query [#1454](https://github.com/pnp/cli-microsoft365/issues/1454)
 
 ### Changes
 
@@ -1367,14 +1367,14 @@
 
 **Power Automate:**
 
-- [flow run cancel](../cmd/flow/run/run-cancel.md) - cancels the specified Microsoft Flow [#1870](https://github.com/pnp/cli-microsoft365/issues/1870)
+- [flow run cancel](../cmd/groups/flow/run/run-cancel.md) - cancels the specified Microsoft Flow [#1870](https://github.com/pnp/cli-microsoft365/issues/1870)
 
 **SharePoint:**
 
-- [spo file sharinginfo get](../cmd/spo/file/file-sharinginfo-get.md) - generates a sharing information report for the specified file [#1659](https://github.com/pnp/cli-microsoft365/issues/1659)
-- [spo page control set](../cmd/spo/page/page-control-set.md) - updates web part data or properties of a control on a modern page [#1934](https://github.com/pnp/cli-microsoft365/issues/1934)
-- [spo tenant recyclebinitem remove](../cmd/spo/tenant/tenant-recyclebinitem-remove.md) - removes the specified deleted Site Collection from Tenant Recycle Bin [#1145](https://github.com/pnp/cli-microsoft365/issues/1145)
-- [spo tenant recyclebinitem restore](../cmd/spo/tenant/tenant-recyclebinitem-restore.md) - restores the specified deleted Site Collection from Tenant Recycle Bin [#1362](https://github.com/pnp/cli-microsoft365/issues/1362)
+- [spo file sharinginfo get](../cmd/groups/spo/file/file-sharinginfo-get.md) - generates a sharing information report for the specified file [#1659](https://github.com/pnp/cli-microsoft365/issues/1659)
+- [spo page control set](../cmd/groups/spo/page/page-control-set.md) - updates web part data or properties of a control on a modern page [#1934](https://github.com/pnp/cli-microsoft365/issues/1934)
+- [spo tenant recyclebinitem remove](../cmd/groups/spo/tenant/tenant-recyclebinitem-remove.md) - removes the specified deleted Site Collection from Tenant Recycle Bin [#1145](https://github.com/pnp/cli-microsoft365/issues/1145)
+- [spo tenant recyclebinitem restore](../cmd/groups/spo/tenant/tenant-recyclebinitem-restore.md) - restores the specified deleted Site Collection from Tenant Recycle Bin [#1362](https://github.com/pnp/cli-microsoft365/issues/1362)
 
 **Teams:**
 
@@ -1382,10 +1382,10 @@
 
 **To Do:**
 
-- [todo task add](../cmd/todo/task/task-add.md) - adds a task to a Microsoft To Do list [#1898](https://github.com/pnp/cli-microsoft365/issues/1898)
-- [todo task list](../cmd/todo/task/task-list.md) - lists tasks in a Microsoft To Do task list [#1901](https://github.com/pnp/cli-microsoft365/issues/1901)
-- [todo task remove](../cmd/todo/task/task-remove.md) - removes the specified Microsoft To Do task [#1900](https://github.com/pnp/cli-microsoft365/issues/1900)
-- [todo task set](../cmd/todo/task/task-set.md) - sets a task in a Microsoft To Do list [#1899](https://github.com/pnp/cli-microsoft365/issues/1899)
+- [todo task add](../cmd/groups/todo/task/task-add.md) - adds a task to a Microsoft To Do list [#1898](https://github.com/pnp/cli-microsoft365/issues/1898)
+- [todo task list](../cmd/groups/todo/task/task-list.md) - lists tasks in a Microsoft To Do task list [#1901](https://github.com/pnp/cli-microsoft365/issues/1901)
+- [todo task remove](../cmd/groups/todo/task/task-remove.md) - removes the specified Microsoft To Do task [#1900](https://github.com/pnp/cli-microsoft365/issues/1900)
+- [todo task set](../cmd/groups/todo/task/task-set.md) - sets a task in a Microsoft To Do list [#1899](https://github.com/pnp/cli-microsoft365/issues/1899)
 
 ### Changes
 
@@ -1411,16 +1411,16 @@
 
 **Azure Active Directory:**
 
-- [aad approleassignment remove](../cmd/aad/approleassignment/approleassignment-remove.md) - deletes an app role assignment for the specified Azure AD Application Registration [#1872](https://github.com/pnp/cli-microsoft365/issues/1872)
+- [aad approleassignment remove](../cmd/groups/aad/approleassignment/approleassignment-remove.md) - deletes an app role assignment for the specified Azure AD Application Registration [#1872](https://github.com/pnp/cli-microsoft365/issues/1872)
 
 **Microsoft Teams:**
 
-- [teams tab get](../cmd/teams/tab/tab-get.md) - gets information about the specified Microsoft Teams tab [#1804](https://github.com/pnp/cli-microsoft365/issues/1804)
-- [teams user app list](../cmd/teams/user/user-app-list.md) - lists the apps installed in the personal scope of the specified user [#1866](https://github.com/pnp/cli-microsoft365/issues/1866)
+- [teams tab get](../cmd/groups/teams/tab/tab-get.md) - gets information about the specified Microsoft Teams tab [#1804](https://github.com/pnp/cli-microsoft365/issues/1804)
+- [teams user app list](../cmd/groups/teams/user/user-app-list.md) - lists the apps installed in the personal scope of the specified user [#1866](https://github.com/pnp/cli-microsoft365/issues/1866)
 
 **SharePoint:**
 
-- [spo knowledgehub get](../cmd/spo/knowledgehub/knowledgehub-get.md) - gets the Knowledge Hub Site URL for your tenant [#1575](https://github.com/pnp/cli-microsoft365/issues/1575)
+- [spo knowledgehub get](../cmd/groups/spo/knowledgehub/knowledgehub-get.md) - gets the Knowledge Hub Site URL for your tenant [#1575](https://github.com/pnp/cli-microsoft365/issues/1575)
 
 ### Changes
 
@@ -1454,16 +1454,16 @@
 
 **Outlook:**
 
-- [outlook message list](../cmd/outlook/message/message-list.md) - gets all mail messages from the specified folder [#1764](https://github.com/pnp/cli-microsoft365/issues/1764)
-- [outlook message move](../cmd/outlook/message/message-move.md) - moves message to the specified folder [#1765](https://github.com/pnp/cli-microsoft365/issues/1765)
+- [outlook message list](../cmd/groups/outlook/message/message-list.md) - gets all mail messages from the specified folder [#1764](https://github.com/pnp/cli-microsoft365/issues/1764)
+- [outlook message move](../cmd/groups/outlook/message/message-move.md) - moves message to the specified folder [#1765](https://github.com/pnp/cli-microsoft365/issues/1765)
 
 **Power Apps:**
 
-- [pa app list](../cmd/pa/app/app-list.md) - lists all Power Apps apps [#1789](https://github.com/pnp/cli-microsoft365/issues/1789)
+- [pa app list](../cmd/groups/pa/app/app-list.md) - lists all Power Apps apps [#1789](https://github.com/pnp/cli-microsoft365/issues/1789)
 
 **SharePoint:**
 
-- [spo knowledgehub remove](../cmd/spo/knowledgehub/knowledgehub-remove.md) - removes the Knowledge Hub Site setting for your tenant [#1577](https://github.com/pnp/cli-microsoft365/issues/1577)
+- [spo knowledgehub remove](../cmd/groups/spo/knowledgehub/knowledgehub-remove.md) - removes the Knowledge Hub Site setting for your tenant [#1577](https://github.com/pnp/cli-microsoft365/issues/1577)
 
 ### Changes
 
@@ -1482,18 +1482,18 @@
 
 **Microsoft Teams:**
 
-- [teams app user remove](../cmd/teams/user/user-app-remove.md) - uninstall an app from the personal scope of the specified user [#1711](https://github.com/pnp/cli-microsoft365/issues/1711)
+- [teams app user remove](../cmd/groups/teams/user/user-app-remove.md) - uninstall an app from the personal scope of the specified user [#1711](https://github.com/pnp/cli-microsoft365/issues/1711)
 
 **Microsoft To Do:**
 
-- [todo list list](../cmd/todo/list/list-list.md) - returns a list of Microsoft To Do task lists [#1609](https://github.com/pnp/cli-microsoft365/issues/1609)
-- [todo list remove](../cmd/todo/list/list-remove.md) - removes a Microsoft To Do task list [#1611](https://github.com/pnp/cli-microsoft365/issues/1611)
-- [todo list set](../cmd/todo/list/list-set.md) - updates a Microsoft To Do task list [#1612](https://github.com/pnp/cli-microsoft365/issues/1612)
+- [todo list list](../cmd/groups/todo/list/list-list.md) - returns a list of Microsoft To Do task lists [#1609](https://github.com/pnp/cli-microsoft365/issues/1609)
+- [todo list remove](../cmd/groups/todo/list/list-remove.md) - removes a Microsoft To Do task list [#1611](https://github.com/pnp/cli-microsoft365/issues/1611)
+- [todo list set](../cmd/groups/todo/list/list-set.md) - updates a Microsoft To Do task list [#1612](https://github.com/pnp/cli-microsoft365/issues/1612)
 
 **SharePoint:**
 
-- [spo group list](../cmd/spo/group/group-list.md) - lists groups from specific web [#1691](https://github.com/pnp/cli-microsoft365/issues/1691)
-- [spo knowledgehub set](../cmd/spo/knowledgehub/knowledgehub-set.md) - sets the Knowledge Hub Site for your tenant [#1576](https://github.com/pnp/cli-microsoft365/issues/1576)
+- [spo group list](../cmd/groups/spo/group/group-list.md) - lists groups from specific web [#1691](https://github.com/pnp/cli-microsoft365/issues/1691)
+- [spo knowledgehub set](../cmd/groups/spo/knowledgehub/knowledgehub-set.md) - sets the Knowledge Hub Site for your tenant [#1576](https://github.com/pnp/cli-microsoft365/issues/1576)
 
 ### Changes
 
@@ -1521,9 +1521,9 @@
 
 **SharePoint:**
 
-- [spo group remove](../cmd/spo/group/group-remove.md) - removes group from specific web [#1693](https://github.com/pnp/cli-microsoft365/issues/1693)
-- [spo user list](../cmd/spo/user/user-list.md) - lists all the users within specific web [#1672](https://github.com/pnp/cli-microsoft365/issues/1672)
-- [spo userprofile set](../cmd/spo/userprofile/userprofile-set.md) - sets user profile property for a SharePoint user [#1671](https://github.com/pnp/cli-microsoft365/issues/1671)
+- [spo group remove](../cmd/groups/spo/group/group-remove.md) - removes group from specific web [#1693](https://github.com/pnp/cli-microsoft365/issues/1693)
+- [spo user list](../cmd/groups/spo/user/user-list.md) - lists all the users within specific web [#1672](https://github.com/pnp/cli-microsoft365/issues/1672)
+- [spo userprofile set](../cmd/groups/spo/userprofile/userprofile-set.md) - sets user profile property for a SharePoint user [#1671](https://github.com/pnp/cli-microsoft365/issues/1671)
 
 ### Changes
 
@@ -1538,18 +1538,18 @@
 
 **Microsoft Graph:**
 
-- [graph schemaextension list](../cmd/graph/schemaextension/schemaextension-list.md) - gets a list of schemaExtension objects created in the current tenant [#12](https://github.com/pnp/cli-microsoft365/issues/12)
+- [graph schemaextension list](../cmd/groups/graph/schemaextension/schemaextension-list.md) - gets a list of schemaExtension objects created in the current tenant [#12](https://github.com/pnp/cli-microsoft365/issues/12)
 
 **SharePoint:**
 
-- [spo group get](../cmd/spo/group/group-get.md) - gets site group [#1692](https://github.com/pnp/cli-microsoft365/issues/1692)
-- [spo tenant appcatalog add](../cmd/spo/tenant/tenant-appcatalog-add.md) - creates new tenant app catalog site [#1646](https://github.com/pnp/cli-microsoft365/issues/1646)
-- [spo user get](../cmd/spo/user/user-get.md) - gets a site user within specific web [#1673](https://github.com/pnp/cli-microsoft365/issues/1673)
-- [spo user remove](../cmd/spo/user/user-remove.md) - removes user from specific web [#1674](https://github.com/pnp/cli-microsoft365/issues/1674)
+- [spo group get](../cmd/groups/spo/group/group-get.md) - gets site group [#1692](https://github.com/pnp/cli-microsoft365/issues/1692)
+- [spo tenant appcatalog add](../cmd/groups/spo/tenant/tenant-appcatalog-add.md) - creates new tenant app catalog site [#1646](https://github.com/pnp/cli-microsoft365/issues/1646)
+- [spo user get](../cmd/groups/spo/user/user-get.md) - gets a site user within specific web [#1673](https://github.com/pnp/cli-microsoft365/issues/1673)
+- [spo user remove](../cmd/groups/spo/user/user-remove.md) - removes user from specific web [#1674](https://github.com/pnp/cli-microsoft365/issues/1674)
 
 **SharePoint Framework:**
 
-- [spfx project rename](../cmd/spfx/project/project-rename.md) - renames SharePoint Framework project [#1349](https://github.com/pnp/cli-microsoft365/issues/1349)
+- [spfx project rename](../cmd/groups/spfx/project/project-rename.md) - renames SharePoint Framework project [#1349](https://github.com/pnp/cli-microsoft365/issues/1349)
 
 ### Changes
 
@@ -1585,21 +1585,21 @@
 
 **Azure Active Directory:**
 
-- [aad approleassignment add](../cmd/aad/approleassignment/approleassignment-add.md) - adds service principal permissions also known as scopes and app role assignments for specified Azure AD application registration [#1581](https://github.com/pnp/cli-microsoft365/issues/1581)
+- [aad approleassignment add](../cmd/groups/aad/approleassignment/approleassignment-add.md) - adds service principal permissions also known as scopes and app role assignments for specified Azure AD application registration [#1581](https://github.com/pnp/cli-microsoft365/issues/1581)
 
 **Microsoft Teams:**
 
-- [teams user app add](../cmd/teams/user/user-app-add.md) - install an app in the personal scope of the specified user [#1450](https://github.com/pnp/cli-microsoft365/issues/1450)
+- [teams user app add](../cmd/groups/teams/user/user-app-add.md) - install an app in the personal scope of the specified user [#1450](https://github.com/pnp/cli-microsoft365/issues/1450)
 
 **Microsoft To Do:**
 
-- [todo list add](../cmd/todo/list/list-add.md) - adds a Microsoft To Do task list [#1610](https://github.com/pnp/cli-microsoft365/issues/1610)
+- [todo list add](../cmd/groups/todo/list/list-add.md) - adds a Microsoft To Do task list [#1610](https://github.com/pnp/cli-microsoft365/issues/1610)
 
 **Yammer:**
 
-- [yammer group user add](../cmd/yammer/group/group-user-add.md) - adds a user to a Yammer Group [#1456](https://github.com/pnp/cli-microsoft365/issues/1456)
-- [yammer group user remove](../cmd/yammer/group/group-user-remove.md) - removes a user from a Yammer group [#1457](https://github.com/pnp/cli-microsoft365/issues/1457)
-- [yammer message like set](../cmd/yammer/message/message-like-set.md) - likes or unlikes a Yammer message [#1455](https://github.com/pnp/cli-microsoft365/issues/1455)
+- [yammer group user add](../cmd/groups/yammer/group/group-user-add.md) - adds a user to a Yammer Group [#1456](https://github.com/pnp/cli-microsoft365/issues/1456)
+- [yammer group user remove](../cmd/groups/yammer/group/group-user-remove.md) - removes a user from a Yammer group [#1457](https://github.com/pnp/cli-microsoft365/issues/1457)
+- [yammer message like set](../cmd/groups/yammer/message/message-like-set.md) - likes or unlikes a Yammer message [#1455](https://github.com/pnp/cli-microsoft365/issues/1455)
 
 ### Changes
 
@@ -1645,11 +1645,11 @@
 
 **Azure Active Directory:**
 
-- [aad o365group report activitystorage](../cmd/aad/o365group/o365group-report-activitystorage.md) - get the total storage used across all group mailboxes and group sites [#1286](https://github.com/pnp/cli-microsoft365/issues/1286)
+- [aad o365group report activitystorage](../cmd/groups/aad/o365group/o365group-report-activitystorage.md) - get the total storage used across all group mailboxes and group sites [#1286](https://github.com/pnp/cli-microsoft365/issues/1286)
 
 **Microsoft Teams:**
 
-- [teams tab remove](../cmd/teams/tab/tab-remove.md) - removes a tab from the specified channel [#1449](https://github.com/pnp/cli-microsoft365/issues/1449)
+- [teams tab remove](../cmd/groups/teams/tab/tab-remove.md) - removes a tab from the specified channel [#1449](https://github.com/pnp/cli-microsoft365/issues/1449)
 
 **Microsoft 365:**
 
@@ -1657,18 +1657,18 @@
 
 **SharePoint:**
 
-- [spo orgassetslibrary add](../cmd/spo/orgassetslibrary/orgassetslibrary-add.md) - promotes an existing library to become an organization assets library [#1040](https://github.com/pnp/cli-microsoft365/issues/1040)
+- [spo orgassetslibrary add](../cmd/groups/spo/orgassetslibrary/orgassetslibrary-add.md) - promotes an existing library to become an organization assets library [#1040](https://github.com/pnp/cli-microsoft365/issues/1040)
 
 **Yammer:**
 
-- [yammer report activitycounts](../cmd/yammer/report/report-activitycounts.md) - gets the trends on the amount of Yammer activity in your organization by how many messages were posted, read, and liked [#1383](https://github.com/pnp/cli-microsoft365/issues/1383)
-- [yammer report activityusercounts](../cmd/yammer/report/report-activityusercounts.md) - gets the trends on the number of unique users who posted, read, and liked Yammer messages [#1384](https://github.com/pnp/cli-microsoft365/issues/1384)
-- [yammer report activityuserdetail](../cmd/yammer/report/report-activityuserdetail.md) - gets details about Yammer activity by user [#1382](https://github.com/pnp/cli-microsoft365/issues/1382)
-- [yammer report deviceusagedistributionusercounts](../cmd/yammer/report/report-deviceusagedistributionusercounts.md) - gets the number of users by device type [#1386](https://github.com/pnp/cli-microsoft365/issues/1386)
-- [yammer report deviceusageusercounts](../cmd/yammer/report/report-deviceusageusercounts.md) - gets the number of daily users by device type [#1387](https://github.com/pnp/cli-microsoft365/issues/1387)
-- [yammer report deviceusageuserdetail](../cmd/yammer/report/report-deviceusageuserdetail.md) - gets details about Yammer device usage by user [#1287](https://github.com/pnp/cli-microsoft365/issues/1287)
-- [yammer report groupsactivitydetail](../cmd/yammer/report/report-groupsactivitydetail.md) - gets details about Yammer groups activity by group [#1388](https://github.com/pnp/cli-microsoft365/issues/1388)
-- [yammer report groupsactivitygroupcounts](../cmd/yammer/report/report-groupsactivitygroupcounts.md) - gets the total number of groups that existed and how many included group conversation activity [#1389](https://github.com/pnp/cli-microsoft365/issues/1389)
+- [yammer report activitycounts](../cmd/groups/yammer/report/report-activitycounts.md) - gets the trends on the amount of Yammer activity in your organization by how many messages were posted, read, and liked [#1383](https://github.com/pnp/cli-microsoft365/issues/1383)
+- [yammer report activityusercounts](../cmd/groups/yammer/report/report-activityusercounts.md) - gets the trends on the number of unique users who posted, read, and liked Yammer messages [#1384](https://github.com/pnp/cli-microsoft365/issues/1384)
+- [yammer report activityuserdetail](../cmd/groups/yammer/report/report-activityuserdetail.md) - gets details about Yammer activity by user [#1382](https://github.com/pnp/cli-microsoft365/issues/1382)
+- [yammer report deviceusagedistributionusercounts](../cmd/groups/yammer/report/report-deviceusagedistributionusercounts.md) - gets the number of users by device type [#1386](https://github.com/pnp/cli-microsoft365/issues/1386)
+- [yammer report deviceusageusercounts](../cmd/groups/yammer/report/report-deviceusageusercounts.md) - gets the number of daily users by device type [#1387](https://github.com/pnp/cli-microsoft365/issues/1387)
+- [yammer report deviceusageuserdetail](../cmd/groups/yammer/report/report-deviceusageuserdetail.md) - gets details about Yammer device usage by user [#1287](https://github.com/pnp/cli-microsoft365/issues/1287)
+- [yammer report groupsactivitydetail](../cmd/groups/yammer/report/report-groupsactivitydetail.md) - gets details about Yammer groups activity by group [#1388](https://github.com/pnp/cli-microsoft365/issues/1388)
+- [yammer report groupsactivitygroupcounts](../cmd/groups/yammer/report/report-groupsactivitygroupcounts.md) - gets the total number of groups that existed and how many included group conversation activity [#1389](https://github.com/pnp/cli-microsoft365/issues/1389)
 
 ### Changes
 
@@ -1693,30 +1693,30 @@
 
 **Microsoft Graph:**
 
-- [graph subscription add](../cmd/graph/subscription/subscription-add.md) - creates a Microsoft Graph subscription [#1100](https://github.com/pnp/cli-microsoft365/issues/1100)
+- [graph subscription add](../cmd/groups/graph/subscription/subscription-add.md) - creates a Microsoft Graph subscription [#1100](https://github.com/pnp/cli-microsoft365/issues/1100)
 
 **Microsoft 365:**
 
-- [tenant report activeuserdetail](../cmd/tenant/report/report-activeuserdetail.md) - gets details about Microsoft 365 active users [#1300](https://github.com/pnp/cli-microsoft365/issues/1300)
-- [tenant report servicesusercounts](../cmd/tenant/report/report-servicesusercounts.md) - gets the count of users by activity type and service [#1299](https://github.com/pnp/cli-microsoft365/issues/1299)
+- [tenant report activeuserdetail](../cmd/groups/tenant/report/report-activeuserdetail.md) - gets details about Microsoft 365 active users [#1300](https://github.com/pnp/cli-microsoft365/issues/1300)
+- [tenant report servicesusercounts](../cmd/groups/tenant/report/report-servicesusercounts.md) - gets the count of users by activity type and service [#1299](https://github.com/pnp/cli-microsoft365/issues/1299)
 
 **SharePoint:**
 
-- [spo sitedesign task remove](../cmd/spo/sitedesign/sitedesign-task-remove.md) - removes the specified site design scheduled for execution [#783](https://github.com/pnp/cli-microsoft365/issues/783)
+- [spo sitedesign task remove](../cmd/groups/spo/sitedesign/sitedesign-task-remove.md) - removes the specified site design scheduled for execution [#783](https://github.com/pnp/cli-microsoft365/issues/783)
 
 **SharePoint Framework:**
 
-- [spfx doctor](../cmd/spfx/spfx-doctor.md) - verifies environment configuration for using the specific version of the SharePoint Framework [#1353](https://github.com/pnp/cli-microsoft365/issues/1353)
+- [spfx doctor](../cmd/groups/spfx/spfx-doctor.md) - verifies environment configuration for using the specific version of the SharePoint Framework [#1353](https://github.com/pnp/cli-microsoft365/issues/1353)
 
 **Skype:**
 
-- [skype report activitycounts](../cmd/skype/report/report-activitycounts.md) - gets the trends on how many users organized and participated in conference sessions held in your organization through Skype for Business. The report also includes the number of peer-to-peer sessions [#1302](https://github.com/pnp/cli-microsoft365/issues/1302)
-- [skype report activityusercounts](../cmd/skype/report/report-activityusercounts.md) - gets the trends on how many unique users organized and participated in conference sessions held in your organization through Skype for Business. The report also includes the number of peer-to-peer sessions [#1303](https://github.com/pnp/cli-microsoft365/issues/1303)
-- [skype report activityuserdetail](../cmd/skype/report/report-activityuserdetail.md) - gets details about Skype for Business activity by user [#1301](https://github.com/pnp/cli-microsoft365/issues/1301)
+- [skype report activitycounts](../cmd/groups/skype/report/report-activitycounts.md) - gets the trends on how many users organized and participated in conference sessions held in your organization through Skype for Business. The report also includes the number of peer-to-peer sessions [#1302](https://github.com/pnp/cli-microsoft365/issues/1302)
+- [skype report activityusercounts](../cmd/groups/skype/report/report-activityusercounts.md) - gets the trends on how many unique users organized and participated in conference sessions held in your organization through Skype for Business. The report also includes the number of peer-to-peer sessions [#1303](https://github.com/pnp/cli-microsoft365/issues/1303)
+- [skype report activityuserdetail](../cmd/groups/skype/report/report-activityuserdetail.md) - gets details about Skype for Business activity by user [#1301](https://github.com/pnp/cli-microsoft365/issues/1301)
 
 **Yammer:**
 
-- [yammer report groupsactivitycounts](../cmd/yammer/report/report-groupsactivitycounts.md) - gets the number of Yammer messages posted, read, and liked in groups [#1390](https://github.com/pnp/cli-microsoft365/issues/1390)
+- [yammer report groupsactivitycounts](../cmd/groups/yammer/report/report-groupsactivitycounts.md) - gets the number of Yammer messages posted, read, and liked in groups [#1390](https://github.com/pnp/cli-microsoft365/issues/1390)
 
 ### Changes
 
@@ -1732,29 +1732,29 @@
 
 **Azure Active Directory:**
 
-- [aad approleassignment list](../cmd/aad/approleassignment/approleassignment-list.md) - lists app role assignments for the specified application registration [#1270](https://github.com/pnp/cli-microsoft365/issues/1270)
-- [aad o365group report activityfilecounts](../cmd/aad/o365group/o365group-report-activityfilecounts.md) - get the total number of files and how many of them were active across all group sites associated with an Microsoft 365 Group [#1285](https://github.com/pnp/cli-microsoft365/issues/1285)
+- [aad approleassignment list](../cmd/groups/aad/approleassignment/approleassignment-list.md) - lists app role assignments for the specified application registration [#1270](https://github.com/pnp/cli-microsoft365/issues/1270)
+- [aad o365group report activityfilecounts](../cmd/groups/aad/o365group/o365group-report-activityfilecounts.md) - get the total number of files and how many of them were active across all group sites associated with an Microsoft 365 Group [#1285](https://github.com/pnp/cli-microsoft365/issues/1285)
 
 **Microsoft Graph:**
 
-- [graph schemaextension set](../cmd/graph/schemaextension/schemaextension-set.md) - updates a Microsoft Graph schema extension [#15](https://github.com/pnp/cli-microsoft365/issues/15)
+- [graph schemaextension set](../cmd/groups/graph/schemaextension/schemaextension-set.md) - updates a Microsoft Graph schema extension [#15](https://github.com/pnp/cli-microsoft365/issues/15)
 
 **Microsoft 365:**
 
-- [tenant report activeusercounts](../cmd/tenant/report/report-activeusercounts.md) - gets the count of daily active users in the reporting period by product [#1298](https://github.com/pnp/cli-microsoft365/issues/1298)
+- [tenant report activeusercounts](../cmd/groups/tenant/report/report-activeusercounts.md) - gets the count of daily active users in the reporting period by product [#1298](https://github.com/pnp/cli-microsoft365/issues/1298)
 
 **SharePoint:**
 
-- [spo orgassetslibrary remove](../cmd/spo/orgassetslibrary/orgassetslibrary-remove.md) - removes a library that was designated as a central location for organization assets across the tenant [#1042](https://github.com/pnp/cli-microsoft365/issues/1042)
-- [spo tenant recyclebinitem list](../cmd/spo/tenant/tenant-recyclebinitem-list.md) - returns all modern and classic site collections in the tenant scoped recycle bin [#1144](https://github.com/pnp/cli-microsoft365/issues/1144)
+- [spo orgassetslibrary remove](../cmd/groups/spo/orgassetslibrary/orgassetslibrary-remove.md) - removes a library that was designated as a central location for organization assets across the tenant [#1042](https://github.com/pnp/cli-microsoft365/issues/1042)
+- [spo tenant recyclebinitem list](../cmd/groups/spo/tenant/tenant-recyclebinitem-list.md) - returns all modern and classic site collections in the tenant scoped recycle bin [#1144](https://github.com/pnp/cli-microsoft365/issues/1144)
 
 **Microsoft Teams:**
 
-- [teams tab add](../cmd/teams/tab/tab-add.md) - add a tab to the specified channel [#850](https://github.com/pnp/cli-microsoft365/issues/850)
+- [teams tab add](../cmd/groups/teams/tab/tab-add.md) - add a tab to the specified channel [#850](https://github.com/pnp/cli-microsoft365/issues/850)
 
 **Yammer:**
 
-- [yammer message add](../cmd/yammer/message/message-add.md) - posts a Yammer network message on behalf of the current user [#1101](https://github.com/pnp/cli-microsoft365/issues/1101)
+- [yammer message add](../cmd/groups/yammer/message/message-add.md) - posts a Yammer network message on behalf of the current user [#1101](https://github.com/pnp/cli-microsoft365/issues/1101)
 
 ### Changes
 
@@ -1774,23 +1774,23 @@
 
 **Microsoft Graph:**
 
-- [graph schemaextension remove](../cmd/graph/schemaextension/schemaextension-remove.md) - removes specified Microsoft Graph schema extension [#16](https://github.com/pnp/cli-microsoft365/issues/16)
+- [graph schemaextension remove](../cmd/groups/graph/schemaextension/schemaextension-remove.md) - removes specified Microsoft Graph schema extension [#16](https://github.com/pnp/cli-microsoft365/issues/16)
 
 **Power Apps:**
 
-- [pa connector export](../cmd/pa/connector/connector-export.md) - exports the specified power automate or power apps custom connector [#1084](https://github.com/pnp/cli-microsoft365/issues/1084)
+- [pa connector export](../cmd/groups/pa/connector/connector-export.md) - exports the specified power automate or power apps custom connector [#1084](https://github.com/pnp/cli-microsoft365/issues/1084)
 
 **SharePoint:**
 
-- [spo report activityfilecounts](../cmd/spo/report/report-activityfilecounts.md) - gets the number of unique, licensed users who interacted with files stored on SharePoint sites [#1243](https://github.com/pnp/cli-microsoft365/issues/1243)
-- [spo report activitypages](../cmd/spo/report/report-activitypages.md) - gets the number of unique pages visited by users [#1245](https://github.com/pnp/cli-microsoft365/issues/1245)
-- [spo report activityuserdetail](../cmd/spo/report/report-activityuserdetail.md) - gets details about SharePoint activity by user [#1242](https://github.com/pnp/cli-microsoft365/issues/1242)
-- [spo report activityusercounts](../cmd/spo/report/report-activityusercounts.md) - gets the trend in the number of active users [#1244](https://github.com/pnp/cli-microsoft365/issues/1244)
-- [spo report siteusagedetail](../cmd/spo/report/report-siteusagedetail.md) - gets details about SharePoint site usage [#1246](https://github.com/pnp/cli-microsoft365/issues/1246)
+- [spo report activityfilecounts](../cmd/groups/spo/report/report-activityfilecounts.md) - gets the number of unique, licensed users who interacted with files stored on SharePoint sites [#1243](https://github.com/pnp/cli-microsoft365/issues/1243)
+- [spo report activitypages](../cmd/groups/spo/report/report-activitypages.md) - gets the number of unique pages visited by users [#1245](https://github.com/pnp/cli-microsoft365/issues/1245)
+- [spo report activityuserdetail](../cmd/groups/spo/report/report-activityuserdetail.md) - gets details about SharePoint activity by user [#1242](https://github.com/pnp/cli-microsoft365/issues/1242)
+- [spo report activityusercounts](../cmd/groups/spo/report/report-activityusercounts.md) - gets the trend in the number of active users [#1244](https://github.com/pnp/cli-microsoft365/issues/1244)
+- [spo report siteusagedetail](../cmd/groups/spo/report/report-siteusagedetail.md) - gets details about SharePoint site usage [#1246](https://github.com/pnp/cli-microsoft365/issues/1246)
 
 **Yammer:**
 
-- [yammer group list](../cmd/yammer/group/group-list.md) - returns the list of groups in a Yammer network or the groups for a specific user [#1185](https://github.com/pnp/cli-microsoft365/issues/1185)
+- [yammer group list](../cmd/groups/yammer/group/group-list.md) - returns the list of groups in a Yammer network or the groups for a specific user [#1185](https://github.com/pnp/cli-microsoft365/issues/1185)
 
 ### Changes
 
@@ -1806,15 +1806,15 @@
 
 **OneDrive:**
 
-- [onedrive report activityuserdetail](../cmd/onedrive/report/report-activityuserdetail.md) - gets details about OneDrive activity by user [#1255](https://github.com/pnp/cli-microsoft365/issues/1255)
-- [onedrive report usageaccountdetail](../cmd/onedrive/report/report-usageaccountdetail.md) - gets details about OneDrive usage by account [#1251](https://github.com/pnp/cli-microsoft365/issues/1251)
+- [onedrive report activityuserdetail](../cmd/groups/onedrive/report/report-activityuserdetail.md) - gets details about OneDrive activity by user [#1255](https://github.com/pnp/cli-microsoft365/issues/1255)
+- [onedrive report usageaccountdetail](../cmd/groups/onedrive/report/report-usageaccountdetail.md) - gets details about OneDrive usage by account [#1251](https://github.com/pnp/cli-microsoft365/issues/1251)
 
 **SharePoint:**
 
-- [spo report siteusagefilecounts](../cmd/spo/report/report-siteusagefilecounts.md) - get the total number of files across all sites and the number of active files [#1247](https://github.com/pnp/cli-microsoft365/issues/1247)
-- [spo report siteusagepages](../cmd/spo/report/report-siteusagepages.md) - gets the number of pages viewed across all sites [#1250](https://github.com/pnp/cli-microsoft365/issues/1250)
-- [spo report siteusagesitecounts](../cmd/spo/report/report-siteusagesitecounts.md) - gets the total number of files across all sites and the number of active files [#1248](https://github.com/pnp/cli-microsoft365/issues/1248)
-- [spo report siteusagestorage](../cmd/spo/report/report-siteusagestorage.md) - gets the trend of storage allocated and consumed during the reporting period [#1249](https://github.com/pnp/cli-microsoft365/issues/1249)
+- [spo report siteusagefilecounts](../cmd/groups/spo/report/report-siteusagefilecounts.md) - get the total number of files across all sites and the number of active files [#1247](https://github.com/pnp/cli-microsoft365/issues/1247)
+- [spo report siteusagepages](../cmd/groups/spo/report/report-siteusagepages.md) - gets the number of pages viewed across all sites [#1250](https://github.com/pnp/cli-microsoft365/issues/1250)
+- [spo report siteusagesitecounts](../cmd/groups/spo/report/report-siteusagesitecounts.md) - gets the total number of files across all sites and the number of active files [#1248](https://github.com/pnp/cli-microsoft365/issues/1248)
+- [spo report siteusagestorage](../cmd/groups/spo/report/report-siteusagestorage.md) - gets the trend of storage allocated and consumed during the reporting period [#1249](https://github.com/pnp/cli-microsoft365/issues/1249)
 
 ### Changes
 
@@ -1827,38 +1827,38 @@
 
 **OneDrive:**
 
-- [onedrive report activityfilecounts](../cmd/onedrive/report/report-activityfilecounts.md) - gets the number of unique, licensed users that performed file interactions against any OneDrive account [#1257](https://github.com/pnp/cli-microsoft365/issues/1257)
-- [onedrive report activityusercounts](../cmd/onedrive/report/report-activityusercounts.md) - gets the trend in the number of active OneDrive users [#1256](https://github.com/pnp/cli-microsoft365/issues/1256)
-- [onedrive report usageaccountcounts](../cmd/onedrive/report/report-usageaccountcounts.md) - gets the trend in the number of active OneDrive for Business sites [#1252](https://github.com/pnp/cli-microsoft365/issues/1252)
-- [onedrive report usagefilecounts](../cmd/onedrive/report/report-usagefilecounts.md) - gets the total number of files across all sites and how many are active files [#1253](https://github.com/pnp/cli-microsoft365/issues/1253)
-- [onedrive report usagestorage](../cmd/onedrive/report/report-usagestorage.md) - gets the trend on the amount of storage you are using in OneDrive for Business [#1254](https://github.com/pnp/cli-microsoft365/issues/1254)
+- [onedrive report activityfilecounts](../cmd/groups/onedrive/report/report-activityfilecounts.md) - gets the number of unique, licensed users that performed file interactions against any OneDrive account [#1257](https://github.com/pnp/cli-microsoft365/issues/1257)
+- [onedrive report activityusercounts](../cmd/groups/onedrive/report/report-activityusercounts.md) - gets the trend in the number of active OneDrive users [#1256](https://github.com/pnp/cli-microsoft365/issues/1256)
+- [onedrive report usageaccountcounts](../cmd/groups/onedrive/report/report-usageaccountcounts.md) - gets the trend in the number of active OneDrive for Business sites [#1252](https://github.com/pnp/cli-microsoft365/issues/1252)
+- [onedrive report usagefilecounts](../cmd/groups/onedrive/report/report-usagefilecounts.md) - gets the total number of files across all sites and how many are active files [#1253](https://github.com/pnp/cli-microsoft365/issues/1253)
+- [onedrive report usagestorage](../cmd/groups/onedrive/report/report-usagestorage.md) - gets the trend on the amount of storage you are using in OneDrive for Business [#1254](https://github.com/pnp/cli-microsoft365/issues/1254)
 
 **Outlook:**
 
-- [outlook report mailappusageversionsusercounts](../cmd/outlook/report/report-mailappusageversionsusercounts.md) - gets the count of unique users by Outlook desktop version [#1215](https://github.com/pnp/cli-microsoft365/issues/1215)
-- [outlook report mailboxusagemailboxcount](../cmd/outlook/report/report-mailboxusagemailboxcount.md) - gets the total number of user mailboxes in your organization and how many are active each day of the reporting period [#1217](https://github.com/pnp/cli-microsoft365/issues/1217)
-- [outlook report mailboxusagequotastatusmailboxcounts](../cmd/outlook/report/report-mailboxusagequotastatusmailboxcounts.md) - gets the count of user mailboxes in each quota category [#1218](https://github.com/pnp/cli-microsoft365/issues/1218)
-- [outlook report mailboxusagestorage](../cmd/outlook/report/report-mailboxusagestorage.md) - gets the amount of mailbox storage used in your organization [#1219](https://github.com/pnp/cli-microsoft365/issues/1219)
-- [outlook report mailappusageusercounts](../cmd/outlook/report/report-mailappusageusercounts.md) - gets the count of unique users that connected to Exchange Online using any email app [#1214](https://github.com/pnp/cli-microsoft365/issues/1214)
-- [outlook report mailactivityusercounts](../cmd/outlook/report/report-mailactivityusercounts.md) - enables you to understand trends on the number of unique users who are performing email activities like send, read, and receive [#1211](https://github.com/pnp/cli-microsoft365/issues/1211)
-- [outlook report mailactivitycounts](../cmd/outlook/report/report-mailactivitycounts.md) - enables you to understand the trends of email activity (like how many were sent, read, and received) in your organization [#1210](https://github.com/pnp/cli-microsoft365/issues/1210)
-- [outlook report mailboxusagedetail](../cmd/outlook/report/report-mailboxusagedetail.md) - gets details about mailbox usage [#1216](https://github.com/pnp/cli-microsoft365/issues/1216)
-- [outlook report mailappusageuserdetail](../cmd/outlook/report/report-mailappusageuserdetail.md) - gets details about which activities users performed on the various email apps [#1212](https://github.com/pnp/cli-microsoft365/issues/1212)
-- [outlook report mailactivityuserdetail](../cmd/outlook/report/report-mailactivityuserdetail.md) - gets details about email activity users have performed [#1209](https://github.com/pnp/cli-microsoft365/issues/1209)
-- [outlook report mailappusageappsusercounts](../cmd/outlook/report/report-mailappusageappsusercounts.md) - gets the count of unique users per email app [#1213](https://github.com/pnp/cli-microsoft365/issues/1213)
+- [outlook report mailappusageversionsusercounts](../cmd/groups/outlook/report/report-mailappusageversionsusercounts.md) - gets the count of unique users by Outlook desktop version [#1215](https://github.com/pnp/cli-microsoft365/issues/1215)
+- [outlook report mailboxusagemailboxcount](../cmd/groups/outlook/report/report-mailboxusagemailboxcount.md) - gets the total number of user mailboxes in your organization and how many are active each day of the reporting period [#1217](https://github.com/pnp/cli-microsoft365/issues/1217)
+- [outlook report mailboxusagequotastatusmailboxcounts](../cmd/groups/outlook/report/report-mailboxusagequotastatusmailboxcounts.md) - gets the count of user mailboxes in each quota category [#1218](https://github.com/pnp/cli-microsoft365/issues/1218)
+- [outlook report mailboxusagestorage](../cmd/groups/outlook/report/report-mailboxusagestorage.md) - gets the amount of mailbox storage used in your organization [#1219](https://github.com/pnp/cli-microsoft365/issues/1219)
+- [outlook report mailappusageusercounts](../cmd/groups/outlook/report/report-mailappusageusercounts.md) - gets the count of unique users that connected to Exchange Online using any email app [#1214](https://github.com/pnp/cli-microsoft365/issues/1214)
+- [outlook report mailactivityusercounts](../cmd/groups/outlook/report/report-mailactivityusercounts.md) - enables you to understand trends on the number of unique users who are performing email activities like send, read, and receive [#1211](https://github.com/pnp/cli-microsoft365/issues/1211)
+- [outlook report mailactivitycounts](../cmd/groups/outlook/report/report-mailactivitycounts.md) - enables you to understand the trends of email activity (like how many were sent, read, and received) in your organization [#1210](https://github.com/pnp/cli-microsoft365/issues/1210)
+- [outlook report mailboxusagedetail](../cmd/groups/outlook/report/report-mailboxusagedetail.md) - gets details about mailbox usage [#1216](https://github.com/pnp/cli-microsoft365/issues/1216)
+- [outlook report mailappusageuserdetail](../cmd/groups/outlook/report/report-mailappusageuserdetail.md) - gets details about which activities users performed on the various email apps [#1212](https://github.com/pnp/cli-microsoft365/issues/1212)
+- [outlook report mailactivityuserdetail](../cmd/groups/outlook/report/report-mailactivityuserdetail.md) - gets details about email activity users have performed [#1209](https://github.com/pnp/cli-microsoft365/issues/1209)
+- [outlook report mailappusageappsusercounts](../cmd/groups/outlook/report/report-mailappusageappsusercounts.md) - gets the count of unique users per email app [#1213](https://github.com/pnp/cli-microsoft365/issues/1213)
 
 **SharePoint:**
 
-- [spo feature disable](../cmd/spo/feature/feature-disable.md) - disables feature for the specified site or web [#676](https://github.com/pnp/cli-microsoft365/issues/676)
-- [spo site rename](../cmd/spo/site/site-rename.md) - renames the URL and title of a site collection [#1197](https://github.com/pnp/cli-microsoft365/issues/1197)
+- [spo feature disable](../cmd/groups/spo/feature/feature-disable.md) - disables feature for the specified site or web [#676](https://github.com/pnp/cli-microsoft365/issues/676)
+- [spo site rename](../cmd/groups/spo/site/site-rename.md) - renames the URL and title of a site collection [#1197](https://github.com/pnp/cli-microsoft365/issues/1197)
 
 **Yammer:**
 
-- [yammer message remove](../cmd/yammer/message/message-remove.md) - removes a Yammer message [#1106](https://github.com/pnp/cli-microsoft365/issues/1106)
+- [yammer message remove](../cmd/groups/yammer/message/message-remove.md) - removes a Yammer message [#1106](https://github.com/pnp/cli-microsoft365/issues/1106)
 
 **Power Apps:**
 
-- [pa connector list](../cmd/pa/connector/connector-list.md) - lists Power Apps and Power Automate (Flow) connectors [#1237](https://github.com/pnp/cli-microsoft365/issues/1237)
+- [pa connector list](../cmd/groups/pa/connector/connector-list.md) - lists Power Apps and Power Automate (Flow) connectors [#1237](https://github.com/pnp/cli-microsoft365/issues/1237)
 
 ### Changes
 
@@ -1871,13 +1871,13 @@
 
 **SharePoint Framework:**
 
-- [spfx project externalize](../cmd/spfx/project/project-externalize.md) - externalizes SharePoint Framework project dependencies [#571](https://github.com/pnp/cli-microsoft365/issues/571)
+- [spfx project externalize](../cmd/groups/spfx/project/project-externalize.md) - externalizes SharePoint Framework project dependencies [#571](https://github.com/pnp/cli-microsoft365/issues/571)
 
 **Yammer:**
 
-- [yammer message get](../cmd/yammer/message/message-get.md) - returns a Yammer message [#1105](https://github.com/pnp/cli-microsoft365/issues/1105)
-- [yammer message list](../cmd/yammer/message/message-list.md) - returns all accessible messages from the user's Yammer network [#1104](https://github.com/pnp/cli-microsoft365/issues/1104)
-- [yammer user list](../cmd/yammer/user/user-list.md) - returns users from the current network [#1113](https://github.com/pnp/cli-microsoft365/issues/1113)
+- [yammer message get](../cmd/groups/yammer/message/message-get.md) - returns a Yammer message [#1105](https://github.com/pnp/cli-microsoft365/issues/1105)
+- [yammer message list](../cmd/groups/yammer/message/message-list.md) - returns all accessible messages from the user's Yammer network [#1104](https://github.com/pnp/cli-microsoft365/issues/1104)
+- [yammer user list](../cmd/groups/yammer/user/user-list.md) - returns users from the current network [#1113](https://github.com/pnp/cli-microsoft365/issues/1113)
 
 ### Changes
 
@@ -1895,31 +1895,31 @@
 
 **Azure Active Directory:**
 
-- [aad o365group report activitydetail](../cmd/aad/o365group/o365group-report-activitydetail.md) - get details about Microsoft 365 Groups activity by group [#1130](https://github.com/pnp/cli-microsoft365/issues/1130)
-- [aad o365group report activitycounts](../cmd/aad/o365group/o365group-report-activitycounts.md) - get the number of group activities across group workloads [#1159](https://github.com/pnp/cli-microsoft365/issues/1159)
-- [aad o365group report activitygroupcounts](../cmd/aad/o365group/o365group-report-activitygroupcounts.md) - get the daily total number of groups and how many of them were active based on email conversations, Yammer posts, and SharePoint file activities [#1160](https://github.com/pnp/cli-microsoft365/issues/1160)
+- [aad o365group report activitydetail](../cmd/groups/aad/o365group/o365group-report-activitydetail.md) - get details about Microsoft 365 Groups activity by group [#1130](https://github.com/pnp/cli-microsoft365/issues/1130)
+- [aad o365group report activitycounts](../cmd/groups/aad/o365group/o365group-report-activitycounts.md) - get the number of group activities across group workloads [#1159](https://github.com/pnp/cli-microsoft365/issues/1159)
+- [aad o365group report activitygroupcounts](../cmd/groups/aad/o365group/o365group-report-activitygroupcounts.md) - get the daily total number of groups and how many of them were active based on email conversations, Yammer posts, and SharePoint file activities [#1160](https://github.com/pnp/cli-microsoft365/issues/1160)
 
 **Flow:**
 
-- [flow remove](../cmd/flow/flow-remove.md) - removes the specified Microsoft Flow [#1063](https://github.com/pnp/cli-microsoft365/issues/1063)
+- [flow remove](../cmd/groups/flow/flow-remove.md) - removes the specified Microsoft Flow [#1063](https://github.com/pnp/cli-microsoft365/issues/1063)
 
 **PowerApps:**
 
-- [pa solution reference add](../cmd/pa/solution/solution-reference-add.md) - adds a project reference to the solution in the current directory [#954](https://github.com/pnp/cli-microsoft365/issues/954)
+- [pa solution reference add](../cmd/groups/pa/solution/solution-reference-add.md) - adds a project reference to the solution in the current directory [#954](https://github.com/pnp/cli-microsoft365/issues/954)
 
 **SharePoint Online:**
 
-- [spo apppage set](../cmd/spo/apppage/apppage-set.md) - updates the single-part app page [#875](https://github.com/pnp/cli-microsoft365/issues/875)
-- [spo feature enable](../cmd/spo/feature/feature-enable.md) - enables feature for the specified site or web [#675](https://github.com/pnp/cli-microsoft365/issues/675)
+- [spo apppage set](../cmd/groups/spo/apppage/apppage-set.md) - updates the single-part app page [#875](https://github.com/pnp/cli-microsoft365/issues/875)
+- [spo feature enable](../cmd/groups/spo/feature/feature-enable.md) - enables feature for the specified site or web [#675](https://github.com/pnp/cli-microsoft365/issues/675)
 
 **Microsoft Teams:**
 
-- [teams message reply list](../cmd/teams/message/message-reply-list.md) - retrieves replies to a message from a channel in a Microsoft Teams team [#1109](https://github.com/pnp/cli-microsoft365/issues/1109)
+- [teams message reply list](../cmd/groups/teams/message/message-reply-list.md) - retrieves replies to a message from a channel in a Microsoft Teams team [#1109](https://github.com/pnp/cli-microsoft365/issues/1109)
 
 **Yammer:**
 
-- [yammer network list](../cmd/yammer/network/network-list.md) - returns a list of networks to which the current user has access [#1115](https://github.com/pnp/cli-microsoft365/issues/1115)
-- [yammer user get](../cmd/yammer/user/user-get.md) - retrieves the current user or searches for a user by ID or e-mail [#1107](https://github.com/pnp/cli-microsoft365/issues/1107)
+- [yammer network list](../cmd/groups/yammer/network/network-list.md) - returns a list of networks to which the current user has access [#1115](https://github.com/pnp/cli-microsoft365/issues/1115)
+- [yammer user get](../cmd/groups/yammer/user/user-get.md) - retrieves the current user or searches for a user by ID or e-mail [#1107](https://github.com/pnp/cli-microsoft365/issues/1107)
 
 ### Changes
 
@@ -1939,20 +1939,20 @@
 
 **SharePoint Online:**
 
-- [spo contenttypehub get](../cmd/spo/contenttypehub/contenttypehub-get.md) - returns the URL of the SharePoint Content Type Hub of the Tenant [#905](https://github.com/pnp/cli-microsoft365/issues/905)
+- [spo contenttypehub get](../cmd/groups/spo/contenttypehub/contenttypehub-get.md) - returns the URL of the SharePoint Content Type Hub of the Tenant [#905](https://github.com/pnp/cli-microsoft365/issues/905)
 
 **Microsoft Teams:**
 
-- [teams channel remove](../cmd/teams/channel/channel-remove.md) - removes the specified channel in the Microsoft Teams team [#814](https://github.com/pnp/cli-microsoft365/issues/814)
+- [teams channel remove](../cmd/groups/teams/channel/channel-remove.md) - removes the specified channel in the Microsoft Teams team [#814](https://github.com/pnp/cli-microsoft365/issues/814)
 
 **PowerApps:**
 
-- [pa pcf init](../cmd/pa/pcf/pcf-init.md) - Creates new PowerApps component framework project [#952](https://github.com/pnp/cli-microsoft365/issues/952)
-- [pa solution init](../cmd/pa/solution/solution-init.md) - initializes a directory with a new CDS solution project [#953](https://github.com/pnp/cli-microsoft365/issues/953)
+- [pa pcf init](../cmd/groups/pa/pcf/pcf-init.md) - Creates new PowerApps component framework project [#952](https://github.com/pnp/cli-microsoft365/issues/952)
+- [pa solution init](../cmd/groups/pa/solution/solution-init.md) - initializes a directory with a new CDS solution project [#953](https://github.com/pnp/cli-microsoft365/issues/953)
 
 **Global:**
 
-- [util accesstoken get](../cmd/util/accesstoken/accesstoken-get.md) - gets access token for the specified resource [#1072](https://github.com/pnp/cli-microsoft365/issues/1072)
+- [util accesstoken get](../cmd/groups/util/accesstoken/accesstoken-get.md) - gets access token for the specified resource [#1072](https://github.com/pnp/cli-microsoft365/issues/1072)
 
 ### Changes
 
@@ -1972,32 +1972,32 @@
 
 **SharePoint Online:**
 
-- [spo apppage add](../cmd/spo/apppage/apppage-add.md) - creates a single-part app page [#874](https://github.com/pnp/cli-microsoft365/issues/874)
-- [spo homesite remove](../cmd/spo/homesite/homesite-remove.md) - removes the current Home Site [#1002](https://github.com/pnp/cli-microsoft365/issues/1002)
-- [spo orgassetslibrary list](../cmd/spo/orgassetslibrary/orgassetslibrary-list.md) - lists all libraries that are assigned as org asset library [#1041](https://github.com/pnp/cli-microsoft365/issues/1041)
-- [spo get](../cmd/spo/spo-get.md) - gets the context URL for the root SharePoint site collection and SharePoint tenant admin site [#1071](https://github.com/pnp/cli-microsoft365/issues/1071)
-- [spo set](../cmd/spo/spo-set.md) - sets the URL of the root SharePoint site collection for use in SPO commands [#1070](https://github.com/pnp/cli-microsoft365/issues/1070)
+- [spo apppage add](../cmd/groups/spo/apppage/apppage-add.md) - creates a single-part app page [#874](https://github.com/pnp/cli-microsoft365/issues/874)
+- [spo homesite remove](../cmd/groups/spo/homesite/homesite-remove.md) - removes the current Home Site [#1002](https://github.com/pnp/cli-microsoft365/issues/1002)
+- [spo orgassetslibrary list](../cmd/groups/spo/orgassetslibrary/orgassetslibrary-list.md) - lists all libraries that are assigned as org asset library [#1041](https://github.com/pnp/cli-microsoft365/issues/1041)
+- [spo get](../cmd/groups/spo/spo-get.md) - gets the context URL for the root SharePoint site collection and SharePoint tenant admin site [#1071](https://github.com/pnp/cli-microsoft365/issues/1071)
+- [spo set](../cmd/groups/spo/spo-set.md) - sets the URL of the root SharePoint site collection for use in SPO commands [#1070](https://github.com/pnp/cli-microsoft365/issues/1070)
 
 **Microsoft Teams:**
 
-- [teams report deviceusagedistributionusercounts](../cmd/teams/report/report-deviceusagedistributionusercounts) - gets the number of Microsoft Teams unique users by device type [#1012](https://github.com/pnp/cli-microsoft365/issues/1012)
-- [teams report deviceusageusercounts](../cmd/teams/report/report-deviceusageusercounts.md) - gets the number of Microsoft Teams daily unique users by device type [#1011](https://github.com/pnp/cli-microsoft365/issues/1011)
-- [teams report useractivityusercounts](../cmd/teams/report/report-useractivityusercounts.md) - gets the number of Microsoft Teams users by activity type [#1027](https://github.com/pnp/cli-microsoft365/issues/1027)
-- [teams report useractivitycounts](../cmd/teams/report/report-useractivitycounts.md) - gets the number of Microsoft Teams activities by activity type [#1028](https://github.com/pnp/cli-microsoft365/issues/1028)
-- [teams report useractivityuserdetail](../cmd/teams/report/report-useractivityuserdetail.md) - gets details about Microsoft Teams user activity by user [#1029](https://github.com/pnp/cli-microsoft365/issues/1029)
+- [teams report deviceusagedistributionusercounts](../cmd/groups/teams/report/report-deviceusagedistributionusercounts) - gets the number of Microsoft Teams unique users by device type [#1012](https://github.com/pnp/cli-microsoft365/issues/1012)
+- [teams report deviceusageusercounts](../cmd/groups/teams/report/report-deviceusageusercounts.md) - gets the number of Microsoft Teams daily unique users by device type [#1011](https://github.com/pnp/cli-microsoft365/issues/1011)
+- [teams report useractivityusercounts](../cmd/groups/teams/report/report-useractivityusercounts.md) - gets the number of Microsoft Teams users by activity type [#1027](https://github.com/pnp/cli-microsoft365/issues/1027)
+- [teams report useractivitycounts](../cmd/groups/teams/report/report-useractivitycounts.md) - gets the number of Microsoft Teams activities by activity type [#1028](https://github.com/pnp/cli-microsoft365/issues/1028)
+- [teams report useractivityuserdetail](../cmd/groups/teams/report/report-useractivityuserdetail.md) - gets details about Microsoft Teams user activity by user [#1029](https://github.com/pnp/cli-microsoft365/issues/1029)
 
 **Microsoft Flow:**
 
-- [flow disable](../cmd/flow/flow-disable.md) - disables Microsoft Flow [#1055](https://github.com/pnp/cli-microsoft365/issues/1055)
-- [flow enable](../cmd/flow/flow-enable.md) - enables Microsoft Flow [#1054](https://github.com/pnp/cli-microsoft365/issues/1054)
+- [flow disable](../cmd/groups/flow/flow-disable.md) - disables Microsoft Flow [#1055](https://github.com/pnp/cli-microsoft365/issues/1055)
+- [flow enable](../cmd/groups/flow/flow-enable.md) - enables Microsoft Flow [#1054](https://github.com/pnp/cli-microsoft365/issues/1054)
 
 **Microsoft 365 groups:**
 
-- [aad o365group teamify](../cmd/aad/o365group/o365group-teamify.md) - creates a new Microsoft Teams team under existing Microsoft 365 group [#872](https://github.com/pnp/cli-microsoft365/issues/872)
+- [aad o365group teamify](../cmd/groups/aad/o365group/o365group-teamify.md) - creates a new Microsoft Teams team under existing Microsoft 365 group [#872](https://github.com/pnp/cli-microsoft365/issues/872)
 
 **Microsoft Graph:**
 
-- [graph schemaextension get](../cmd/graph/schemaextension/schemaextension-get.md) - gets the properties of the specified schema extension definition [#14](https://github.com/pnp/cli-microsoft365/issues/14)
+- [graph schemaextension get](../cmd/groups/graph/schemaextension/schemaextension-get.md) - gets the properties of the specified schema extension definition [#14](https://github.com/pnp/cli-microsoft365/issues/14)
 
 ### Changes
 
@@ -2019,20 +2019,20 @@
 
 **SharePoint Online:**
 
-- [spo homesite get](../cmd/spo/homesite/homesite-get.md) - gets information about the Home Site [#1000](https://github.com/pnp/cli-microsoft365/issues/1000)
-- [spo homesite set](../cmd/spo/homesite/homesite-set.md) - sets the specified site as the Home Site [#1001](https://github.com/pnp/cli-microsoft365/issues/1001)
-- [spo listitem isrecord](../cmd/spo/listitem/listitem-isrecord.md) - checks if the specified list item is a record [#771](https://github.com/pnp/cli-microsoft365/issues/771)
+- [spo homesite get](../cmd/groups/spo/homesite/homesite-get.md) - gets information about the Home Site [#1000](https://github.com/pnp/cli-microsoft365/issues/1000)
+- [spo homesite set](../cmd/groups/spo/homesite/homesite-set.md) - sets the specified site as the Home Site [#1001](https://github.com/pnp/cli-microsoft365/issues/1001)
+- [spo listitem isrecord](../cmd/groups/spo/listitem/listitem-isrecord.md) - checks if the specified list item is a record [#771](https://github.com/pnp/cli-microsoft365/issues/771)
 
 **Microsoft Graph:**
 
-- [graph o365group user set](../cmd/aad/o365group/o365group-user-set.md) - updates role of the specified user in the specified Microsoft 365 Group or Microsoft Teams team [#982](https://github.com/pnp/cli-microsoft365/issues/982)
-- [graph planner task list](../cmd/planner/task/task-list.md) - lists Planner tasks for the currently logged in user [#990](https://github.com/pnp/cli-microsoft365/issues/990)
-- [graph report teamsdeviceusageuserdetail](../cmd/teams/report/report-deviceusageuserdetail.md) - gets information about Microsoft Teams device usage by user [#960](https://github.com/pnp/cli-microsoft365/issues/960)
-- [graph teams funsettings set](../cmd/teams/funsettings/funsettings-set.md) - updates fun settings of a Microsoft Teams team [#817](https://github.com/pnp/cli-microsoft365/issues/817)
+- [graph o365group user set](../cmd/groups/aad/o365group/o365group-user-set.md) - updates role of the specified user in the specified Microsoft 365 Group or Microsoft Teams team [#982](https://github.com/pnp/cli-microsoft365/issues/982)
+- [graph planner task list](../cmd/groups/planner/task/task-list.md) - lists Planner tasks for the currently logged in user [#990](https://github.com/pnp/cli-microsoft365/issues/990)
+- [graph report teamsdeviceusageuserdetail](../cmd/groups/teams/report/report-deviceusageuserdetail.md) - gets information about Microsoft Teams device usage by user [#960](https://github.com/pnp/cli-microsoft365/issues/960)
+- [graph teams funsettings set](../cmd/groups/teams/funsettings/funsettings-set.md) - updates fun settings of a Microsoft Teams team [#817](https://github.com/pnp/cli-microsoft365/issues/817)
 
 **Microsoft 365:**
 
-- [tenant id get](../cmd/tenant/id/id-get.md) - gets Microsoft 365 tenant ID for the specified domain [#998](https://github.com/pnp/cli-microsoft365/issues/998)
+- [tenant id get](../cmd/groups/tenant/id/id-get.md) - gets Microsoft 365 tenant ID for the specified domain [#998](https://github.com/pnp/cli-microsoft365/issues/998)
 
 ### Changes
 
@@ -2049,13 +2049,13 @@
 
 **SharePoint Online:**
 
-- [spo orgnewssite list](../cmd/spo/orgnewssite/orgnewssite-list.md) - lists all organizational news sites [#975](https://github.com/pnp/cli-microsoft365/issues/975)
-- [spo orgnewssite remove](../cmd/spo/orgnewssite/orgnewssite-remove.md) - removes a site from the list of organizational news sites [#976](https://github.com/pnp/cli-microsoft365/issues/976)
-- [spo orgnewssite set](../cmd/spo/orgnewssite/orgnewssite-set.md) - marks site as an organizational news site [#974](https://github.com/pnp/cli-microsoft365/issues/974)
+- [spo orgnewssite list](../cmd/groups/spo/orgnewssite/orgnewssite-list.md) - lists all organizational news sites [#975](https://github.com/pnp/cli-microsoft365/issues/975)
+- [spo orgnewssite remove](../cmd/groups/spo/orgnewssite/orgnewssite-remove.md) - removes a site from the list of organizational news sites [#976](https://github.com/pnp/cli-microsoft365/issues/976)
+- [spo orgnewssite set](../cmd/groups/spo/orgnewssite/orgnewssite-set.md) - marks site as an organizational news site [#974](https://github.com/pnp/cli-microsoft365/issues/974)
 
 **Microsoft Graph:**
 
-- [graph teams set](../cmd/teams/team/team-set.md) - updates settings of a Microsoft Teams team [#815](https://github.com/pnp/cli-microsoft365/issues/815)
+- [graph teams set](../cmd/groups/teams/team/team-set.md) - updates settings of a Microsoft Teams team [#815](https://github.com/pnp/cli-microsoft365/issues/815)
 
 ## [v1.20.0](https://github.com/pnp/cli-microsoft365/releases/tag/v1.20.0)
 
@@ -2063,12 +2063,12 @@
 
 **SharePoint Online:**
 
-- [spo contenttype remove](../cmd/spo/contenttype/contenttype-remove.md) - deletes site content type [#904](https://github.com/pnp/cli-microsoft365/issues/904)
+- [spo contenttype remove](../cmd/groups/spo/contenttype/contenttype-remove.md) - deletes site content type [#904](https://github.com/pnp/cli-microsoft365/issues/904)
 
 **Microsoft Graph:**
 
-- [graph o365group user list](../cmd/aad/o365group/o365group-user-list.md) - lists users for the specified Microsoft 365 group or Microsoft Teams team [#802](https://github.com/pnp/cli-microsoft365/issues/802)
-- [graph teams clone](../cmd/teams/team/team-clone.md) - creates a clone of a Microsoft Teams team [#924](https://github.com/pnp/cli-microsoft365/issues/924)
+- [graph o365group user list](../cmd/groups/aad/o365group/o365group-user-list.md) - lists users for the specified Microsoft 365 group or Microsoft Teams team [#802](https://github.com/pnp/cli-microsoft365/issues/802)
+- [graph teams clone](../cmd/groups/teams/team/team-clone.md) - creates a clone of a Microsoft Teams team [#924](https://github.com/pnp/cli-microsoft365/issues/924)
 
 ### Changes
 
@@ -2087,12 +2087,12 @@
 
 **SharePoint Online:**
 
-- [spo site commsite enable](../cmd/spo/site/site-commsite-enable.md) - enables communication site features on the specified site [#937](https://github.com/pnp/cli-microsoft365/issues/937)
+- [spo site commsite enable](../cmd/groups/spo/site/site-commsite-enable.md) - enables communication site features on the specified site [#937](https://github.com/pnp/cli-microsoft365/issues/937)
 
 **Microsoft Graph:**
 
-- [graph o365group renew](../cmd/aad/o365group/o365group-renew.md) - renews Microsoft 365 group's expiration [#870](https://github.com/pnp/cli-microsoft365/issues/870)
-- [graph o365group user remove](../cmd/aad/o365group/o365group-user-remove.md) - removes the specified user from specified Microsoft 365 Group or Microsoft Teams team [#846](https://github.com/pnp/cli-microsoft365/issues/846)
+- [graph o365group renew](../cmd/groups/aad/o365group/o365group-renew.md) - renews Microsoft 365 group's expiration [#870](https://github.com/pnp/cli-microsoft365/issues/870)
+- [graph o365group user remove](../cmd/groups/aad/o365group/o365group-user-remove.md) - removes the specified user from specified Microsoft 365 Group or Microsoft Teams team [#846](https://github.com/pnp/cli-microsoft365/issues/846)
 
 ### Changes
 
@@ -2107,16 +2107,16 @@
 
 **SharePoint Online:**
 
-- [spo contenttype field remove](../cmd/spo/contenttype/contenttype-field-remove.md) - removes a column from a site- or list content type [#673](https://github.com/pnp/cli-microsoft365/issues/673)
-- [spo mail send](../cmd/spo/mail/mail-send.md) - sends an e-mail from SharePoint [#753](https://github.com/pnp/cli-microsoft365/issues/753)
+- [spo contenttype field remove](../cmd/groups/spo/contenttype/contenttype-field-remove.md) - removes a column from a site- or list content type [#673](https://github.com/pnp/cli-microsoft365/issues/673)
+- [spo mail send](../cmd/groups/spo/mail/mail-send.md) - sends an e-mail from SharePoint [#753](https://github.com/pnp/cli-microsoft365/issues/753)
 
 **Microsoft Graph:**
 
-- [graph teams archive](../cmd/teams/team/team-archive.md) - archives specified Microsoft Teams team [#899](https://github.com/pnp/cli-microsoft365/issues/899)
-- [graph teams channel get](../cmd/teams/channel/channel-get.md) - gets information about the specific Microsoft Teams team channel [#808](https://github.com/pnp/cli-microsoft365/issues/808)
-- [graph teams messagingsettings set](../cmd/teams/messagingsettings/messagingsettings-set.md) - updates messaging settings of a Microsoft Teams team [#820](https://github.com/pnp/cli-microsoft365/issues/820)
-- [graph teams remove](../cmd/teams/team/team-remove.md) - removes the specified Microsoft Teams team [#813](https://github.com/pnp/cli-microsoft365/issues/813)
-- [graph teams unarchive](../cmd/teams/team/team-unarchive.md) - restores an archived Microsoft Teams team [#900](https://github.com/pnp/cli-microsoft365/issues/900)
+- [graph teams archive](../cmd/groups/teams/team/team-archive.md) - archives specified Microsoft Teams team [#899](https://github.com/pnp/cli-microsoft365/issues/899)
+- [graph teams channel get](../cmd/groups/teams/channel/channel-get.md) - gets information about the specific Microsoft Teams team channel [#808](https://github.com/pnp/cli-microsoft365/issues/808)
+- [graph teams messagingsettings set](../cmd/groups/teams/messagingsettings/messagingsettings-set.md) - updates messaging settings of a Microsoft Teams team [#820](https://github.com/pnp/cli-microsoft365/issues/820)
+- [graph teams remove](../cmd/groups/teams/team/team-remove.md) - removes the specified Microsoft Teams team [#813](https://github.com/pnp/cli-microsoft365/issues/813)
+- [graph teams unarchive](../cmd/groups/teams/team/team-unarchive.md) - restores an archived Microsoft Teams team [#900](https://github.com/pnp/cli-microsoft365/issues/900)
 
 ### Changes
 
@@ -2133,17 +2133,17 @@
 
 **SharePoint Online:**
 
-- [spo listitem record declare](../cmd/spo/listitem/listitem-record-declare.md) - declares the specified list item as a record [#769](https://github.com/pnp/cli-microsoft365/issues/769)
+- [spo listitem record declare](../cmd/groups/spo/listitem/listitem-record-declare.md) - declares the specified list item as a record [#769](https://github.com/pnp/cli-microsoft365/issues/769)
 
 **Microsoft Graph:**
 
-- [graph o365group user add](../cmd/aad/o365group/o365group-user-add.md) - adds user to specified Microsoft 365 Group or Microsoft Teams team [#847](https://github.com/pnp/cli-microsoft365/issues/847)
-- [graph schemaextension add](../cmd/graph/schemaextension/schemaextension-add.md) - creates a Microsoft Graph schema extension [#13](https://github.com/pnp/cli-microsoft365/issues/13)
-- [graph teams add](../cmd/teams/team/team-add.md) - adds a new Microsoft Teams team [#615](https://github.com/pnp/cli-microsoft365/issues/615)
-- [graph teams app uninstall](../cmd/teams/app/app-uninstall.md) - uninstalls an app from a Microsoft Team team [#843](https://github.com/pnp/cli-microsoft365/issues/843)
-- [graph teams channel set](../cmd/teams/channel/channel-set.md) - updates properties of the specified channel in the given Microsoft Teams team [#816](https://github.com/pnp/cli-microsoft365/issues/816)
-- [graph teams guestsettings set](../cmd/teams/guestsettings/guestsettings-set.md) - updates guest settings of a Microsoft Teams team [#818](https://github.com/pnp/cli-microsoft365/issues/818)
-- [graph teams tab list](../cmd/teams/tab/tab-list.md) - lists tabs in the specified Microsoft Teams channel [#849](https://github.com/pnp/cli-microsoft365/issues/849)
+- [graph o365group user add](../cmd/groups/aad/o365group/o365group-user-add.md) - adds user to specified Microsoft 365 Group or Microsoft Teams team [#847](https://github.com/pnp/cli-microsoft365/issues/847)
+- [graph schemaextension add](../cmd/groups/graph/schemaextension/schemaextension-add.md) - creates a Microsoft Graph schema extension [#13](https://github.com/pnp/cli-microsoft365/issues/13)
+- [graph teams add](../cmd/groups/teams/team/team-add.md) - adds a new Microsoft Teams team [#615](https://github.com/pnp/cli-microsoft365/issues/615)
+- [graph teams app uninstall](../cmd/groups/teams/app/app-uninstall.md) - uninstalls an app from a Microsoft Team team [#843](https://github.com/pnp/cli-microsoft365/issues/843)
+- [graph teams channel set](../cmd/groups/teams/channel/channel-set.md) - updates properties of the specified channel in the given Microsoft Teams team [#816](https://github.com/pnp/cli-microsoft365/issues/816)
+- [graph teams guestsettings set](../cmd/groups/teams/guestsettings/guestsettings-set.md) - updates guest settings of a Microsoft Teams team [#818](https://github.com/pnp/cli-microsoft365/issues/818)
+- [graph teams tab list](../cmd/groups/teams/tab/tab-list.md) - lists tabs in the specified Microsoft Teams channel [#849](https://github.com/pnp/cli-microsoft365/issues/849)
 
 ### Changes
 
@@ -2158,18 +2158,18 @@
 
 **SharePoint Online:**
 
-- [spo field remove](../cmd/spo/field/field-remove.md) - removes the specified list- or site column [#738](https://github.com/pnp/cli-microsoft365/issues/738)
-- [spo listitem record undeclare](../cmd/spo/listitem/listitem-record-undeclare.md) - undeclares list item as a record [#770](https://github.com/pnp/cli-microsoft365/issues/770)
-- [spo web reindex](../cmd/spo/web/web-reindex.md) - requests reindexing the specified subsite [#822](https://github.com/pnp/cli-microsoft365/issues/822)
+- [spo field remove](../cmd/groups/spo/field/field-remove.md) - removes the specified list- or site column [#738](https://github.com/pnp/cli-microsoft365/issues/738)
+- [spo listitem record undeclare](../cmd/groups/spo/listitem/listitem-record-undeclare.md) - undeclares list item as a record [#770](https://github.com/pnp/cli-microsoft365/issues/770)
+- [spo web reindex](../cmd/groups/spo/web/web-reindex.md) - requests reindexing the specified subsite [#822](https://github.com/pnp/cli-microsoft365/issues/822)
 
 **Microsoft Graph:**
 
-- [graph teams app install](../cmd/teams/app/app-install.md) - installs an app from the catalog to a Microsoft Teams team [#842](https://github.com/pnp/cli-microsoft365/issues/842)
-- [graph teams funsettings list](../cmd/teams/funsettings/funsettings-list.md) - lists fun settings for the specified Microsoft Teams team [#809](https://github.com/pnp/cli-microsoft365/issues/809)
-- [graph teams guestsettings list](../cmd/teams/guestsettings/guestsettings-list.md) - lists guests settings for a Microsoft Teams team [#810](https://github.com/pnp/cli-microsoft365/issues/810)
-- [graph teams membersettings list](../cmd/teams/membersettings/membersettings-list.md) - lists member settings for a Microsoft Teams team [#811](https://github.com/pnp/cli-microsoft365/issues/811)
-- [graph teams membersettings set](../cmd/teams/membersettings/membersettings-set.md) - updates member settings of a Microsoft Teams team [#819](https://github.com/pnp/cli-microsoft365/issues/819)
-- [graph teams messagingsettings list](../cmd/teams/messagingsettings/messagingsettings-list.md) - lists messaging settings for a Microsoft Teams team [#812](https://github.com/pnp/cli-microsoft365/issues/812)
+- [graph teams app install](../cmd/groups/teams/app/app-install.md) - installs an app from the catalog to a Microsoft Teams team [#842](https://github.com/pnp/cli-microsoft365/issues/842)
+- [graph teams funsettings list](../cmd/groups/teams/funsettings/funsettings-list.md) - lists fun settings for the specified Microsoft Teams team [#809](https://github.com/pnp/cli-microsoft365/issues/809)
+- [graph teams guestsettings list](../cmd/groups/teams/guestsettings/guestsettings-list.md) - lists guests settings for a Microsoft Teams team [#810](https://github.com/pnp/cli-microsoft365/issues/810)
+- [graph teams membersettings list](../cmd/groups/teams/membersettings/membersettings-list.md) - lists member settings for a Microsoft Teams team [#811](https://github.com/pnp/cli-microsoft365/issues/811)
+- [graph teams membersettings set](../cmd/groups/teams/membersettings/membersettings-set.md) - updates member settings of a Microsoft Teams team [#819](https://github.com/pnp/cli-microsoft365/issues/819)
+- [graph teams messagingsettings list](../cmd/groups/teams/messagingsettings/messagingsettings-list.md) - lists messaging settings for a Microsoft Teams team [#812](https://github.com/pnp/cli-microsoft365/issues/812)
 
 ### Changes
 
@@ -2183,25 +2183,25 @@
 
 **SharePoint Online:**
 
-- [spo list label get](../cmd/spo/list/list-retentionlabel-get.md) - gets label set on the specified list [#773](https://github.com/pnp/cli-microsoft365/issues/773)
-- [spo list label set](../cmd/spo/list/list-retentionlabel-ensure.md) - sets classification label on the specified list [#772](https://github.com/pnp/cli-microsoft365/issues/772)
-- [spo list view field add](../cmd/spo/list/list-view-field-add.md) - adds the specified field to list view [#735](https://github.com/pnp/cli-microsoft365/issues/735)
-- [spo list view field remove](../cmd/spo/list/list-view-field-remove.md) - removes the specified field from list view [#736](https://github.com/pnp/cli-microsoft365/issues/736)
-- [spo site inplacerecordsmanagement set](../cmd/spo/site/site-inplacerecordsmanagement-set.md) - activates or deactivates in-place records management for a site collection [#774](https://github.com/pnp/cli-microsoft365/issues/774)
-- [spo sitedesign run list](../cmd/spo/sitedesign/sitedesign-run-list.md) - lists information about site designs applied to the specified site [#779](https://github.com/pnp/cli-microsoft365/issues/779)
-- [spo sitedesign run status get](../cmd/spo/sitedesign/sitedesign-run-status-get.md) - gets information about the site scripts executed for the specified site design [#780](https://github.com/pnp/cli-microsoft365/issues/780)
-- [spo sitedesign task get](../cmd/spo/sitedesign/sitedesign-task-get.md) - gets information about the specified site design scheduled for execution [#782](https://github.com/pnp/cli-microsoft365/issues/782)
-- [spo sitedesign task list](../cmd/spo/sitedesign/sitedesign-task-list.md) - lists site designs scheduled for execution on the specified site [#781](https://github.com/pnp/cli-microsoft365/issues/781)
+- [spo list label get](../cmd/groups/spo/list/list-retentionlabel-get.md) - gets label set on the specified list [#773](https://github.com/pnp/cli-microsoft365/issues/773)
+- [spo list label set](../cmd/groups/spo/list/list-retentionlabel-ensure.md) - sets classification label on the specified list [#772](https://github.com/pnp/cli-microsoft365/issues/772)
+- [spo list view field add](../cmd/groups/spo/list/list-view-field-add.md) - adds the specified field to list view [#735](https://github.com/pnp/cli-microsoft365/issues/735)
+- [spo list view field remove](../cmd/groups/spo/list/list-view-field-remove.md) - removes the specified field from list view [#736](https://github.com/pnp/cli-microsoft365/issues/736)
+- [spo site inplacerecordsmanagement set](../cmd/groups/spo/site/site-inplacerecordsmanagement-set.md) - activates or deactivates in-place records management for a site collection [#774](https://github.com/pnp/cli-microsoft365/issues/774)
+- [spo sitedesign run list](../cmd/groups/spo/sitedesign/sitedesign-run-list.md) - lists information about site designs applied to the specified site [#779](https://github.com/pnp/cli-microsoft365/issues/779)
+- [spo sitedesign run status get](../cmd/groups/spo/sitedesign/sitedesign-run-status-get.md) - gets information about the site scripts executed for the specified site design [#780](https://github.com/pnp/cli-microsoft365/issues/780)
+- [spo sitedesign task get](../cmd/groups/spo/sitedesign/sitedesign-task-get.md) - gets information about the specified site design scheduled for execution [#782](https://github.com/pnp/cli-microsoft365/issues/782)
+- [spo sitedesign task list](../cmd/groups/spo/sitedesign/sitedesign-task-list.md) - lists site designs scheduled for execution on the specified site [#781](https://github.com/pnp/cli-microsoft365/issues/781)
 
 **Microsoft Graph:**
 
-- [graph teams app list](../cmd/teams/app/app-list.md) - lists apps from the Microsoft Teams app catalog [#826](https://github.com/pnp/cli-microsoft365/issues/826)
-- [graph teams app publish](../cmd/teams/app/app-publish.md) - publishes Teams app to the organization's app catalog [#824](https://github.com/pnp/cli-microsoft365/issues/824)
-- [graph teams app remove](../cmd/teams/app/app-remove.md) - removes a Teams app from the organization's app catalog [#825](https://github.com/pnp/cli-microsoft365/issues/825)
-- [graph teams app update](../cmd/teams/app/app-update.md) - updates Teams app in the organization's app catalog [#827](https://github.com/pnp/cli-microsoft365/issues/827)
-- [graph teams channel list](../cmd/teams/channel/channel-list.md) - lists channels in the specified Microsoft Teams team [#586](https://github.com/pnp/cli-microsoft365/issues/586)
-- [graph teams user remove](../cmd/aad/o365group/o365group-user-remove.md) - removes the specified user from the specified Microsoft Teams team [#757](https://github.com/pnp/cli-microsoft365/issues/757)
-- [graph teams user set](../cmd/aad/o365group/o365group-user-set.md) - updates role of the specified user in the given Microsoft Teams team [#760](https://github.com/pnp/cli-microsoft365/issues/760)
+- [graph teams app list](../cmd/groups/teams/app/app-list.md) - lists apps from the Microsoft Teams app catalog [#826](https://github.com/pnp/cli-microsoft365/issues/826)
+- [graph teams app publish](../cmd/groups/teams/app/app-publish.md) - publishes Teams app to the organization's app catalog [#824](https://github.com/pnp/cli-microsoft365/issues/824)
+- [graph teams app remove](../cmd/groups/teams/app/app-remove.md) - removes a Teams app from the organization's app catalog [#825](https://github.com/pnp/cli-microsoft365/issues/825)
+- [graph teams app update](../cmd/groups/teams/app/app-update.md) - updates Teams app in the organization's app catalog [#827](https://github.com/pnp/cli-microsoft365/issues/827)
+- [graph teams channel list](../cmd/groups/teams/channel/channel-list.md) - lists channels in the specified Microsoft Teams team [#586](https://github.com/pnp/cli-microsoft365/issues/586)
+- [graph teams user remove](../cmd/groups/aad/o365group/o365group-user-remove.md) - removes the specified user from the specified Microsoft Teams team [#757](https://github.com/pnp/cli-microsoft365/issues/757)
+- [graph teams user set](../cmd/groups/aad/o365group/o365group-user-set.md) - updates role of the specified user in the given Microsoft Teams team [#760](https://github.com/pnp/cli-microsoft365/issues/760)
 
 ### Changes
 
@@ -2218,18 +2218,18 @@
 
 **SharePoint Online:**
 
-- [spo feature list](../cmd/spo/feature/feature-list.md) - lists Features activated in the specified site or site collection [#677](https://github.com/pnp/cli-microsoft365/issues/677)
-- [spo file move](../cmd/spo/file/file-move.md) - moves a file to another location [#671](https://github.com/pnp/cli-microsoft365/issues/671)
-- [spo list view list](../cmd/spo/list/list-view-list.md) - lists views configured on the specified list [#732](https://github.com/pnp/cli-microsoft365/issues/732)
-- [spo list sitescript get](../cmd/spo/list/list-sitescript-get.md) - extracts a site script from a SharePoint list [#713](https://github.com/pnp/cli-microsoft365/issues/713)
-- [spo list view get](../cmd/spo/list/list-view-get.md) - gets information about specific list view [#730](https://github.com/pnp/cli-microsoft365/issues/730)
-- [spo list view remove](../cmd/spo/list/list-view-remove.md) - deletes the specified view from the list [#731](https://github.com/pnp/cli-microsoft365/issues/731)
+- [spo feature list](../cmd/groups/spo/feature/feature-list.md) - lists Features activated in the specified site or site collection [#677](https://github.com/pnp/cli-microsoft365/issues/677)
+- [spo file move](../cmd/groups/spo/file/file-move.md) - moves a file to another location [#671](https://github.com/pnp/cli-microsoft365/issues/671)
+- [spo list view list](../cmd/groups/spo/list/list-view-list.md) - lists views configured on the specified list [#732](https://github.com/pnp/cli-microsoft365/issues/732)
+- [spo list sitescript get](../cmd/groups/spo/list/list-sitescript-get.md) - extracts a site script from a SharePoint list [#713](https://github.com/pnp/cli-microsoft365/issues/713)
+- [spo list view get](../cmd/groups/spo/list/list-view-get.md) - gets information about specific list view [#730](https://github.com/pnp/cli-microsoft365/issues/730)
+- [spo list view remove](../cmd/groups/spo/list/list-view-remove.md) - deletes the specified view from the list [#731](https://github.com/pnp/cli-microsoft365/issues/731)
 
 **Microsoft Graph:**
 
-- [graph teams message list](../cmd/teams/message/message-list.md) - lists all messages from a channel in a Microsoft Teams team [#588](https://github.com/pnp/cli-microsoft365/issues/588)
-- [graph teams user add](../cmd/aad/o365group/o365group-user-add.md) - adds user to the specified Microsoft Teams team [#690](https://github.com/pnp/cli-microsoft365/issues/690)
-- [graph teams user list](../cmd/aad/o365group/o365group-user-list.md) - lists users for the specified Microsoft Teams team [#689](https://github.com/pnp/cli-microsoft365/issues/689)
+- [graph teams message list](../cmd/groups/teams/message/message-list.md) - lists all messages from a channel in a Microsoft Teams team [#588](https://github.com/pnp/cli-microsoft365/issues/588)
+- [graph teams user add](../cmd/groups/aad/o365group/o365group-user-add.md) - adds user to the specified Microsoft Teams team [#690](https://github.com/pnp/cli-microsoft365/issues/690)
+- [graph teams user list](../cmd/groups/aad/o365group/o365group-user-list.md) - lists users for the specified Microsoft Teams team [#689](https://github.com/pnp/cli-microsoft365/issues/689)
 
 ### Changes
 
@@ -2249,8 +2249,8 @@
 
 **SharePoint Online:**
 
-- [spo folder move](../cmd/spo/folder/folder-move.md) - moves a folder to another location [#672](https://github.com/pnp/cli-microsoft365/issues/672)
-- [spo page text add](../cmd/spo/page/page-text-add.md) - adds text to a modern page [#365](https://github.com/pnp/cli-microsoft365/issues/365)
+- [spo folder move](../cmd/groups/spo/folder/folder-move.md) - moves a folder to another location [#672](https://github.com/pnp/cli-microsoft365/issues/672)
+- [spo page text add](../cmd/groups/spo/page/page-text-add.md) - adds text to a modern page [#365](https://github.com/pnp/cli-microsoft365/issues/365)
 
 ### Changes
 
@@ -2263,8 +2263,8 @@
 
 **SharePoint Online:**
 
-- [spo list webhook add](../cmd/spo/list/list-webhook-add.md) - adds a new webhook to the specified list [#652](https://github.com/pnp/cli-microsoft365/issues/652)
-- [spo page header set](../cmd/spo/page/page-header-set.md) - sets modern page header [#697](https://github.com/pnp/cli-microsoft365/issues/697)
+- [spo list webhook add](../cmd/groups/spo/list/list-webhook-add.md) - adds a new webhook to the specified list [#652](https://github.com/pnp/cli-microsoft365/issues/652)
+- [spo page header set](../cmd/groups/spo/page/page-header-set.md) - sets modern page header [#697](https://github.com/pnp/cli-microsoft365/issues/697)
 
 ### Changes
 
@@ -2281,21 +2281,21 @@
 
 **SharePoint Online:**
 
-- [spo field set](../cmd/spo/field/field-set.md) - updates existing list or site column [#661](https://github.com/pnp/cli-microsoft365/issues/661)
-- [spo file add](../cmd/spo/file/file-add.md) - uploads file to the specified folder [#283](https://github.com/pnp/cli-microsoft365/issues/283)
-- [spo list contenttype add](../cmd/spo/list/list-contenttype-add.md) - adds content type to list [#594](https://github.com/pnp/cli-microsoft365/issues/594)
-- [spo list contenttype list](../cmd/spo/list/list-contenttype-list.md) - lists content types configured on the list [#595](https://github.com/pnp/cli-microsoft365/issues/595)
-- [spo list contenttype remove](../cmd/spo/list/list-contenttype-remove.md) - removes content type from list [#668](https://github.com/pnp/cli-microsoft365/issues/668)
-- [spo list view set](../cmd/spo/list/list-view-set.md) - updates existing list view [#662](https://github.com/pnp/cli-microsoft365/issues/662)
-- [spo list webhook remove](../cmd/spo/list/list-webhook-remove.md) - removes the specified webhook from the list [#650](https://github.com/pnp/cli-microsoft365/issues/650)
-- [spo list webhook set](../cmd/spo/list/list-webhook-set.md) - updates the specified webhook [#651](https://github.com/pnp/cli-microsoft365/issues/651)
-- [spo search](../cmd/spo/spo-search.md) - executes a search query [#316](https://github.com/pnp/cli-microsoft365/issues/316)
-- [spo serviceprincipal grant add](../cmd/spo/serviceprincipal/serviceprincipal-grant-add.md) - grants the service principal permission to the specified API [#590](https://github.com/pnp/cli-microsoft365/issues/590)
+- [spo field set](../cmd/groups/spo/field/field-set.md) - updates existing list or site column [#661](https://github.com/pnp/cli-microsoft365/issues/661)
+- [spo file add](../cmd/groups/spo/file/file-add.md) - uploads file to the specified folder [#283](https://github.com/pnp/cli-microsoft365/issues/283)
+- [spo list contenttype add](../cmd/groups/spo/list/list-contenttype-add.md) - adds content type to list [#594](https://github.com/pnp/cli-microsoft365/issues/594)
+- [spo list contenttype list](../cmd/groups/spo/list/list-contenttype-list.md) - lists content types configured on the list [#595](https://github.com/pnp/cli-microsoft365/issues/595)
+- [spo list contenttype remove](../cmd/groups/spo/list/list-contenttype-remove.md) - removes content type from list [#668](https://github.com/pnp/cli-microsoft365/issues/668)
+- [spo list view set](../cmd/groups/spo/list/list-view-set.md) - updates existing list view [#662](https://github.com/pnp/cli-microsoft365/issues/662)
+- [spo list webhook remove](../cmd/groups/spo/list/list-webhook-remove.md) - removes the specified webhook from the list [#650](https://github.com/pnp/cli-microsoft365/issues/650)
+- [spo list webhook set](../cmd/groups/spo/list/list-webhook-set.md) - updates the specified webhook [#651](https://github.com/pnp/cli-microsoft365/issues/651)
+- [spo search](../cmd/groups/spo/spo-search.md) - executes a search query [#316](https://github.com/pnp/cli-microsoft365/issues/316)
+- [spo serviceprincipal grant add](../cmd/groups/spo/serviceprincipal/serviceprincipal-grant-add.md) - grants the service principal permission to the specified API [#590](https://github.com/pnp/cli-microsoft365/issues/590)
 
 **Microsoft Graph:**
 
-- [graph siteclassification set](../cmd/aad/siteclassification/siteclassification-set.md) - updates site classification configuration [#304](https://github.com/pnp/cli-microsoft365/issues/304)
-- [graph teams channel message get](../cmd/teams/message/message-get.md) - retrieves a message from a channel in a Microsoft Teams team [#589](https://github.com/pnp/cli-microsoft365/issues/589)
+- [graph siteclassification set](../cmd/groups/aad/siteclassification/siteclassification-set.md) - updates site classification configuration [#304](https://github.com/pnp/cli-microsoft365/issues/304)
+- [graph teams channel message get](../cmd/groups/teams/message/message-get.md) - retrieves a message from a channel in a Microsoft Teams team [#589](https://github.com/pnp/cli-microsoft365/issues/589)
 
 ### Changes
 
@@ -2313,21 +2313,21 @@
 
 **SharePoint Online:**
 
-- [spo list webhook get](../cmd/spo/list/list-webhook-get.md) - gets information about the specific webhook [#590](https://github.com/pnp/cli-microsoft365/issues/590)
-- [spo tenant settings set](../cmd/spo/tenant/tenant-settings-set.md) - sets tenant global settings [#549](https://github.com/pnp/cli-microsoft365/issues/549)
-- [spo term add](../cmd/spo/term/term-add.md) - adds taxonomy term [#605](https://github.com/pnp/cli-microsoft365/issues/605)
-- [spo term get](../cmd/spo/term/term-get.md) - gets information about the specified taxonomy term [#604](https://github.com/pnp/cli-microsoft365/issues/604)
-- [spo term list](../cmd/spo/term/term-list.md) - lists taxonomy terms from the given term set [#603](https://github.com/pnp/cli-microsoft365/issues/603)
-- [spo term group add](../cmd/spo/term/term-group-add.md) - adds taxonomy term group [#598](https://github.com/pnp/cli-microsoft365/issues/598)
-- [spo term set add](../cmd/spo/term/term-set-add.md) - adds taxonomy term set [#602](https://github.com/pnp/cli-microsoft365/issues/602)
-- [spo term set get](../cmd/spo/term/term-set-get.md) - gets information about the specified taxonomy term set [#601](https://github.com/pnp/cli-microsoft365/issues/601)
-- [spo term set list](../cmd/spo/term/term-set-list.md) - lists taxonomy term sets from the given term group [#600](https://github.com/pnp/cli-microsoft365/issues/600)
+- [spo list webhook get](../cmd/groups/spo/list/list-webhook-get.md) - gets information about the specific webhook [#590](https://github.com/pnp/cli-microsoft365/issues/590)
+- [spo tenant settings set](../cmd/groups/spo/tenant/tenant-settings-set.md) - sets tenant global settings [#549](https://github.com/pnp/cli-microsoft365/issues/549)
+- [spo term add](../cmd/groups/spo/term/term-add.md) - adds taxonomy term [#605](https://github.com/pnp/cli-microsoft365/issues/605)
+- [spo term get](../cmd/groups/spo/term/term-get.md) - gets information about the specified taxonomy term [#604](https://github.com/pnp/cli-microsoft365/issues/604)
+- [spo term list](../cmd/groups/spo/term/term-list.md) - lists taxonomy terms from the given term set [#603](https://github.com/pnp/cli-microsoft365/issues/603)
+- [spo term group add](../cmd/groups/spo/term/term-group-add.md) - adds taxonomy term group [#598](https://github.com/pnp/cli-microsoft365/issues/598)
+- [spo term set add](../cmd/groups/spo/term/term-set-add.md) - adds taxonomy term set [#602](https://github.com/pnp/cli-microsoft365/issues/602)
+- [spo term set get](../cmd/groups/spo/term/term-set-get.md) - gets information about the specified taxonomy term set [#601](https://github.com/pnp/cli-microsoft365/issues/601)
+- [spo term set list](../cmd/groups/spo/term/term-set-list.md) - lists taxonomy term sets from the given term group [#600](https://github.com/pnp/cli-microsoft365/issues/600)
 
 **Microsoft Graph:**
 
-- [graph siteclassification disable](../cmd/aad/siteclassification/siteclassification-disable.md) - disables site classification [#302](https://github.com/pnp/cli-microsoft365/issues/302)
-- [graph siteclassification enable](../cmd/aad/siteclassification/siteclassification-enable.md) - enables site classification [#301](https://github.com/pnp/cli-microsoft365/issues/301)
-- [graph teams channel add](../cmd/teams/channel/channel-add.md) - adds a channel to the specified Microsoft Teams team [#587](https://github.com/pnp/cli-microsoft365/issues/587)
+- [graph siteclassification disable](../cmd/groups/aad/siteclassification/siteclassification-disable.md) - disables site classification [#302](https://github.com/pnp/cli-microsoft365/issues/302)
+- [graph siteclassification enable](../cmd/groups/aad/siteclassification/siteclassification-enable.md) - enables site classification [#301](https://github.com/pnp/cli-microsoft365/issues/301)
+- [graph teams channel add](../cmd/groups/teams/channel/channel-add.md) - adds a channel to the specified Microsoft Teams team [#587](https://github.com/pnp/cli-microsoft365/issues/587)
 
 ### Changes
 
@@ -2344,26 +2344,26 @@
 
 **SharePoint Online:**
 
-- [spo list webhook list](../cmd/spo/list/list-webhook-list.md) - lists all webhooks for the specified list [#579](https://github.com/pnp/cli-microsoft365/issues/579)
-- [spo listitem list](../cmd/spo/listitem/listitem-list.md) - gets a list of items from the specified list [#268](https://github.com/pnp/cli-microsoft365/issues/268)
-- [spo page column get](../cmd/spo/page/page-column-get.md) - get information about a specific column of a modern page [#412](https://github.com/pnp/cli-microsoft365/issues/412)
-- [spo page remove](../cmd/spo/page/page-remove.md) - removes a modern page [#363](https://github.com/pnp/cli-microsoft365/issues/363)
-- [spo page section add](../cmd/spo/page/page-section-add.md) - adds section to modern page [#364](https://github.com/pnp/cli-microsoft365/issues/364)
-- [spo site classic remove](../cmd/spo/site/site-remove.md) - removes the specified site [#125](https://github.com/pnp/cli-microsoft365/issues/125)
-- [spo tenant settings list](../cmd/spo/tenant/tenant-settings-list.md) - lists the global tenant settings [#548](https://github.com/pnp/cli-microsoft365/issues/548)
-- [spo term group get](../cmd/spo/term/term-group-get.md) - gets information about the specified taxonomy term group [#597](https://github.com/pnp/cli-microsoft365/issues/597)
-- [spo term group list](../cmd/spo/term/term-group-list.md) - lists taxonomy term groups [#596](https://github.com/pnp/cli-microsoft365/issues/596)
+- [spo list webhook list](../cmd/groups/spo/list/list-webhook-list.md) - lists all webhooks for the specified list [#579](https://github.com/pnp/cli-microsoft365/issues/579)
+- [spo listitem list](../cmd/groups/spo/listitem/listitem-list.md) - gets a list of items from the specified list [#268](https://github.com/pnp/cli-microsoft365/issues/268)
+- [spo page column get](../cmd/groups/spo/page/page-column-get.md) - get information about a specific column of a modern page [#412](https://github.com/pnp/cli-microsoft365/issues/412)
+- [spo page remove](../cmd/groups/spo/page/page-remove.md) - removes a modern page [#363](https://github.com/pnp/cli-microsoft365/issues/363)
+- [spo page section add](../cmd/groups/spo/page/page-section-add.md) - adds section to modern page [#364](https://github.com/pnp/cli-microsoft365/issues/364)
+- [spo site classic remove](../cmd/groups/spo/site/site-remove.md) - removes the specified site [#125](https://github.com/pnp/cli-microsoft365/issues/125)
+- [spo tenant settings list](../cmd/groups/spo/tenant/tenant-settings-list.md) - lists the global tenant settings [#548](https://github.com/pnp/cli-microsoft365/issues/548)
+- [spo term group get](../cmd/groups/spo/term/term-group-get.md) - gets information about the specified taxonomy term group [#597](https://github.com/pnp/cli-microsoft365/issues/597)
+- [spo term group list](../cmd/groups/spo/term/term-group-list.md) - lists taxonomy term groups [#596](https://github.com/pnp/cli-microsoft365/issues/596)
 
 **Microsoft Graph:**
 
-- [graph groupsetting remove](../cmd/aad/groupsetting/groupsetting-remove.md) - removes the particular group setting [#452](https://github.com/pnp/cli-microsoft365/pull/452)
-- [graph groupsetting set](../cmd/aad/groupsetting/groupsetting-set.md) - removes the particular group setting [#451](https://github.com/pnp/cli-microsoft365/pull/451)
+- [graph groupsetting remove](../cmd/groups/aad/groupsetting/groupsetting-remove.md) - removes the particular group setting [#452](https://github.com/pnp/cli-microsoft365/pull/452)
+- [graph groupsetting set](../cmd/groups/aad/groupsetting/groupsetting-set.md) - removes the particular group setting [#451](https://github.com/pnp/cli-microsoft365/pull/451)
 
 **Azure Management Service:**
 
-- [azmgmt flow export](../cmd/flow/flow-export.md) - exports the specified Microsoft Flow as a file [#383](https://github.com/pnp/cli-microsoft365/issues/383)
-- [azmgmt flow run get](../cmd/flow/run/run-get.md) - gets information about a specific run of the specified Microsoft Flow [#400](https://github.com/pnp/cli-microsoft365/issues/400)
-- [azmgmt flow run list](../cmd/flow/run/run-list.md) - lists runs of the specified Microsoft Flow [#399](https://github.com/pnp/cli-microsoft365/issues/399)
+- [azmgmt flow export](../cmd/groups/flow/flow-export.md) - exports the specified Microsoft Flow as a file [#383](https://github.com/pnp/cli-microsoft365/issues/383)
+- [azmgmt flow run get](../cmd/groups/flow/run/run-get.md) - gets information about a specific run of the specified Microsoft Flow [#400](https://github.com/pnp/cli-microsoft365/issues/400)
+- [azmgmt flow run list](../cmd/groups/flow/run/run-list.md) - lists runs of the specified Microsoft Flow [#399](https://github.com/pnp/cli-microsoft365/issues/399)
 
 ### Changes
 
@@ -2383,13 +2383,13 @@
 
 **SharePoint Online:**
 
-- [spo contenttype field set](../cmd/spo/contenttype/contenttype-field-set.md) - adds or updates a site column reference in a site content type [#520](https://github.com/pnp/cli-microsoft365/issues/520)
-- [spo page section get](../cmd/spo/page/page-section-get.md) - gets information about the specified modern page section [#410](https://github.com/pnp/cli-microsoft365/issues/410)
-- [spo page section list](../cmd/spo/page/page-section-list.md) - lists sections in the specific modern page [#409](https://github.com/pnp/cli-microsoft365/issues/409)
+- [spo contenttype field set](../cmd/groups/spo/contenttype/contenttype-field-set.md) - adds or updates a site column reference in a site content type [#520](https://github.com/pnp/cli-microsoft365/issues/520)
+- [spo page section get](../cmd/groups/spo/page/page-section-get.md) - gets information about the specified modern page section [#410](https://github.com/pnp/cli-microsoft365/issues/410)
+- [spo page section list](../cmd/groups/spo/page/page-section-list.md) - lists sections in the specific modern page [#409](https://github.com/pnp/cli-microsoft365/issues/409)
 
 **Microsoft Graph:**
 
-- [graph teams list](../cmd/teams/team/team-list.md) - lists Microsoft Teams in the current tenant [#558](https://github.com/pnp/cli-microsoft365/pull/558)
+- [graph teams list](../cmd/groups/teams/team/team-list.md) - lists Microsoft Teams in the current tenant [#558](https://github.com/pnp/cli-microsoft365/pull/558)
 
 ### Changes
 
@@ -2407,16 +2407,16 @@
 
 **SharePoint Online:**
 
-- [spo contenttype add](../cmd/spo/contenttype/contenttype-add.md) - adds a new list or site content type [#519](https://github.com/pnp/cli-microsoft365/issues/519)
-- [spo contenttype get](../cmd/spo/contenttype/contenttype-get.md) - retrieves information about the specified list or site content type [#532](https://github.com/pnp/cli-microsoft365/issues/532)
-- [spo field add](../cmd/spo/field/field-add.md) - adds a new list or site column using the CAML field definition [#518](https://github.com/pnp/cli-microsoft365/issues/518)
-- [spo field get](../cmd/spo/field/field-get.md) - retrieves information about the specified list or site column [#528](https://github.com/pnp/cli-microsoft365/issues/528)
-- [spo navigation node add](../cmd/spo/navigation/navigation-node-add.md) - adds a navigation node to the specified site navigation [#521](https://github.com/pnp/cli-microsoft365/issues/521)
-- [spo navigation node list](../cmd/spo/navigation/navigation-node-list.md) - lists nodes from the specified site navigation [#522](https://github.com/pnp/cli-microsoft365/issues/522)
-- [spo navigation node remove](../cmd/spo/navigation/navigation-node-remove.md) - removes the specified navigation node [#523](https://github.com/pnp/cli-microsoft365/issues/523)
-- [spo page clientsidewebpart add](../cmd/spo/page/page-clientsidewebpart-add.md) - adds a client-side web part to a modern page [#366](https://github.com/pnp/cli-microsoft365/issues/366)
-- [spo page column list](../cmd/spo/page/page-column-list.md) - lists columns in the specific section of a modern page [#411](https://github.com/pnp/cli-microsoft365/issues/411)
-- [spo web set](../cmd/spo/web/web-set.md) - updates subsite properties [#191](https://github.com/pnp/cli-microsoft365/issues/191)
+- [spo contenttype add](../cmd/groups/spo/contenttype/contenttype-add.md) - adds a new list or site content type [#519](https://github.com/pnp/cli-microsoft365/issues/519)
+- [spo contenttype get](../cmd/groups/spo/contenttype/contenttype-get.md) - retrieves information about the specified list or site content type [#532](https://github.com/pnp/cli-microsoft365/issues/532)
+- [spo field add](../cmd/groups/spo/field/field-add.md) - adds a new list or site column using the CAML field definition [#518](https://github.com/pnp/cli-microsoft365/issues/518)
+- [spo field get](../cmd/groups/spo/field/field-get.md) - retrieves information about the specified list or site column [#528](https://github.com/pnp/cli-microsoft365/issues/528)
+- [spo navigation node add](../cmd/groups/spo/navigation/navigation-node-add.md) - adds a navigation node to the specified site navigation [#521](https://github.com/pnp/cli-microsoft365/issues/521)
+- [spo navigation node list](../cmd/groups/spo/navigation/navigation-node-list.md) - lists nodes from the specified site navigation [#522](https://github.com/pnp/cli-microsoft365/issues/522)
+- [spo navigation node remove](../cmd/groups/spo/navigation/navigation-node-remove.md) - removes the specified navigation node [#523](https://github.com/pnp/cli-microsoft365/issues/523)
+- [spo page clientsidewebpart add](../cmd/groups/spo/page/page-clientsidewebpart-add.md) - adds a client-side web part to a modern page [#366](https://github.com/pnp/cli-microsoft365/issues/366)
+- [spo page column list](../cmd/groups/spo/page/page-column-list.md) - lists columns in the specific section of a modern page [#411](https://github.com/pnp/cli-microsoft365/issues/411)
+- [spo web set](../cmd/groups/spo/web/web-set.md) - updates subsite properties [#191](https://github.com/pnp/cli-microsoft365/issues/191)
 
 ### Changes
 
@@ -2429,15 +2429,15 @@
 
 **SharePoint Online:**
 
-- [spo file checkin](../cmd/spo/file/file-checkin.md) - checks in specified file [#284](https://github.com/pnp/cli-microsoft365/issues/284)
-- [spo file checkout](../cmd/spo/file/file-checkout.md) - checks out specified file [#285](https://github.com/pnp/cli-microsoft365/issues/285)
-- [spo folder rename](../cmd/spo/folder/folder-rename.md) - renames a folder [#429](https://github.com/pnp/cli-microsoft365/issues/429)
-- [spo listitem get](../cmd/spo/listitem/listitem-get.md) - gets a list item from the specified list [#269](https://github.com/pnp/cli-microsoft365/issues/269)
-- [spo listitem set](../cmd/spo/listitem/listitem-set.md) - updates a list item in the specified list [#271](https://github.com/pnp/cli-microsoft365/issues/271)
+- [spo file checkin](../cmd/groups/spo/file/file-checkin.md) - checks in specified file [#284](https://github.com/pnp/cli-microsoft365/issues/284)
+- [spo file checkout](../cmd/groups/spo/file/file-checkout.md) - checks out specified file [#285](https://github.com/pnp/cli-microsoft365/issues/285)
+- [spo folder rename](../cmd/groups/spo/folder/folder-rename.md) - renames a folder [#429](https://github.com/pnp/cli-microsoft365/issues/429)
+- [spo listitem get](../cmd/groups/spo/listitem/listitem-get.md) - gets a list item from the specified list [#269](https://github.com/pnp/cli-microsoft365/issues/269)
+- [spo listitem set](../cmd/groups/spo/listitem/listitem-set.md) - updates a list item in the specified list [#271](https://github.com/pnp/cli-microsoft365/issues/271)
 
 **SharePoint Framework:**
 
-- [spfx project upgrade](../cmd/spfx/project/project-upgrade.md) - upgrades SharePoint Framework project to the specified version [#471](https://github.com/pnp/cli-microsoft365/issues/471)
+- [spfx project upgrade](../cmd/groups/spfx/project/project-upgrade.md) - upgrades SharePoint Framework project to the specified version [#471](https://github.com/pnp/cli-microsoft365/issues/471)
 
 ### Changes
 
@@ -2449,7 +2449,7 @@
 - added support for upgrading projects built using SharePoint Framework v1.3.1 [#482](https://github.com/pnp/cli-microsoft365/issues/482)
 - added support for upgrading projects built using SharePoint Framework v1.3.0 [#483](https://github.com/pnp/cli-microsoft365/issues/483)
 - added support for upgrading projects built using SharePoint Framework v1.2.0 [#484](https://github.com/pnp/cli-microsoft365/issues/484)
-- clarified usage of the [spo file get](../cmd/spo/file/file-get.md) command [#497](https://github.com/pnp/cli-microsoft365/pull/497)
+- clarified usage of the [spo file get](../cmd/groups/spo/file/file-get.md) command [#497](https://github.com/pnp/cli-microsoft365/pull/497)
 - added support for upgrading projects built using SharePoint Framework v1.5.0 [#505](https://github.com/pnp/cli-microsoft365/issues/505)
 
 ## [v1.3.0](https://github.com/pnp/cli-microsoft365/releases/tag/v1.3.0)
@@ -2458,25 +2458,25 @@
 
 **SharePoint Online:**
 
-- [spo file copy](../cmd/spo/file/file-copy.md) - copies a file to another location [#286](https://github.com/pnp/cli-microsoft365/issues/286)
-- [spo folder add](../cmd/spo/folder/folder-add.md) - creates a folder within a parent folder [#425](https://github.com/pnp/cli-microsoft365/issues/425)
-- [spo folder copy](../cmd/spo/folder/folder-copy.md) - copies a folder to another location [#424](https://github.com/pnp/cli-microsoft365/issues/424)
-- [spo folder get](../cmd/spo/folder/folder-get.md) - gets information about the specified folder [#427](https://github.com/pnp/cli-microsoft365/issues/427)
-- [spo folder list](../cmd/spo/folder/folder-list.md) - returns all folders under the specified parent folder [#428](https://github.com/pnp/cli-microsoft365/issues/428)
-- [spo folder remove](../cmd/spo/folder/folder-remove.md) - deletes the specified folder [#426](https://github.com/pnp/cli-microsoft365/issues/426)
-- [spo hidedefaultthemes get](../cmd/spo/hidedefaultthemes/hidedefaultthemes-get.md) - gets the current value of the HideDefaultThemes setting [#341](https://github.com/pnp/cli-microsoft365/issues/341)
-- [spo hidedefaultthemes set](../cmd/spo/hidedefaultthemes/hidedefaultthemes-set.md) - sets the value of the HideDefaultThemes setting [#342](https://github.com/pnp/cli-microsoft365/issues/342)
-- [spo site o365group set](../cmd/spo/site/site-groupify.md) - connects site collection to an Microsoft 365 Group [#431](https://github.com/pnp/cli-microsoft365/issues/431)
-- [spo theme apply](../cmd/spo/theme/theme-apply.md) - applies theme to the specified site [#343](https://github.com/pnp/cli-microsoft365/issues/343)
+- [spo file copy](../cmd/groups/spo/file/file-copy.md) - copies a file to another location [#286](https://github.com/pnp/cli-microsoft365/issues/286)
+- [spo folder add](../cmd/groups/spo/folder/folder-add.md) - creates a folder within a parent folder [#425](https://github.com/pnp/cli-microsoft365/issues/425)
+- [spo folder copy](../cmd/groups/spo/folder/folder-copy.md) - copies a folder to another location [#424](https://github.com/pnp/cli-microsoft365/issues/424)
+- [spo folder get](../cmd/groups/spo/folder/folder-get.md) - gets information about the specified folder [#427](https://github.com/pnp/cli-microsoft365/issues/427)
+- [spo folder list](../cmd/groups/spo/folder/folder-list.md) - returns all folders under the specified parent folder [#428](https://github.com/pnp/cli-microsoft365/issues/428)
+- [spo folder remove](../cmd/groups/spo/folder/folder-remove.md) - deletes the specified folder [#426](https://github.com/pnp/cli-microsoft365/issues/426)
+- [spo hidedefaultthemes get](../cmd/groups/spo/hidedefaultthemes/hidedefaultthemes-get.md) - gets the current value of the HideDefaultThemes setting [#341](https://github.com/pnp/cli-microsoft365/issues/341)
+- [spo hidedefaultthemes set](../cmd/groups/spo/hidedefaultthemes/hidedefaultthemes-set.md) - sets the value of the HideDefaultThemes setting [#342](https://github.com/pnp/cli-microsoft365/issues/342)
+- [spo site o365group set](../cmd/groups/spo/site/site-groupify.md) - connects site collection to an Microsoft 365 Group [#431](https://github.com/pnp/cli-microsoft365/issues/431)
+- [spo theme apply](../cmd/groups/spo/theme/theme-apply.md) - applies theme to the specified site [#343](https://github.com/pnp/cli-microsoft365/issues/343)
 
 **Microsoft Graph:**
 
-- [graph groupsetting add](../cmd/aad/groupsetting/groupsetting-add.md) - creates a group setting [#443](https://github.com/pnp/cli-microsoft365/issues/443)
-- [graph groupsetting get](../cmd/aad/groupsetting/groupsetting-get.md) - gets information about the particular group setting [#450](https://github.com/pnp/cli-microsoft365/issues/450)
-- [graph groupsetting list](../cmd/aad/groupsetting/groupsetting-list.md) - lists Azure AD group settings [#449](https://github.com/pnp/cli-microsoft365/issues/449)
-- [graph groupsettingtemplate get](../cmd/aad/groupsettingtemplate/groupsettingtemplate-get.md) - gets information about the specified Azure AD group settings template [#442](https://github.com/pnp/cli-microsoft365/issues/442)
-- [graph groupsettingtemplate list](../cmd/aad/groupsettingtemplate/groupsettingtemplate-list.md) - lists Azure AD group settings templates [#441](https://github.com/pnp/cli-microsoft365/issues/441)
-- [graph user sendmail](../cmd/outlook/mail/mail-send.md) - sends e-mail on behalf of the current user [#328](https://github.com/pnp/cli-microsoft365/issues/328)
+- [graph groupsetting add](../cmd/groups/aad/groupsetting/groupsetting-add.md) - creates a group setting [#443](https://github.com/pnp/cli-microsoft365/issues/443)
+- [graph groupsetting get](../cmd/groups/aad/groupsetting/groupsetting-get.md) - gets information about the particular group setting [#450](https://github.com/pnp/cli-microsoft365/issues/450)
+- [graph groupsetting list](../cmd/groups/aad/groupsetting/groupsetting-list.md) - lists Azure AD group settings [#449](https://github.com/pnp/cli-microsoft365/issues/449)
+- [graph groupsettingtemplate get](../cmd/groups/aad/groupsettingtemplate/groupsettingtemplate-get.md) - gets information about the specified Azure AD group settings template [#442](https://github.com/pnp/cli-microsoft365/issues/442)
+- [graph groupsettingtemplate list](../cmd/groups/aad/groupsettingtemplate/groupsettingtemplate-list.md) - lists Azure AD group settings templates [#441](https://github.com/pnp/cli-microsoft365/issues/441)
+- [graph user sendmail](../cmd/groups/outlook/mail/mail-send.md) - sends e-mail on behalf of the current user [#328](https://github.com/pnp/cli-microsoft365/issues/328)
 
 ### Changes
 
@@ -2491,21 +2491,21 @@
 
 **SharePoint Online:**
 
-- [spo file remove](../cmd/spo/file/file-remove.md) - removes the specified file [#287](https://github.com/pnp/cli-microsoft365/issues/287)
-- [spo hubsite data get](../cmd/spo/hubsite/hubsite-data-get.md) - gets hub site data for the specified site [#394](https://github.com/pnp/cli-microsoft365/issues/394)
-- [spo listitem add](../cmd/spo/listitem/listitem-add.md) - creates a list item in the specified list [#270](https://github.com/pnp/cli-microsoft365/issues/270)
-- [spo listitem remove](../cmd/spo/listitem/listitem-remove.md) - removes the specified list item [#272](https://github.com/pnp/cli-microsoft365/issues/272)
-- [spo page control get](../cmd/spo/page/page-control-get.md) - gets information about the specific control on a modern page [#414](https://github.com/pnp/cli-microsoft365/issues/414)
-- [spo page control list](../cmd/spo/page/page-control-list.md) - lists controls on the specific modern page [#413](https://github.com/pnp/cli-microsoft365/issues/413)
-- [spo page get](../cmd/spo/page/page-get.md) - gets information about the specific modern page [#360](https://github.com/pnp/cli-microsoft365/issues/360)
-- [spo propertybag set](../cmd/spo/propertybag/propertybag-set.md) - sets the value of the specified property in the property bag [#393](https://github.com/pnp/cli-microsoft365/issues/393)
-- [spo site hubsite theme sync](../cmd/spo/site/site-hubsite-theme-sync.md) - applies any theme updates from the parent hub site [#401](https://github.com/pnp/cli-microsoft365/issues/401)
-- [spo web clientsidewebpart list](../cmd/spo/web/web-clientsidewebpart-list.md) - lists available client-side web parts [#367](https://github.com/pnp/cli-microsoft365/issues/367)
+- [spo file remove](../cmd/groups/spo/file/file-remove.md) - removes the specified file [#287](https://github.com/pnp/cli-microsoft365/issues/287)
+- [spo hubsite data get](../cmd/groups/spo/hubsite/hubsite-data-get.md) - gets hub site data for the specified site [#394](https://github.com/pnp/cli-microsoft365/issues/394)
+- [spo listitem add](../cmd/groups/spo/listitem/listitem-add.md) - creates a list item in the specified list [#270](https://github.com/pnp/cli-microsoft365/issues/270)
+- [spo listitem remove](../cmd/groups/spo/listitem/listitem-remove.md) - removes the specified list item [#272](https://github.com/pnp/cli-microsoft365/issues/272)
+- [spo page control get](../cmd/groups/spo/page/page-control-get.md) - gets information about the specific control on a modern page [#414](https://github.com/pnp/cli-microsoft365/issues/414)
+- [spo page control list](../cmd/groups/spo/page/page-control-list.md) - lists controls on the specific modern page [#413](https://github.com/pnp/cli-microsoft365/issues/413)
+- [spo page get](../cmd/groups/spo/page/page-get.md) - gets information about the specific modern page [#360](https://github.com/pnp/cli-microsoft365/issues/360)
+- [spo propertybag set](../cmd/groups/spo/propertybag/propertybag-set.md) - sets the value of the specified property in the property bag [#393](https://github.com/pnp/cli-microsoft365/issues/393)
+- [spo site hubsite theme sync](../cmd/groups/spo/site/site-hubsite-theme-sync.md) - applies any theme updates from the parent hub site [#401](https://github.com/pnp/cli-microsoft365/issues/401)
+- [spo web clientsidewebpart list](../cmd/groups/spo/web/web-clientsidewebpart-list.md) - lists available client-side web parts [#367](https://github.com/pnp/cli-microsoft365/issues/367)
 
 **Microsoft Graph:**
 
-- [graph user get](../cmd/aad/user/user-get.md) - gets information about the specified user [#326](https://github.com/pnp/cli-microsoft365/issues/326)
-- [graph user list](../cmd/aad/user/user-list.md) - lists users matching specified criteria [#327](https://github.com/pnp/cli-microsoft365/issues/327)
+- [graph user get](../cmd/groups/aad/user/user-get.md) - gets information about the specified user [#326](https://github.com/pnp/cli-microsoft365/issues/326)
+- [graph user list](../cmd/groups/aad/user/user-list.md) - lists users matching specified criteria [#327](https://github.com/pnp/cli-microsoft365/issues/327)
 
 ### Changes
 
@@ -2517,39 +2517,39 @@
 
 **SharePoint Online:**
 
-- [spo file get](../cmd/spo/file/file-get.md) - gets information about the specified file [#282](https://github.com/pnp/cli-microsoft365/issues/282)
-- [spo page add](../cmd/spo/page/page-add.md) - creates modern page [#361](https://github.com/pnp/cli-microsoft365/issues/361)
-- [spo page list](../cmd/spo/page/page-list.md) - lists all modern pages in the given site [#359](https://github.com/pnp/cli-microsoft365/issues/359)
-- [spo page set](../cmd/spo/page/page-set.md) - updates modern page properties [#362](https://github.com/pnp/cli-microsoft365/issues/362)
-- [spo propertybag remove](../cmd/spo/propertybag/propertybag-remove.md) - removes specified property from the property bag [#291](https://github.com/pnp/cli-microsoft365/issues/291)
-- [spo sitedesign apply](../cmd/spo/sitedesign/sitedesign-apply.md) - applies a site design to an existing site collection [#339](https://github.com/pnp/cli-microsoft365/issues/339)
-- [spo theme get](../cmd/spo/theme/theme-get.md) - gets custom theme information [#349](https://github.com/pnp/cli-microsoft365/issues/349)
-- [spo theme list](../cmd/spo/theme/theme-list.md) - retrieves the list of custom themes [#332](https://github.com/pnp/cli-microsoft365/issues/332)
-- [spo theme remove](../cmd/spo/theme/theme-remove.md) - removes existing theme [#331](https://github.com/pnp/cli-microsoft365/issues/331)
-- [spo theme set](../cmd/spo/theme/theme-set.md) - add or update a theme [#330](https://github.com/pnp/cli-microsoft365/issues/330), [#340](https://github.com/pnp/cli-microsoft365/issues/340)
-- [spo web get](../cmd/spo/web/web-get.md) - retrieve information about the specified site [#188](https://github.com/pnp/cli-microsoft365/issues/188)
+- [spo file get](../cmd/groups/spo/file/file-get.md) - gets information about the specified file [#282](https://github.com/pnp/cli-microsoft365/issues/282)
+- [spo page add](../cmd/groups/spo/page/page-add.md) - creates modern page [#361](https://github.com/pnp/cli-microsoft365/issues/361)
+- [spo page list](../cmd/groups/spo/page/page-list.md) - lists all modern pages in the given site [#359](https://github.com/pnp/cli-microsoft365/issues/359)
+- [spo page set](../cmd/groups/spo/page/page-set.md) - updates modern page properties [#362](https://github.com/pnp/cli-microsoft365/issues/362)
+- [spo propertybag remove](../cmd/groups/spo/propertybag/propertybag-remove.md) - removes specified property from the property bag [#291](https://github.com/pnp/cli-microsoft365/issues/291)
+- [spo sitedesign apply](../cmd/groups/spo/sitedesign/sitedesign-apply.md) - applies a site design to an existing site collection [#339](https://github.com/pnp/cli-microsoft365/issues/339)
+- [spo theme get](../cmd/groups/spo/theme/theme-get.md) - gets custom theme information [#349](https://github.com/pnp/cli-microsoft365/issues/349)
+- [spo theme list](../cmd/groups/spo/theme/theme-list.md) - retrieves the list of custom themes [#332](https://github.com/pnp/cli-microsoft365/issues/332)
+- [spo theme remove](../cmd/groups/spo/theme/theme-remove.md) - removes existing theme [#331](https://github.com/pnp/cli-microsoft365/issues/331)
+- [spo theme set](../cmd/groups/spo/theme/theme-set.md) - add or update a theme [#330](https://github.com/pnp/cli-microsoft365/issues/330), [#340](https://github.com/pnp/cli-microsoft365/issues/340)
+- [spo web get](../cmd/groups/spo/web/web-get.md) - retrieve information about the specified site [#188](https://github.com/pnp/cli-microsoft365/issues/188)
 
 **Microsoft Graph:**
 
-- [graph o365group remove](../cmd/aad/o365group/o365group-remove.md) - removes an Microsoft 365 Group [#309](https://github.com/pnp/cli-microsoft365/issues/309)
-- [graph o365group restore](../cmd/aad/o365group/o365group-recyclebinitem-restore.md) - restores a deleted Microsoft 365 Group [#346](https://github.com/pnp/cli-microsoft365/issues/346)
-- [graph siteclassification get](../cmd/aad/siteclassification/siteclassification-get.md) - gets site classification configuration [#303](https://github.com/pnp/cli-microsoft365/issues/303)
+- [graph o365group remove](../cmd/groups/aad/o365group/o365group-remove.md) - removes an Microsoft 365 Group [#309](https://github.com/pnp/cli-microsoft365/issues/309)
+- [graph o365group restore](../cmd/groups/aad/o365group/o365group-recyclebinitem-restore.md) - restores a deleted Microsoft 365 Group [#346](https://github.com/pnp/cli-microsoft365/issues/346)
+- [graph siteclassification get](../cmd/groups/aad/siteclassification/siteclassification-get.md) - gets site classification configuration [#303](https://github.com/pnp/cli-microsoft365/issues/303)
 
 **Azure Management Service:**
 
 - azmgmt login - log in to the Azure Management Service [#378](https://github.com/pnp/cli-microsoft365/issues/378)
 - azmgmt logout - log out from the Azure Management Service [#378](https://github.com/pnp/cli-microsoft365/issues/378)
 - azmgmt status - shows Azure Management Service login status [#378](https://github.com/pnp/cli-microsoft365/issues/378)
-- [azmgmt flow environment get](../cmd/flow/environment/environment-get.md) - gets information about the specified Microsoft Flow environment [#380](https://github.com/pnp/cli-microsoft365/issues/380)
-- [azmgmt flow environment list](../cmd/flow/environment/environment-list.md) - lists Microsoft Flow environments in the current tenant [#379](https://github.com/pnp/cli-microsoft365/issues/379)
-- [azmgmt flow get](../cmd/flow/flow-get.md) - gets information about the specified Microsoft Flow [#382](https://github.com/pnp/cli-microsoft365/issues/382)
-- [azmgmt flow list](../cmd/flow/flow-list.md) - lists Microsoft Flows in the given environment [#381](https://github.com/pnp/cli-microsoft365/issues/381)
+- [azmgmt flow environment get](../cmd/groups/flow/environment/environment-get.md) - gets information about the specified Microsoft Flow environment [#380](https://github.com/pnp/cli-microsoft365/issues/380)
+- [azmgmt flow environment list](../cmd/groups/flow/environment/environment-list.md) - lists Microsoft Flow environments in the current tenant [#379](https://github.com/pnp/cli-microsoft365/issues/379)
+- [azmgmt flow get](../cmd/groups/flow/flow-get.md) - gets information about the specified Microsoft Flow [#382](https://github.com/pnp/cli-microsoft365/issues/382)
+- [azmgmt flow list](../cmd/groups/flow/flow-list.md) - lists Microsoft Flows in the given environment [#381](https://github.com/pnp/cli-microsoft365/issues/381)
 
 ### Updated commands
 
 **Microsoft Graph:**
 
-- [graph o365group list](../cmd/aad/o365group/o365group-list.md) - added support for listing deleted Microsoft 365 Groups [#347](https://github.com/pnp/cli-microsoft365/issues/347)
+- [graph o365group list](../cmd/groups/aad/o365group/o365group-list.md) - added support for listing deleted Microsoft 365 Groups [#347](https://github.com/pnp/cli-microsoft365/issues/347)
 
 ### Changes
 
@@ -2565,73 +2565,73 @@
 
 **SharePoint Online:**
 
-- [spo file list](../cmd/spo/file/file-list.md) - lists all available files in the specified folder and site [#281](https://github.com/pnp/cli-microsoft365/issues/281)
-- [spo list add](../cmd/spo/list/list-add.md) - creates list in the specified site [#204](https://github.com/pnp/cli-microsoft365/issues/204)
-- [spo list remove](../cmd/spo/list/list-remove.md) - removes the specified list [#206](https://github.com/pnp/cli-microsoft365/issues/206)
-- [spo list set](../cmd/spo/list/list-set.md) - updates the settings of the specified list [#205](https://github.com/pnp/cli-microsoft365/issues/205)
-- [spo customaction clear](../cmd/spo/customaction/customaction-clear.md) - deletes all custom actions in the collection [#231](https://github.com/pnp/cli-microsoft365/issues/231)
-- [spo propertybag get](../cmd/spo/propertybag/propertybag-get.md) - gets the value of the specified property from the property bag [#289](https://github.com/pnp/cli-microsoft365/issues/289)
-- [spo propertybag list](../cmd/spo/propertybag/propertybag-list.md) - gets property bag values [#288](https://github.com/pnp/cli-microsoft365/issues/288)
-- [spo site set](../cmd/spo/site/site-set.md) - updates properties of the specified site [#121](https://github.com/pnp/cli-microsoft365/issues/121)
+- [spo file list](../cmd/groups/spo/file/file-list.md) - lists all available files in the specified folder and site [#281](https://github.com/pnp/cli-microsoft365/issues/281)
+- [spo list add](../cmd/groups/spo/list/list-add.md) - creates list in the specified site [#204](https://github.com/pnp/cli-microsoft365/issues/204)
+- [spo list remove](../cmd/groups/spo/list/list-remove.md) - removes the specified list [#206](https://github.com/pnp/cli-microsoft365/issues/206)
+- [spo list set](../cmd/groups/spo/list/list-set.md) - updates the settings of the specified list [#205](https://github.com/pnp/cli-microsoft365/issues/205)
+- [spo customaction clear](../cmd/groups/spo/customaction/customaction-clear.md) - deletes all custom actions in the collection [#231](https://github.com/pnp/cli-microsoft365/issues/231)
+- [spo propertybag get](../cmd/groups/spo/propertybag/propertybag-get.md) - gets the value of the specified property from the property bag [#289](https://github.com/pnp/cli-microsoft365/issues/289)
+- [spo propertybag list](../cmd/groups/spo/propertybag/propertybag-list.md) - gets property bag values [#288](https://github.com/pnp/cli-microsoft365/issues/288)
+- [spo site set](../cmd/groups/spo/site/site-set.md) - updates properties of the specified site [#121](https://github.com/pnp/cli-microsoft365/issues/121)
 - spo site classic add - creates new classic site [#123](https://github.com/pnp/cli-microsoft365/issues/123)
 - spo site classic set - change classic site settings [#124](https://github.com/pnp/cli-microsoft365/issues/124)
-- [spo sitedesign set](../cmd/spo/sitedesign/sitedesign-set.md) - updates a site design with new values [#251](https://github.com/pnp/cli-microsoft365/issues/251)
-- [spo tenant appcatalogurl get](../cmd/spo/tenant/tenant-appcatalogurl-get.md) - gets the URL of the tenant app catalog [#315](https://github.com/pnp/cli-microsoft365/issues/315)
-- [spo web add](../cmd/spo/web/web-add.md) - create new subsite [#189](https://github.com/pnp/cli-microsoft365/issues/189)
-- [spo web list](../cmd/spo/web/web-list.md) - lists subsites of the specified site [#187](https://github.com/pnp/cli-microsoft365/issues/187)
-- [spo web remove](../cmd/spo/web/web-remove.md) - delete specified subsite [#192](https://github.com/pnp/cli-microsoft365/issues/192)
+- [spo sitedesign set](../cmd/groups/spo/sitedesign/sitedesign-set.md) - updates a site design with new values [#251](https://github.com/pnp/cli-microsoft365/issues/251)
+- [spo tenant appcatalogurl get](../cmd/groups/spo/tenant/tenant-appcatalogurl-get.md) - gets the URL of the tenant app catalog [#315](https://github.com/pnp/cli-microsoft365/issues/315)
+- [spo web add](../cmd/groups/spo/web/web-add.md) - create new subsite [#189](https://github.com/pnp/cli-microsoft365/issues/189)
+- [spo web list](../cmd/groups/spo/web/web-list.md) - lists subsites of the specified site [#187](https://github.com/pnp/cli-microsoft365/issues/187)
+- [spo web remove](../cmd/groups/spo/web/web-remove.md) - delete specified subsite [#192](https://github.com/pnp/cli-microsoft365/issues/192)
 
 **Microsoft Graph:**
 
 - graph - log in to the Microsoft Graph [#10](https://github.com/pnp/cli-microsoft365/issues/10)
 - graph - log out from the Microsoft Graph [#10](https://github.com/pnp/cli-microsoft365/issues/10)
 - graph - shows Microsoft Graph login status [#10](https://github.com/pnp/cli-microsoft365/issues/10)
-- [graph o365group add](../cmd/aad/o365group/o365group-add.md) - creates Microsoft 365 Group [#308](https://github.com/pnp/cli-microsoft365/issues/308)
-- [graph o365group get](../cmd/aad/o365group/o365group-get.md) - gets information about the specified Microsoft 365 Group [#306](https://github.com/pnp/cli-microsoft365/issues/306)
-- [graph o365group list](../cmd/aad/o365group/o365group-list.md) - lists Microsoft 365 Groups in the current tenant [#305](https://github.com/pnp/cli-microsoft365/issues/305)
-- [graph o365group set](../cmd/aad/o365group/o365group-set.md) - updates Microsoft 365 Group properties [#307](https://github.com/pnp/cli-microsoft365/issues/307)
+- [graph o365group add](../cmd/groups/aad/o365group/o365group-add.md) - creates Microsoft 365 Group [#308](https://github.com/pnp/cli-microsoft365/issues/308)
+- [graph o365group get](../cmd/groups/aad/o365group/o365group-get.md) - gets information about the specified Microsoft 365 Group [#306](https://github.com/pnp/cli-microsoft365/issues/306)
+- [graph o365group list](../cmd/groups/aad/o365group/o365group-list.md) - lists Microsoft 365 Groups in the current tenant [#305](https://github.com/pnp/cli-microsoft365/issues/305)
+- [graph o365group set](../cmd/groups/aad/o365group/o365group-set.md) - updates Microsoft 365 Group properties [#307](https://github.com/pnp/cli-microsoft365/issues/307)
 
 ### Changes
 
 - fixed bug in logging dates [#317](https://github.com/pnp/cli-microsoft365/issues/317)
-- fixed typo in the example of the [spo cdn origin add](../cmd/spo/cdn/cdn-origin-add.md) command [#338](https://github.com/pnp/cli-microsoft365/issues/338)
+- fixed typo in the example of the [spo cdn origin add](../cmd/groups/spo/cdn/cdn-origin-add.md) command [#338](https://github.com/pnp/cli-microsoft365/issues/338)
 
 ## [v0.5.0](https://github.com/pnp/cli-microsoft365/releases/tag/v0.5.0)
 
 ### Breaking changes
 
-- changed the [spo site get](../cmd/spo/site/site-get.md) command to return SPSite properties [#293](https://github.com/pnp/cli-microsoft365/issues/293)
+- changed the [spo site get](../cmd/groups/spo/site/site-get.md) command to return SPSite properties [#293](https://github.com/pnp/cli-microsoft365/issues/293)
 
 ### New commands
 
 **SharePoint Online:**
 
-- [spo sitescript add](../cmd/spo/sitescript/sitescript-add.md) - adds site script for use with site designs [#65](https://github.com/pnp/cli-microsoft365/issues/65)
-- [spo sitescript list](../cmd/spo/sitescript/sitescript-list.md) - lists site script available for use with site designs [#66](https://github.com/pnp/cli-microsoft365/issues/66)
-- [spo sitescript get](../cmd/spo/sitescript/sitescript-get.md) - gets information about the specified site script [#67](https://github.com/pnp/cli-microsoft365/issues/67)
-- [spo sitescript remove](../cmd/spo/sitescript/sitescript-remove.md) - removes the specified site script [#68](https://github.com/pnp/cli-microsoft365/issues/68)
-- [spo sitescript set](../cmd/spo/sitescript/sitescript-set.md) - updates existing site script [#216](https://github.com/pnp/cli-microsoft365/issues/216)
-- [spo sitedesign add](../cmd/spo/sitedesign/sitedesign-add.md) - adds site design for creating modern sites [#69](https://github.com/pnp/cli-microsoft365/issues/69)
-- [spo sitedesign get](../cmd/spo/sitedesign/sitedesign-get.md) - gets information about the specified site design [#86](https://github.com/pnp/cli-microsoft365/issues/86)
-- [spo sitedesign list](../cmd/spo/sitedesign/sitedesign-list.md) - lists available site designs for creating modern sites [#85](https://github.com/pnp/cli-microsoft365/issues/85)
-- [spo sitedesign remove](../cmd/spo/sitedesign/sitedesign-remove.md) - removes the specified site design [#87](https://github.com/pnp/cli-microsoft365/issues/87)
-- [spo sitedesign rights grant](../cmd/spo/sitedesign/sitedesign-rights-grant.md) - grants access to a site design for one or more principals [#88](https://github.com/pnp/cli-microsoft365/issues/88)
-- [spo sitedesign rights revoke](../cmd/spo/sitedesign/sitedesign-rights-revoke.md) - revokes access from a site design for one or more principals [#89](https://github.com/pnp/cli-microsoft365/issues/89)
-- [spo sitedesign rights list](../cmd/spo/sitedesign/sitedesign-rights-list.md) - gets a list of principals that have access to a site design [#90](https://github.com/pnp/cli-microsoft365/issues/90)
-- [spo list get](../cmd/spo/list/list-get.md) - gets information about the specific list [#199](https://github.com/pnp/cli-microsoft365/issues/199)
-- [spo customaction remove](../cmd/spo/customaction/customaction-remove.md) - removes the specified custom action [#21](https://github.com/pnp/cli-microsoft365/issues/21)
-- [spo customaction set](../cmd/spo/customaction/customaction-set.md) - updates a user custom action for site or site collection [#212](https://github.com/pnp/cli-microsoft365/issues/212)
+- [spo sitescript add](../cmd/groups/spo/sitescript/sitescript-add.md) - adds site script for use with site designs [#65](https://github.com/pnp/cli-microsoft365/issues/65)
+- [spo sitescript list](../cmd/groups/spo/sitescript/sitescript-list.md) - lists site script available for use with site designs [#66](https://github.com/pnp/cli-microsoft365/issues/66)
+- [spo sitescript get](../cmd/groups/spo/sitescript/sitescript-get.md) - gets information about the specified site script [#67](https://github.com/pnp/cli-microsoft365/issues/67)
+- [spo sitescript remove](../cmd/groups/spo/sitescript/sitescript-remove.md) - removes the specified site script [#68](https://github.com/pnp/cli-microsoft365/issues/68)
+- [spo sitescript set](../cmd/groups/spo/sitescript/sitescript-set.md) - updates existing site script [#216](https://github.com/pnp/cli-microsoft365/issues/216)
+- [spo sitedesign add](../cmd/groups/spo/sitedesign/sitedesign-add.md) - adds site design for creating modern sites [#69](https://github.com/pnp/cli-microsoft365/issues/69)
+- [spo sitedesign get](../cmd/groups/spo/sitedesign/sitedesign-get.md) - gets information about the specified site design [#86](https://github.com/pnp/cli-microsoft365/issues/86)
+- [spo sitedesign list](../cmd/groups/spo/sitedesign/sitedesign-list.md) - lists available site designs for creating modern sites [#85](https://github.com/pnp/cli-microsoft365/issues/85)
+- [spo sitedesign remove](../cmd/groups/spo/sitedesign/sitedesign-remove.md) - removes the specified site design [#87](https://github.com/pnp/cli-microsoft365/issues/87)
+- [spo sitedesign rights grant](../cmd/groups/spo/sitedesign/sitedesign-rights-grant.md) - grants access to a site design for one or more principals [#88](https://github.com/pnp/cli-microsoft365/issues/88)
+- [spo sitedesign rights revoke](../cmd/groups/spo/sitedesign/sitedesign-rights-revoke.md) - revokes access from a site design for one or more principals [#89](https://github.com/pnp/cli-microsoft365/issues/89)
+- [spo sitedesign rights list](../cmd/groups/spo/sitedesign/sitedesign-rights-list.md) - gets a list of principals that have access to a site design [#90](https://github.com/pnp/cli-microsoft365/issues/90)
+- [spo list get](../cmd/groups/spo/list/list-get.md) - gets information about the specific list [#199](https://github.com/pnp/cli-microsoft365/issues/199)
+- [spo customaction remove](../cmd/groups/spo/customaction/customaction-remove.md) - removes the specified custom action [#21](https://github.com/pnp/cli-microsoft365/issues/21)
+- [spo customaction set](../cmd/groups/spo/customaction/customaction-set.md) - updates a user custom action for site or site collection [#212](https://github.com/pnp/cli-microsoft365/issues/212)
 - spo site classic list - lists sites of the given type [#122](https://github.com/pnp/cli-microsoft365/issues/122)
-- [spo list list](../cmd/spo/list/list-list.md) - lists all available list in the specified site [#198](https://github.com/pnp/cli-microsoft365/issues/198)
-- [spo hubsite list](../cmd/spo/hubsite/hubsite-list.md) - lists hub sites in the current tenant [#91](https://github.com/pnp/cli-microsoft365/issues/91)
-- [spo hubsite get](../cmd/spo/hubsite/hubsite-get.md) - gets information about the specified hub site [#92](https://github.com/pnp/cli-microsoft365/issues/92)
-- [spo hubsite register](../cmd/spo/hubsite/hubsite-register.md) - registers the specified site collection as a hub site [#94](https://github.com/pnp/cli-microsoft365/issues/94)
-- [spo hubsite unregister](../cmd/spo/hubsite/hubsite-unregister.md) - unregisters the specified site collection as a hub site [#95](https://github.com/pnp/cli-microsoft365/issues/95)
-- [spo hubsite set](../cmd/spo/hubsite/hubsite-set.md) - updates properties of the specified hub site [#96](https://github.com/pnp/cli-microsoft365/issues/96)
-- [spo hubsite rights grant](../cmd/spo/hubsite/hubsite-rights-grant.md) - grants permissions to join the hub site for one or more principals [#99](https://github.com/pnp/cli-microsoft365/issues/99)
-- [spo hubsite rights revoke](../cmd/spo/hubsite/hubsite-rights-revoke.md) - revokes rights to join sites to the specified hub site for one or more principals [#100](https://github.com/pnp/cli-microsoft365/issues/100)
-- [spo site hubsite connect](../cmd/spo/site/site-hubsite-connect.md) - connects the specified site collection to the given hub site [#97](https://github.com/pnp/cli-microsoft365/issues/97)
-- [spo site hubsite disconnect](../cmd/spo/site/site-hubsite-disconnect.md) - disconnects the specifies site collection from its hub site [#98](https://github.com/pnp/cli-microsoft365/issues/98)
+- [spo list list](../cmd/groups/spo/list/list-list.md) - lists all available list in the specified site [#198](https://github.com/pnp/cli-microsoft365/issues/198)
+- [spo hubsite list](../cmd/groups/spo/hubsite/hubsite-list.md) - lists hub sites in the current tenant [#91](https://github.com/pnp/cli-microsoft365/issues/91)
+- [spo hubsite get](../cmd/groups/spo/hubsite/hubsite-get.md) - gets information about the specified hub site [#92](https://github.com/pnp/cli-microsoft365/issues/92)
+- [spo hubsite register](../cmd/groups/spo/hubsite/hubsite-register.md) - registers the specified site collection as a hub site [#94](https://github.com/pnp/cli-microsoft365/issues/94)
+- [spo hubsite unregister](../cmd/groups/spo/hubsite/hubsite-unregister.md) - unregisters the specified site collection as a hub site [#95](https://github.com/pnp/cli-microsoft365/issues/95)
+- [spo hubsite set](../cmd/groups/spo/hubsite/hubsite-set.md) - updates properties of the specified hub site [#96](https://github.com/pnp/cli-microsoft365/issues/96)
+- [spo hubsite rights grant](../cmd/groups/spo/hubsite/hubsite-rights-grant.md) - grants permissions to join the hub site for one or more principals [#99](https://github.com/pnp/cli-microsoft365/issues/99)
+- [spo hubsite rights revoke](../cmd/groups/spo/hubsite/hubsite-rights-revoke.md) - revokes rights to join sites to the specified hub site for one or more principals [#100](https://github.com/pnp/cli-microsoft365/issues/100)
+- [spo site hubsite connect](../cmd/groups/spo/site/site-hubsite-connect.md) - connects the specified site collection to the given hub site [#97](https://github.com/pnp/cli-microsoft365/issues/97)
+- [spo site hubsite disconnect](../cmd/groups/spo/site/site-hubsite-disconnect.md) - disconnects the specifies site collection from its hub site [#98](https://github.com/pnp/cli-microsoft365/issues/98)
 
 ### Changes
 
@@ -2639,7 +2639,7 @@
 - added information about the current user to status commands [#202](https://github.com/pnp/cli-microsoft365/issues/202)
 - fixed issue with completing input that doesn't match commands [#222](https://github.com/pnp/cli-microsoft365/issues/222)
 - fixed issue with escaping numeric input [#226](https://github.com/pnp/cli-microsoft365/issues/226)
-- changed the [aad oauth2grant list](../cmd/aad/oauth2grant/oauth2grant-list.md), [spo app list](../cmd/spo/app/app-list.md), [spo customaction list](../cmd/spo/customaction/customaction-list.md), [spo site list](../cmd/spo/site/site-list.md) commands to list all properties for output type JSON [#232](https://github.com/pnp/cli-microsoft365/issues/232), [#233](https://github.com/pnp/cli-microsoft365/issues/233), [#234](https://github.com/pnp/cli-microsoft365/issues/234), [#235](https://github.com/pnp/cli-microsoft365/issues/235)
+- changed the [aad oauth2grant list](../cmd/groups/aad/oauth2grant/oauth2grant-list.md), [spo app list](../cmd/groups/spo/app/app-list.md), [spo customaction list](../cmd/groups/spo/customaction/customaction-list.md), [spo site list](../cmd/groups/spo/site/site-list.md) commands to list all properties for output type JSON [#232](https://github.com/pnp/cli-microsoft365/issues/232), [#233](https://github.com/pnp/cli-microsoft365/issues/233), [#234](https://github.com/pnp/cli-microsoft365/issues/234), [#235](https://github.com/pnp/cli-microsoft365/issues/235)
 - fixed issue with generating clink completion file [#252](https://github.com/pnp/cli-microsoft365/issues/252)
 - added [user guide](../user-guide/installing-cli.md) [#236](https://github.com/pnp/cli-microsoft365/issues/236), [#237](https://github.com/pnp/cli-microsoft365/issues/237), [#238](https://github.com/pnp/cli-microsoft365/issues/238), [#239](https://github.com/pnp/cli-microsoft365/issues/239)
 
@@ -2647,38 +2647,38 @@
 
 ### Breaking changes
 
-- renamed the `spo cdn origin set` command to [spo cdn origin add](../cmd/spo/cdn/cdn-origin-add.md) [#184](https://github.com/pnp/cli-microsoft365/issues/184)
+- renamed the `spo cdn origin set` command to [spo cdn origin add](../cmd/groups/spo/cdn/cdn-origin-add.md) [#184](https://github.com/pnp/cli-microsoft365/issues/184)
 
 ### New commands
 
 **SharePoint Online:**
 
-- [spo customaction list](../cmd/spo/customaction/customaction-list.md) - lists user custom actions for site or site collection [#19](https://github.com/pnp/cli-microsoft365/issues/19)
-- [spo site get](../cmd/spo/site/site-get.md) - gets information about the specific site collection [#114](https://github.com/pnp/cli-microsoft365/issues/114)
-- [spo site list](../cmd/spo/site/site-list.md) - lists modern sites of the given type [#115](https://github.com/pnp/cli-microsoft365/issues/115)
-- [spo site add](../cmd/spo/site/site-add.md) - creates new modern site [#116](https://github.com/pnp/cli-microsoft365/issues/116)
-- [spo app remove](../cmd/spo/app/app-remove.md) - removes the specified app from the tenant app catalog [#9](https://github.com/pnp/cli-microsoft365/issues/9)
-- [spo site appcatalog add](../cmd/spo/site/site-appcatalog-add.md) - creates a site collection app catalog in the specified site [#63](https://github.com/pnp/cli-microsoft365/issues/63)
-- [spo site appcatalog remove](../cmd/spo/site/site-appcatalog-remove.md) - removes site collection scoped app catalog from site [#64](https://github.com/pnp/cli-microsoft365/issues/64)
-- [spo serviceprincipal permissionrequest list](../cmd/spo/serviceprincipal/serviceprincipal-permissionrequest-list.md) - lists pending permission requests [#152](https://github.com/pnp/cli-microsoft365/issues/152)
-- [spo serviceprincipal permissionrequest approve](../cmd/spo/serviceprincipal/serviceprincipal-permissionrequest-approve.md) - approves the specified permission request [#153](https://github.com/pnp/cli-microsoft365/issues/153)
-- [spo serviceprincipal permissionrequest deny](../cmd/spo/serviceprincipal/serviceprincipal-permissionrequest-deny.md) - denies the specified permission request [#154](https://github.com/pnp/cli-microsoft365/issues/154)
-- [spo serviceprincipal grant list](../cmd/spo/serviceprincipal/serviceprincipal-grant-list.md) - lists permissions granted to the service principal [#155](https://github.com/pnp/cli-microsoft365/issues/155)
-- [spo serviceprincipal grant revoke](../cmd/spo/serviceprincipal/serviceprincipal-grant-revoke.md) - revokes the specified set of permissions granted to the service principal [#155](https://github.com/pnp/cli-microsoft365/issues/156)
-- [spo serviceprincipal set](../cmd/spo/serviceprincipal/serviceprincipal-set.md) - enable or disable the service principal [#157](https://github.com/pnp/cli-microsoft365/issues/157)
-- [spo customaction add](../cmd/spo/customaction/customaction-add.md) - adds a user custom action for site or site collection [#18](https://github.com/pnp/cli-microsoft365/issues/18)
-- [spo externaluser list](../cmd/spo/externaluser/externaluser-list.md) - lists external users in the tenant [#27](https://github.com/pnp/cli-microsoft365/issues/27)
+- [spo customaction list](../cmd/groups/spo/customaction/customaction-list.md) - lists user custom actions for site or site collection [#19](https://github.com/pnp/cli-microsoft365/issues/19)
+- [spo site get](../cmd/groups/spo/site/site-get.md) - gets information about the specific site collection [#114](https://github.com/pnp/cli-microsoft365/issues/114)
+- [spo site list](../cmd/groups/spo/site/site-list.md) - lists modern sites of the given type [#115](https://github.com/pnp/cli-microsoft365/issues/115)
+- [spo site add](../cmd/groups/spo/site/site-add.md) - creates new modern site [#116](https://github.com/pnp/cli-microsoft365/issues/116)
+- [spo app remove](../cmd/groups/spo/app/app-remove.md) - removes the specified app from the tenant app catalog [#9](https://github.com/pnp/cli-microsoft365/issues/9)
+- [spo site appcatalog add](../cmd/groups/spo/site/site-appcatalog-add.md) - creates a site collection app catalog in the specified site [#63](https://github.com/pnp/cli-microsoft365/issues/63)
+- [spo site appcatalog remove](../cmd/groups/spo/site/site-appcatalog-remove.md) - removes site collection scoped app catalog from site [#64](https://github.com/pnp/cli-microsoft365/issues/64)
+- [spo serviceprincipal permissionrequest list](../cmd/groups/spo/serviceprincipal/serviceprincipal-permissionrequest-list.md) - lists pending permission requests [#152](https://github.com/pnp/cli-microsoft365/issues/152)
+- [spo serviceprincipal permissionrequest approve](../cmd/groups/spo/serviceprincipal/serviceprincipal-permissionrequest-approve.md) - approves the specified permission request [#153](https://github.com/pnp/cli-microsoft365/issues/153)
+- [spo serviceprincipal permissionrequest deny](../cmd/groups/spo/serviceprincipal/serviceprincipal-permissionrequest-deny.md) - denies the specified permission request [#154](https://github.com/pnp/cli-microsoft365/issues/154)
+- [spo serviceprincipal grant list](../cmd/groups/spo/serviceprincipal/serviceprincipal-grant-list.md) - lists permissions granted to the service principal [#155](https://github.com/pnp/cli-microsoft365/issues/155)
+- [spo serviceprincipal grant revoke](../cmd/groups/spo/serviceprincipal/serviceprincipal-grant-revoke.md) - revokes the specified set of permissions granted to the service principal [#155](https://github.com/pnp/cli-microsoft365/issues/156)
+- [spo serviceprincipal set](../cmd/groups/spo/serviceprincipal/serviceprincipal-set.md) - enable or disable the service principal [#157](https://github.com/pnp/cli-microsoft365/issues/157)
+- [spo customaction add](../cmd/groups/spo/customaction/customaction-add.md) - adds a user custom action for site or site collection [#18](https://github.com/pnp/cli-microsoft365/issues/18)
+- [spo externaluser list](../cmd/groups/spo/externaluser/externaluser-list.md) - lists external users in the tenant [#27](https://github.com/pnp/cli-microsoft365/issues/27)
 
 **Azure Active Directory Graph:**
 
 - aad login - log in to the Azure Active Directory Graph [#160](https://github.com/pnp/cli-microsoft365/issues/160)
 - aad logout - log out from Azure Active Directory Graph [#161](https://github.com/pnp/cli-microsoft365/issues/161)
 - aad status - shows Azure Active Directory Graph login status [#162](https://github.com/pnp/cli-microsoft365/issues/162)
-- [aad sp get](../cmd/aad/sp/sp-get.md) - gets information about the specific service principal [#158](https://github.com/pnp/cli-microsoft365/issues/158)
-- [aad oauth2grant list](../cmd/aad/oauth2grant/oauth2grant-list.md) - lists OAuth2 permission grants for the specified service principal [#159](https://github.com/pnp/cli-microsoft365/issues/159)
-- [aad oauth2grant add](../cmd/aad/oauth2grant/oauth2grant-add.md) - grant the specified service principal OAuth2 permissions to the specified resource [#164](https://github.com/pnp/cli-microsoft365/issues/164)
-- [aad oauth2grant set](../cmd/aad/oauth2grant/oauth2grant-set.md) - update OAuth2 permissions for the service principal [#163](https://github.com/pnp/cli-microsoft365/issues/163)
-- [aad oauth2grant remove](../cmd/aad/oauth2grant/oauth2grant-remove.md) - remove specified service principal OAuth2 permissions [#165](https://github.com/pnp/cli-microsoft365/issues/165)
+- [aad sp get](../cmd/groups/aad/sp/sp-get.md) - gets information about the specific service principal [#158](https://github.com/pnp/cli-microsoft365/issues/158)
+- [aad oauth2grant list](../cmd/groups/aad/oauth2grant/oauth2grant-list.md) - lists OAuth2 permission grants for the specified service principal [#159](https://github.com/pnp/cli-microsoft365/issues/159)
+- [aad oauth2grant add](../cmd/groups/aad/oauth2grant/oauth2grant-add.md) - grant the specified service principal OAuth2 permissions to the specified resource [#164](https://github.com/pnp/cli-microsoft365/issues/164)
+- [aad oauth2grant set](../cmd/groups/aad/oauth2grant/oauth2grant-set.md) - update OAuth2 permissions for the service principal [#163](https://github.com/pnp/cli-microsoft365/issues/163)
+- [aad oauth2grant remove](../cmd/groups/aad/oauth2grant/oauth2grant-remove.md) - remove specified service principal OAuth2 permissions [#165](https://github.com/pnp/cli-microsoft365/issues/165)
 
 ### Changes
 
@@ -2688,7 +2688,7 @@
 - fixed bug in rendering help for commands when using the `--help` option [#104](https://github.com/pnp/cli-microsoft365/issues/104)
 - added detailed output to the `spo customaction get` command [#93](https://github.com/pnp/cli-microsoft365/issues/93)
 - improved collecting telemetry [#130](https://github.com/pnp/cli-microsoft365/issues/130), [#131](https://github.com/pnp/cli-microsoft365/issues/131), [#132](https://github.com/pnp/cli-microsoft365/issues/132), [#133](https://github.com/pnp/cli-microsoft365/issues/133)
-- added support for the `skipFeatureDeployment` flag to the [spo app deploy](../cmd/spo/app/app-deploy.md) command [#134](https://github.com/pnp/cli-microsoft365/issues/134)
+- added support for the `skipFeatureDeployment` flag to the [spo app deploy](../cmd/groups/spo/app/app-deploy.md) command [#134](https://github.com/pnp/cli-microsoft365/issues/134)
 - wrapped executing commands in `try..catch` [#109](https://github.com/pnp/cli-microsoft365/issues/109)
 - added serializing objects in log [#108](https://github.com/pnp/cli-microsoft365/issues/108)
 - added support for autocomplete in Zsh, Bash and Fish and Clink (cmder) on Windows [#141](https://github.com/pnp/cli-microsoft365/issues/141), [#190](https://github.com/pnp/cli-microsoft365/issues/190)
@@ -2699,7 +2699,7 @@
 
 **SharePoint Online:**
 
-- [spo customaction get](../cmd/spo/customaction/customaction-get.md) - gets information about the specific user custom action [#20](https://github.com/pnp/cli-microsoft365/issues/20)
+- [spo customaction get](../cmd/groups/spo/customaction/customaction-get.md) - gets information about the specific user custom action [#20](https://github.com/pnp/cli-microsoft365/issues/20)
 
 ### Changes
 
@@ -2716,14 +2716,14 @@
 
 **SharePoint Online:**
 
-- [spo app add](../cmd/spo/app/app-add.md) - add an app to the specified SharePoint Online app catalog [#3](https://github.com/pnp/cli-microsoft365/issues/3)
-- [spo app deploy](../cmd/spo/app/app-deploy.md) - deploy the specified app in the tenant app catalog [#7](https://github.com/pnp/cli-microsoft365/issues/7)
-- [spo app get](../cmd/spo/app/app-get.md) - get information about the specific app from the tenant app catalog [#2](https://github.com/pnp/cli-microsoft365/issues/2)
-- [spo app install](../cmd/spo/app/app-install.md) - install an app from the tenant app catalog in the site [#4](https://github.com/pnp/cli-microsoft365/issues/4)
-- [spo app list](../cmd/spo/app/app-list.md) - list apps from the tenant app catalog [#1](https://github.com/pnp/cli-microsoft365/issues/1)
-- [spo app retract](../cmd/spo/app/app-retract.md) - retract the specified app from the tenant app catalog [#8](https://github.com/pnp/cli-microsoft365/issues/8)
-- [spo app uninstall](../cmd/spo/app/app-uninstall.md) - uninstall an app from the site [#5](https://github.com/pnp/cli-microsoft365/issues/5)
-- [spo app upgrade](../cmd/spo/app/app-upgrade.md) - upgrade app in the specified site [#6](https://github.com/pnp/cli-microsoft365/issues/6)
+- [spo app add](../cmd/groups/spo/app/app-add.md) - add an app to the specified SharePoint Online app catalog [#3](https://github.com/pnp/cli-microsoft365/issues/3)
+- [spo app deploy](../cmd/groups/spo/app/app-deploy.md) - deploy the specified app in the tenant app catalog [#7](https://github.com/pnp/cli-microsoft365/issues/7)
+- [spo app get](../cmd/groups/spo/app/app-get.md) - get information about the specific app from the tenant app catalog [#2](https://github.com/pnp/cli-microsoft365/issues/2)
+- [spo app install](../cmd/groups/spo/app/app-install.md) - install an app from the tenant app catalog in the site [#4](https://github.com/pnp/cli-microsoft365/issues/4)
+- [spo app list](../cmd/groups/spo/app/app-list.md) - list apps from the tenant app catalog [#1](https://github.com/pnp/cli-microsoft365/issues/1)
+- [spo app retract](../cmd/groups/spo/app/app-retract.md) - retract the specified app from the tenant app catalog [#8](https://github.com/pnp/cli-microsoft365/issues/8)
+- [spo app uninstall](../cmd/groups/spo/app/app-uninstall.md) - uninstall an app from the site [#5](https://github.com/pnp/cli-microsoft365/issues/5)
+- [spo app upgrade](../cmd/groups/spo/app/app-upgrade.md) - upgrade app in the specified site [#6](https://github.com/pnp/cli-microsoft365/issues/6)
 
 ## v0.1.1
 
@@ -2739,17 +2739,17 @@ Initial release.
 
 **SharePoint Online:**
 
-- [spo cdn get](../cmd/spo/cdn/cdn-get.md) - get Microsoft 365 CDN status
-- [spo cdn origin list](../cmd/spo/cdn/cdn-origin-list.md) - list Microsoft 365 CDN origins
-- [spo cdn origin remove](../cmd/spo/cdn/cdn-origin-remove.md) - remove Microsoft 365 CDN origin
-- [spo cdn origin add](../cmd/spo/cdn/cdn-origin-add.md) - add Microsoft 365 CDN origin
-- [spo cdn policy list](../cmd/spo/cdn/cdn-policy-list.md) - list Microsoft 365 CDN policies
-- [spo cdn policy set](../cmd/spo/cdn/cdn-policy-set.md) - set Microsoft 365 CDN policy
-- [spo cdn set](../cmd/spo/cdn/cdn-set.md) - enable/disable Microsoft 365 CDN
+- [spo cdn get](../cmd/groups/spo/cdn/cdn-get.md) - get Microsoft 365 CDN status
+- [spo cdn origin list](../cmd/groups/spo/cdn/cdn-origin-list.md) - list Microsoft 365 CDN origins
+- [spo cdn origin remove](../cmd/groups/spo/cdn/cdn-origin-remove.md) - remove Microsoft 365 CDN origin
+- [spo cdn origin add](../cmd/groups/spo/cdn/cdn-origin-add.md) - add Microsoft 365 CDN origin
+- [spo cdn policy list](../cmd/groups/spo/cdn/cdn-policy-list.md) - list Microsoft 365 CDN policies
+- [spo cdn policy set](../cmd/groups/spo/cdn/cdn-policy-set.md) - set Microsoft 365 CDN policy
+- [spo cdn set](../cmd/groups/spo/cdn/cdn-set.md) - enable/disable Microsoft 365 CDN
 - spo login - log in to a SharePoint Online site
 - spo logout - log out from SharePoint
 - spo status - show SharePoint Online login status
-- [spo storageentity get](../cmd/spo/storageentity/storageentity-get.md) - get value of a tenant property
-- [spo storageentity list](../cmd/spo/storageentity/storageentity-list.md) - list all tenant properties
-- [spo storageentity remove](../cmd/spo/storageentity/storageentity-remove.md) - remove a tenant property
-- [spo storageentity set](../cmd/spo/storageentity/storageentity-set.md) - set a tenant property
+- [spo storageentity get](../cmd/groups/spo/storageentity/storageentity-get.md) - get value of a tenant property
+- [spo storageentity list](../cmd/groups/spo/storageentity/storageentity-list.md) - list all tenant properties
+- [spo storageentity remove](../cmd/groups/spo/storageentity/storageentity-remove.md) - remove a tenant property
+- [spo storageentity set](../cmd/groups/spo/storageentity/storageentity-set.md) - set a tenant property

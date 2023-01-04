@@ -8,7 +8,7 @@ tags:
 
 Author: [Rabia Williams](https://twitter.com/williamsrabia)
 
-List all the application customizers in a tenant. Scope is default `All`. Here we are using the [custom action list](https://pnp.github.io/cli-microsoft365/cmd/spo/customaction/customaction-list/) command to list out all the Application Customizers in all the sites in the tenant.
+List all the application customizers in a tenant. Scope is default `All`. Here we are using the [custom action list](https://pnp.github.io/cli-microsoft365/cmd/groups/spo/customaction/customaction-list/) command to list out all the Application Customizers in all the sites in the tenant.
 
 === "PowerShell"
 

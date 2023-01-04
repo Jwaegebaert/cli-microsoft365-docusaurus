@@ -1,3 +1,8 @@
+---
+title: Manage Microsoft 365 apps with the CLI 
+sidebar_position: 12
+---
+
 # Manage Microsoft 365 apps with the CLI for Microsoft 365
 
 When developing Microsoft 365 apps, you need to register them with the Microsoft cloud. You do this by creating an Azure AD app registration. An Azure AD app registration contains information about your app such as its name, type (for example if it's a client app or a web app) or API permissions. Typically, you manage these settings through the Azure portal. CLI for Microsoft 365 contains a set of commands that simplify managing Azure AD app registrations for your Microsoft 365 apps. What's more, using CLI for Microsoft 365 you can automate create Azure AD apps to allow developers in your team share their configuration without blocking each other.
@@ -13,7 +18,7 @@ m365 aad app add --name 'My single-page app' --platform spa --redirectUris 'http
 With this one command, CLI for Microsoft 365 will create a new Azure AD application registration and configure its authentication mode to a single-page application with the specified two redirect URLs.
 
 !!! tip
-    There are many settings that you can configure for Azure AD app registrations, so be sure to check the [documentation for the `m365 aad app add` command](../cmd/aad/app/app-add.md) for more examples.
+    There are many settings that you can configure for Azure AD app registrations, so be sure to check the [documentation for the `m365 aad app add` command](../cmd/groups/aad/app/app-add.md) for more examples.
 
 This one-liner is great to share with your dev team so that each developer can create their own app registration that they can manage as they work on the app. If your app's configuration is complex, you can also choose to export the existing manifest and create a new Azure AD app registration from it! But there's more.
 
@@ -33,6 +38,6 @@ After you stored the reference to your Azure AD apps in your projects, you're re
 
 ## Step 3: Manage Azure AD app registrations for Microsoft 365 apps
 
-CLI for Microsoft 365 exposes a set of `app` commands (`m365 app *`) that let you manage your Microsoft 365 app projects. For example, using the [`m365 app permission list`](../cmd/app/permission/permission-list.md) command, you can easily retrieve API permissions for your AAD app.
+CLI for Microsoft 365 exposes a set of `app` commands (`m365 app *`) that let you manage your Microsoft 365 app projects. For example, using the [`m365 app permission list`](../cmd/groups/app/permission/permission-list.md) command, you can easily retrieve API permissions for your AAD app.
 
 See the list of `app` commands in the **Commands** section of this documentation for the complete reference of supported operations.

@@ -148,7 +148,7 @@ m365 login
 
 >On your first login you will be asked to consent to several permissions that the `PnP Management Shell` multi-tenant app requires for the commands to work successfully against your tenant. If you want to create your own identity to use with the CLI, refer to the [Using your own Azure AD Identity](https://pnp.github.io/cli-microsoft365/user-guide/using-own-identity/) guide.
 
->For alternative authentication methods and usage, refer to the [login](https://pnp.github.io/cli-microsoft365/cmd/login/) command documentation
+>For alternative authentication methods and usage, refer to the [login](https://pnp.github.io/cli-microsoft365/cmd/groups/login/) command documentation
 
 List all commands using the global `--help` option.
 
@@ -180,7 +180,7 @@ Execute a command and output response as text using the global `--output` option
 m365 spo site get --url https://contoso.sharepoint.com --output text
 ```
 
-> For more examples and usage, refer to the [command](https://pnp.github.io/cli-microsoft365/cmd/login/) and  [sample scripts](https://pnp.github.io/cli-microsoft365/sample-scripts/) documentation.
+> For more examples and usage, refer to the [command](https://pnp.github.io/cli-microsoft365/cmd/groups/login/) and  [sample scripts](https://pnp.github.io/cli-microsoft365/sample-scripts/) documentation.
 
 ## Build
 

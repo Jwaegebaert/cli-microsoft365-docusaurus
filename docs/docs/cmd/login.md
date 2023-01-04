@@ -37,7 +37,7 @@ m365 login [options]
 `--tenant [tenant]`
 : ID of the tenant from which accounts should be able to authenticate. Use `common` or `organization` if the app is multitenant. If not specified, use the tenant specified in the `CLIMICROSOFT365_TENANT` environment variable. If the environment variable is not defined, use `common` as the tenant identifier
 
---8<-- "docs/cmd/_global.md"
+--8<-- "docs/cmd/groups/_global.md"
 
 ## Remarks
 

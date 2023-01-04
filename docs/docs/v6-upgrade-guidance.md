@@ -8,9 +8,9 @@ In CLI for Microsoft 365 we had several commands that were originally targeted a
 
 Command | Merged with
 --|--
-`spo site classic add` | [spo site add](./cmd/spo/site/site-add.md)
-`spo site classic list` | [spo site list](./cmd/spo/site/site-list.md)
-`spo site classic set` | [spo site set](./cmd/spo/site/site-set.md)
+`spo site classic add` | [spo site add](./cmd/groups/spo/site/site-add.md)
+`spo site classic list` | [spo site list](./cmd/groups/spo/site/site-list.md)
+`spo site classic set` | [spo site set](./cmd/groups/spo/site/site-set.md)
 
 To fix a resulting issue with the `spo site list` command, the default value of the `type` option of that command has been removed.
 
@@ -32,18 +32,18 @@ We removed several aliases to align commands with our naming convention. The fol
 
 Alias | Command | Reason
 --|--|--
-`aad app delete` | [aad app remove](./cmd/aad/app/app-remove.md) | Removed to align with the naming convention.
-`aad app role delete` | [aad app role remove](./cmd/aad/app/app-role-remove.md) | Removed to align with the naming convention.
-`aad o365group restore` | [aad o365group recyclebinitem restore](./cmd/aad/o365group/o365group-recyclebinitem-restore.md) | Renamed to better match intention and naming convention.
-`outlook sendmail` | [outlook mail send](./cmd/outlook/mail/mail-send.md) | Renamed to better match intention and naming convention.
-`planner plan details get` | [planner plan get](./cmd/planner/plan/plan-get.md) | Functionality merged in a single get-command.
-`planner task details get` | [planner task get](./cmd/planner/task/task-get.md) | Functionality merged in a single get-command.
-`teams conversationmember add` | [teams channel member add](./cmd/teams/channel/channel-member-add.md) | Renamed to better match intention and naming convention.
-`teams conversationmember list` | [teams channel member list](./cmd/teams/channel/channel-member-list.md) | Renamed to better match intention and naming convention.
-`teams conversationmember remove` | [teams channel member remove](./cmd/teams/channel/channel-member-remove.md) | Renamed to better match intention and naming convention.
-`spo hubsite theme sync` | [spo site hubsite theme sync](./cmd/spo/site/site-hubsite-theme-sync.md) | Renamed to better match intention and naming convention.
-`spo hubsite connect` | [spo site hubsite connect](./cmd/spo/site/site-hubsite-connect.md) | Renamed to better match intention and naming convention.
-`spo hubsite disconnect` | [spo site hubsite disconnect](./cmd/spo/site/site-hubsite-disconnect.md) | Renamed to better match intention and naming convention.
+`aad app delete` | [aad app remove](./cmd/groups/aad/app/app-remove.md) | Removed to align with the naming convention.
+`aad app role delete` | [aad app role remove](./cmd/groups/aad/app/app-role-remove.md) | Removed to align with the naming convention.
+`aad o365group restore` | [aad o365group recyclebinitem restore](./cmd/groups/aad/o365group/o365group-recyclebinitem-restore.md) | Renamed to better match intention and naming convention.
+`outlook sendmail` | [outlook mail send](./cmd/groups/outlook/mail/mail-send.md) | Renamed to better match intention and naming convention.
+`planner plan details get` | [planner plan get](./cmd/groups/planner/plan/plan-get.md) | Functionality merged in a single get-command.
+`planner task details get` | [planner task get](./cmd/groups/planner/task/task-get.md) | Functionality merged in a single get-command.
+`teams conversationmember add` | [teams channel member add](./cmd/groups/teams/channel/channel-member-add.md) | Renamed to better match intention and naming convention.
+`teams conversationmember list` | [teams channel member list](./cmd/groups/teams/channel/channel-member-list.md) | Renamed to better match intention and naming convention.
+`teams conversationmember remove` | [teams channel member remove](./cmd/groups/teams/channel/channel-member-remove.md) | Renamed to better match intention and naming convention.
+`spo hubsite theme sync` | [spo site hubsite theme sync](./cmd/groups/spo/site/site-hubsite-theme-sync.md) | Renamed to better match intention and naming convention.
+`spo hubsite connect` | [spo site hubsite connect](./cmd/groups/spo/site/site-hubsite-connect.md) | Renamed to better match intention and naming convention.
+`spo hubsite disconnect` | [spo site hubsite disconnect](./cmd/groups/spo/site/site-hubsite-disconnect.md) | Renamed to better match intention and naming convention.
 
 ### What action do I need to take?
 
@@ -53,16 +53,16 @@ Replace any of the aliases mentioned above with the corresponding command name. 
 
 In several planner commands we renamed the `planName` option to `planTitle` to align with the underlying API. Along with introducing the `planTitle` option, we deprecated the old `planName` option. In v6 of the CLI we removed the `planName` option. The following list of commands is affected by this change:
 
-- [planner bucket add](./cmd/planner/bucket/bucket-add.md)
-- [planner bucket get](./cmd/planner/bucket/bucket-get.md)
-- [planner bucket list](./cmd/planner/bucket/bucket-list.md)
-- [planner bucket remove](./cmd/planner/bucket/bucket-remove.md)
-- [planner bucket set](./cmd/planner/bucket/bucket-set.md)
-- [planner plan get](./cmd/planner/plan/plan-get.md)
-- [planner task add](./cmd/planner/task/task-add.md)
-- [planner task get](./cmd/planner/task/task-get.md)
-- [planner task list](./cmd/planner/task/task-list.md)
-- [planner task set](./cmd/planner/task/task-set.md)
+- [planner bucket add](./cmd/groups/planner/bucket/bucket-add.md)
+- [planner bucket get](./cmd/groups/planner/bucket/bucket-get.md)
+- [planner bucket list](./cmd/groups/planner/bucket/bucket-list.md)
+- [planner bucket remove](./cmd/groups/planner/bucket/bucket-remove.md)
+- [planner bucket set](./cmd/groups/planner/bucket/bucket-set.md)
+- [planner plan get](./cmd/groups/planner/plan/plan-get.md)
+- [planner task add](./cmd/groups/planner/task/task-add.md)
+- [planner task get](./cmd/groups/planner/task/task-get.md)
+- [planner task list](./cmd/groups/planner/task/task-list.md)
+- [planner task set](./cmd/groups/planner/task/task-set.md)
 
 ### What action do I need to take?
 
@@ -82,7 +82,7 @@ m365 cli config set --key autoOpenLinksInBrowser --value true
 
 ## Updated `spo file copy` options
 
-We updated the [spo file copy](./cmd/spo/file/file-copy.md) command. The improved functionality support copying files larger than 2GB and specify the name for the copied file. To support these changes, we had to do several changes to the command's options. When you specify an URL for options `webUrl`, `sourceUrl` and `targetUrl`, make sure that you specify a decoded URL. Specifying an encoded URL will result in a `File Not Found` error. For example, `/sites/IT/Shared%20Documents/Document.pdf` will not work while `/sites/IT/Shared Documents/Document.pdf` will work just fine.
+We updated the [spo file copy](./cmd/groups/spo/file/file-copy.md) command. The improved functionality support copying files larger than 2GB and specify the name for the copied file. To support these changes, we had to do several changes to the command's options. When you specify an URL for options `webUrl`, `sourceUrl` and `targetUrl`, make sure that you specify a decoded URL. Specifying an encoded URL will result in a `File Not Found` error. For example, `/sites/IT/Shared%20Documents/Document.pdf` will not work while `/sites/IT/Shared Documents/Document.pdf` will work just fine.
 
 Because of this rework, we were able to add new options, but we also removed existing ones.
 
@@ -111,9 +111,9 @@ Update your scripts with the following:
 
 In the following commands we've changed some shorts:
 
-- [teams channel get](./cmd/teams/channel/channel-get.md)
-- [teams channel set](./cmd/teams/channel/channel-set.md)
-- [teams channel remove](./cmd/teams/channel/channel-remove.md)
+- [teams channel get](./cmd/groups/teams/channel/channel-get.md)
+- [teams channel set](./cmd/groups/teams/channel/channel-set.md)
+- [teams channel remove](./cmd/groups/teams/channel/channel-remove.md)
 
 The following shorts where changed:
 
@@ -205,21 +205,21 @@ We've decided to remove all short notations for option `--asAdmin` in pp command
 
 Affected commands:
 
-- [pp card clone](./cmd/pp/card/card-clone.md)
-- [pp card get](./cmd/pp/card/card-get.md)
-- [pp card list](./cmd/pp/card/card-list.md)
-- [pp card remove](./cmd/pp/card/card-remove.md)
-- [pp dataverse table get](./cmd/pp/dataverse/dataverse-table-get.md)
-- [pp dataverse table list](./cmd/pp/dataverse/dataverse-table-list.md)
-- [pp dataverse table remove](./cmd/pp/dataverse/dataverse-table-remove.md)
-- [pp environment get](./cmd/pp/environment/environment-get.md)
-- [pp environment list](./cmd/pp/environment/environment-list.md)
-- [pp solution get](./cmd/pp/solution/solution-get.md)
-- [pp solution list](./cmd/pp/solution/solution-list.md)
-- [pp solution remove](./cmd/pp/solution/solution-remove.md)
-- [pp solution publisher get](./cmd/pp/solution/solution-publisher-get.md)
-- [pp solution publisher list](./cmd/pp/solution/solution-publisher-list.md)
-- [pp solution publisher remove](./cmd/pp/solution/solution-publisher-remove.md)
+- [pp card clone](./cmd/groups/pp/card/card-clone.md)
+- [pp card get](./cmd/groups/pp/card/card-get.md)
+- [pp card list](./cmd/groups/pp/card/card-list.md)
+- [pp card remove](./cmd/groups/pp/card/card-remove.md)
+- [pp dataverse table get](./cmd/groups/pp/dataverse/dataverse-table-get.md)
+- [pp dataverse table list](./cmd/groups/pp/dataverse/dataverse-table-list.md)
+- [pp dataverse table remove](./cmd/groups/pp/dataverse/dataverse-table-remove.md)
+- [pp environment get](./cmd/groups/pp/environment/environment-get.md)
+- [pp environment list](./cmd/groups/pp/environment/environment-list.md)
+- [pp solution get](./cmd/groups/pp/solution/solution-get.md)
+- [pp solution list](./cmd/groups/pp/solution/solution-list.md)
+- [pp solution remove](./cmd/groups/pp/solution/solution-remove.md)
+- [pp solution publisher get](./cmd/groups/pp/solution/solution-publisher-get.md)
+- [pp solution publisher list](./cmd/groups/pp/solution/solution-publisher-list.md)
+- [pp solution publisher remove](./cmd/groups/pp/solution/solution-publisher-remove.md)
 
 ### What action do I need to take?
 
@@ -227,11 +227,11 @@ Update your scripts to use `--asAdmin` instead of `-a`.
 
 ## Updated `teams app list` command
 
-The logic to list the installed apps in a specified team is moved to a new command [teams team app list](./cmd/teams/team/team-app-list.md). As a result, the command [teams app list](./cmd/teams/app/app-list.md) only displays the installed apps from the Microsoft Teams app catalog. The command [teams app list](./cmd/teams/app/app-list.md) does no longer contain the options `all`, `teamId` and `teamName`. In addition, there is a new option for this command that allows you to indicate which installed apps from the Microsoft Teams app catalog you want to list according to the distribution method.
+The logic to list the installed apps in a specified team is moved to a new command [teams team app list](./cmd/groups/teams/team/team-app-list.md). As a result, the command [teams app list](./cmd/groups/teams/app/app-list.md) only displays the installed apps from the Microsoft Teams app catalog. The command [teams app list](./cmd/groups/teams/app/app-list.md) does no longer contain the options `all`, `teamId` and `teamName`. In addition, there is a new option for this command that allows you to indicate which installed apps from the Microsoft Teams app catalog you want to list according to the distribution method.
 
 ### What action do I need to take?
 
-Update your scripts to use the [teams app list](./cmd/teams/app/app-list.md) command if you want to list the installed apps in the Microsoft Teams app catalog. If you want to list the installed apps in a specified team, use the [teams team app list](./cmd/teams/team/team-app-list.md) command instead.
+Update your scripts to use the [teams app list](./cmd/groups/teams/app/app-list.md) command if you want to list the installed apps in the Microsoft Teams app catalog. If you want to list the installed apps in a specified team, use the [teams team app list](./cmd/groups/teams/team/team-app-list.md) command instead.
 
 ## Aligned options with naming convention
 
@@ -241,154 +241,154 @@ We've updated the following commands and options:
 
 Command|Old option|New option
 --|--|--
-[aad approleassignment add](./cmd/aad/approleassignment/approleassignment-add.md)|`objectId`|`appObjectId`
-[aad approleassignment add](./cmd/aad/approleassignment/approleassignment-add.md)|`displayName`|`appDisplayName`
-[aad approleassignment list](./cmd/aad/approleassignment/approleassignment-list.md)|`objectId`|`appObjectId`
-[aad approleassignment list](./cmd/aad/approleassignment/approleassignment-list.md)|`displayName`|`appDisplayName`
-[aad approleassignment remove](./cmd/aad/approleassignment/approleassignment-remove.md)|`objectId`|`appObjectId`
-[aad approleassignment remove](./cmd/aad/approleassignment/approleassignment-remove.md)|`displayName`|`appDisplayName`
-[aad o365group add](./cmd/aad/o365group/o365group-add.md)|`isPrivate [isPrivate]`|`isPrivate` (changed to flag)
-[aad o365group recyclebinitem list](./cmd/aad/o365group/o365group-recyclebinitem-list.md)|`displayName`|`groupDisplayName`
-[aad o365group recyclebinitem list](./cmd/aad/o365group/o365group-recyclebinitem-list.md)|`mailNickname`|`groupMailNickname`
-[aad o365group teamify](./cmd/aad/o365group/o365group-teamify.md)|`groupId`|`id`
-[aad policy list](./cmd/aad/policy/policy-list.md)|`policyType`|`type`
-[aad sp get](./cmd/aad/sp/sp-get.md)|`displayName`|`appDisplayName`
-[aad sp get](./cmd/aad/sp/sp-get.md)|`objectId`|`appObjectId`
-[flow disable](./cmd/flow/flow-disable.md)|`environment`|`environmentName`
-[flow enable](./cmd/flow/flow-enable.md)|`environment`|`environmentName`
-[flow export](./cmd/flow/flow-export.md)|`environment`|`environmentName`
-[flow get](./cmd/flow/flow-get.md)|`environment`|`environmentName`
-[flow list](./cmd/flow/flow-list.md)|`environment`|`environmentName`
-[flow remove](./cmd/flow/flow-remove.md)|`environment`|`environmentName`
-[flow run cancel](./cmd/flow/run/run-cancel.md)|`flow`|`flowName`
-[flow run cancel](./cmd/flow/run/run-cancel.md)|`environment`|`environmentName`
-[flow run get](./cmd/flow/run/run-get.md)|`flow`|`flowName`
-[flow run get](./cmd/flow/run/run-get.md)|`environment`|`environmentName`
-[flow run list](./cmd/flow/run/run-list.md)|`flow`|`flowName`
-[flow run list](./cmd/flow/run/run-list.md)|`environment`|`environmentName`
-[flow run resubmit](./cmd/flow/run/run-resubmit.md)|`flow`|`flowName`
-[flow run resubmit](./cmd/flow/run/run-resubmit.md)|`environment`|`environmentName`
-[outlook message move](./cmd/outlook/message/message-move.md)|`messageId`|`id`
-[pa connector export](./cmd/pa/connector/connector-export.md)|`environment`|`environmentName`
-[pa connector list](./cmd/pa/connector/connector-list.md)|`environment`|`environmentName`
-[pa solution reference add](./cmd/pa/solution/solution-reference-add.md)|`path`|`projectPath`
-[spfx package generate](./cmd/spfx/package/package-generate.md)|`packageName`|`name`
-[spo app add](./cmd/spo/app/app-add.md)|`scope`|`appCatalogScope`
-[spo app deploy](./cmd/spo/app/app-deploy.md)|`scope`|`appCatalogScope`
-[spo app get](./cmd/spo/app/app-get.md)|`scope`|`appCatalogScope`
-[spo app install](./cmd/spo/app/app-install.md)|`scope`|`appCatalogScope`
-[spo app list](./cmd/spo/app/app-list.md)|`scope`|`appCatalogScope`
-[spo app remove](./cmd/spo/app/app-remove.md)|`scope`|`appCatalogScope`
-[spo app retract](./cmd/spo/app/app-retract.md)|`scope`|`appCatalogScope`
-[spo app uninstall](./cmd/spo/app/app-uninstall.md)|`scope`|`appCatalogScope`
-[spo app upgrade](./cmd/spo/app/app-upgrade.md)|`scope`|`appCatalogScope`
-[spo apppage set](./cmd/spo/apppage/apppage-set.md)|`pageName`|`name`
-[spo cdn policy list](./cmd/spo/cdn/cdn-policy-list.md)|`type`|`cdnType`
-[spo cdn policy set](./cmd/spo/cdn/cdn-policy-set.md)|`type`|`cdnType`
-[spo contenttype field set](./cmd/spo/contenttype/contenttype-field-set.md)|`fieldId`|`id`
-[spo customaction add](./cmd/spo/customaction/customaction-add.md)|`url`|`webUrl`
-[spo customaction clear](./cmd/spo/customaction/customaction-clear.md)|`url`|`webUrl`
-[spo customaction get](./cmd/spo/customaction/customaction-get.md)|`url`|`webUrl`
-[spo customaction list](./cmd/spo/customaction/customaction-list.md)|`url`|`webUrl`
-[spo customaction remove](./cmd/spo/customaction/customaction-remove.md)|`url`|`webUrl`
-[spo customaction set](./cmd/spo/customaction/customaction-set.md)|`url`|`webUrl`
-[spo feature disable](./cmd/spo/feature/feature-disable.md)|`featureId`|`id`
-[spo feature disable](./cmd/spo/feature/feature-disable.md)|`url`|`webUrl`
-[spo feature enable](./cmd/spo/feature/feature-enable.md)|`featureId`|`id`
-[spo feature enable](./cmd/spo/feature/feature-enable.md)|`url`|`webUrl`
-[spo feature list](./cmd/spo/feature/feature-list.md)|`url`|`webUrl`
-[spo field get](./cmd/spo/field/field-get.md)|`fieldTitle`|`title`
-[spo field remove](./cmd/spo/field/field-remove.md)|`fieldTitle`|`title`
-[spo file checkin](./cmd/spo/file/file-checkin.md)|`fileUrl`|`url`
-[spo file checkout](./cmd/spo/file/file-checkout.md)|`fileUrl`|`url`
-[spo file sharinginfo get](./cmd/spo/file/file-sharinginfo-get.md)|`url`|`fileUrl`
-[spo file sharinginfo get](./cmd/spo/file/file-sharinginfo-get.md)|`id`|`fileId`
-[spo folder get](./cmd/spo/folder/folder-get.md)|`folderUrl`|`url`
-[spo folder remove](./cmd/spo/folder/folder-remove.md)|`folderUrl`|`url`
-[spo folder rename](./cmd/spo/folder/folder-rename.md)|`folderUrl`|`url`
-[spo site hubsite connect](./cmd/spo/site/site-hubsite-connect.md)|`url`|`siteUrl`
-[spo site hubsite disconnect](./cmd/spo/site/site-hubsite-disconnect.md)|`url`|`siteUrl`
-[spo hubsite register](./cmd/spo/hubsite/hubsite-register.md)|`url`|`siteUrl`
-[spo hubsite rights grant](./cmd/spo/hubsite/hubsite-rights-grant.md)|`url`|`hubSiteUrl`
-[spo hubsite rights revoke](./cmd/spo/hubsite/hubsite-rights-revoke.md)|`url`|`hubSiteUrl`
-[spo knowledgehub set](./cmd/spo/knowledgehub/knowledgehub-set.md)|`url`|`siteUrl`
-[spo list contenttype add](./cmd/spo/list/list-contenttype-add.md)|`contentTypeId`|`id`
-[spo list contenttype remove](./cmd/spo/list/list-contenttype-remove.md)|`contentTypeId`|`id`
-[spo list view field add](./cmd/spo/list/list-view-field-add.md)|`fieldId`|`id`
-[spo list view field add](./cmd/spo/list/list-view-field-add.md)|`fieldTitle`|`title`
-[spo list view field add](./cmd/spo/list/list-view-field-add.md)|`fieldPosition`|`position`
-[spo list view field remove](./cmd/spo/list/list-view-field-remove.md)|`fieldId`|`id`
-[spo list view field remove](./cmd/spo/list/list-view-field-remove.md)|`fieldTitle`|`title`
-[spo list view field set](./cmd/spo/list/list-view-field-set.md)|`fieldId`|`id`
-[spo list view field set](./cmd/spo/list/list-view-field-set.md)|`fieldTitle`|`title`
-[spo list view field set](./cmd/spo/list/list-view-field-set.md)|`fieldPosition`|`position`
-[spo list view get](./cmd/spo/list/list-view-get.md)|`viewId`|`id`
-[spo list view get](./cmd/spo/list/list-view-get.md)|`viewTitle`|`title`
-[spo list view remove](./cmd/spo/list/list-view-remove.md)|`viewId`|`id`
-[spo list view remove](./cmd/spo/list/list-view-remove.md)|`viewTitle`|`title`
-[spo list view set](./cmd/spo/list/list-view-set.md)|`viewId`|`id`
-[spo list view set](./cmd/spo/list/list-view-set.md)|`viewTitle`|`title`
-[spo listitem list](./cmd/spo/listitem/listitem-list.md)|`id`|`listId`
-[spo listitem list](./cmd/spo/listitem/listitem-list.md)|`title`|`listTitle`
-[spo listitem record declare](./cmd/spo/listitem/listitem-record-declare.md)|`id`|`listItemId`
-[spo listitem record undeclare](./cmd/spo/listitem/listitem-record-undeclare.md)|`id`|`listItemId`
-[spo page column get](./cmd/spo/page/page-column-get.md)|`name`|`pageName`
-[spo page column list](./cmd/spo/page/page-column-list.md)|`name`|`pageName`
-[spo page control get](./cmd/spo/page/page-control-get.md)|`name`|`pageName`
-[spo page control list](./cmd/spo/page/page-control-list.md)|`name`|`pageName`
-[spo page control set](./cmd/spo/page/page-control-set.md)|`name`|`pageName`
-[spo page section add](./cmd/spo/page/page-section-add.md)|`name`|`pageName`
-[spo page section get](./cmd/spo/page/page-section-get.md)|`name`|`pageName`
-[spo page section list](./cmd/spo/page/page-section-list.md)|`name`|`pageName`
-[spo serviceprincipal grant revoke](./cmd/spo/serviceprincipal/serviceprincipal-grant-revoke.md)|`grantId`|`id`
-[spo serviceprincipal permissionrequest approve](./cmd/spo/serviceprincipal/serviceprincipal-permissionrequest-approve.md)|`requestId`|`id`
-[spo serviceprincipal permissionrequest deny](./cmd/spo/serviceprincipal/serviceprincipal-permissionrequest-deny.md)|`requestId`|`id`
-[spo site appcatalog add](./cmd/spo/site/site-appcatalog-add.md)|`url`|`siteUrl`
-[spo site appcatalog remove](./cmd/spo/site/site-appcatalog-remove.md)|`url`|`siteUrl`
-[spo site apppermission get](./cmd/spo/site/site-apppermission-get.md)|`permissionId`|`id`
-[spo site apppermission remove](./cmd/spo/site/site-apppermission-remove.md)|`permissionId`|`id`
-[spo site apppermission set](./cmd/spo/site/site-apppermission-set.md)|`permissionId`|`id`
-[spo site chrome set](./cmd/spo/site/site-chrome-set.md)|`url`|`siteUrl`
-[spo site groupify](./cmd/spo/site/site-groupify.md)|`siteUrl`|`url`
-[spo site rename](./cmd/spo/site/site-rename.md)|`siteUrl`|`url`
-[spo sitedesign rights grant](./cmd/spo/sitedesign/sitedesign-rights-grant.md)|`id`|`siteDesignId`
-[spo sitedesign rights list](./cmd/spo/sitedesign/sitedesign-rights-list.md)|`id`|`siteDesignId`
-[spo sitedesign rights revoke](./cmd/spo/sitedesign/sitedesign-rights-revoke.md)|`id`|`siteDesignId`
-[spo sitedesign task get](./cmd/spo/sitedesign/sitedesign-task-get.md)|`taskId`|`id`
-[spo sitedesign task remove](./cmd/spo/sitedesign/sitedesign-task-remove.md)|`taskId`|`id`
-[spo tenant recyclebinitem remove](./cmd/spo/tenant/tenant-recyclebinitem-remove.md)|`url`|`siteUrl`
-[spo tenant recyclebinitem restore](./cmd/spo/tenant/tenant-recyclebinitem-restore.md)|`url`|`siteUrl`
-[spo web add](./cmd/spo/web/web-add.md)|`webUrl`|`url`
-[spo web get](./cmd/spo/web/web-get.md)|`webUrl`|`url`
-[spo web list](./cmd/spo/web/web-list.md)|`webUrl`|`url`
-[spo web reindex](./cmd/spo/web/web-reindex.md)|`webUrl`|`url`
-[spo web remove](./cmd/spo/web/web-remove.md)|`webUrl`|`url`
-[spo web set](./cmd/spo/web/web-set.md)|`webUrl`|`url`
-[teams app app install](./cmd/teams/app/app-install.md)|`appId`|`id`
-[teams app app uninstall](./cmd/teams/app/app-uninstall.md)|`appId`|`id`
-[teams channel get](./cmd/teams/channel/channel-get.md)|`channelId`|`id`
-[teams channel get](./cmd/teams/channel/channel-get.md)|`channelName`|`name`
-[teams channel remove](./cmd/teams/channel/channel-remove.md)|`channelId`|`id`
-[teams channel remove](./cmd/teams/channel/channel-remove.md)|`channelName`|`name`
-[teams channel set](./cmd/teams/channel/channel-set.md)|`channelName`|`name`
-[teams message get](./cmd/teams/message/message-get.md)|`messageId`|`id`
-[teams tab get](./cmd/teams/tab/tab-get.md)|`tabId`|`id`
-[teams tab get](./cmd/teams/tab/tab-get.md)|`tabName`|`name`
-[teams tab remove](./cmd/teams/tab/tab-remove.md)|`tabId`|`id`
-[teams team archive](./cmd/teams/team/team-archive.md)|`teamId`|`id`
-[teams team clone](./cmd/teams/team/team-clone.md)|`teamId`|`id`
-[teams team remove](./cmd/teams/team/team-remove.md)|`teamId`|`id`
-[teams team set](./cmd/teams/team/team-set.md)|`teamId`|`id`
-[teams team unarchive](./cmd/teams/team/team-unarchive.md)|`teamId`|`id`
-[teams user app add](./cmd/teams/user/user-app-add.md)|`appId`|`id`
-[teams user app remove](./cmd/teams/user/user-app-remove.md)|`appId`|`id`
-[viva connections app create](./cmd/viva/connections/connections-app-create.md)|`appName`|`name`
-[yammer group user add](./cmd/yammer/group/group-user-add.md)|`id`|`groupId`
-[yammer group user add](./cmd/yammer/group/group-user-add.md)|`userId`|`id`
-[yammer group user remove](./cmd/yammer/group/group-user-remove.md)|`id`|`groupId`
-[yammer group user remove](./cmd/yammer/group/group-user-remove.md)|`userId`|`id`
-[yammer message like set](./cmd/yammer/message/message-like-set.md)|`id`|`messageId`
-[yammer user get](./cmd/yammer/user/user-get.md)|`userId`|`id`
+[aad approleassignment add](./cmd/groups/aad/approleassignment/approleassignment-add.md)|`objectId`|`appObjectId`
+[aad approleassignment add](./cmd/groups/aad/approleassignment/approleassignment-add.md)|`displayName`|`appDisplayName`
+[aad approleassignment list](./cmd/groups/aad/approleassignment/approleassignment-list.md)|`objectId`|`appObjectId`
+[aad approleassignment list](./cmd/groups/aad/approleassignment/approleassignment-list.md)|`displayName`|`appDisplayName`
+[aad approleassignment remove](./cmd/groups/aad/approleassignment/approleassignment-remove.md)|`objectId`|`appObjectId`
+[aad approleassignment remove](./cmd/groups/aad/approleassignment/approleassignment-remove.md)|`displayName`|`appDisplayName`
+[aad o365group add](./cmd/groups/aad/o365group/o365group-add.md)|`isPrivate [isPrivate]`|`isPrivate` (changed to flag)
+[aad o365group recyclebinitem list](./cmd/groups/aad/o365group/o365group-recyclebinitem-list.md)|`displayName`|`groupDisplayName`
+[aad o365group recyclebinitem list](./cmd/groups/aad/o365group/o365group-recyclebinitem-list.md)|`mailNickname`|`groupMailNickname`
+[aad o365group teamify](./cmd/groups/aad/o365group/o365group-teamify.md)|`groupId`|`id`
+[aad policy list](./cmd/groups/aad/policy/policy-list.md)|`policyType`|`type`
+[aad sp get](./cmd/groups/aad/sp/sp-get.md)|`displayName`|`appDisplayName`
+[aad sp get](./cmd/groups/aad/sp/sp-get.md)|`objectId`|`appObjectId`
+[flow disable](./cmd/groups/flow/flow-disable.md)|`environment`|`environmentName`
+[flow enable](./cmd/groups/flow/flow-enable.md)|`environment`|`environmentName`
+[flow export](./cmd/groups/flow/flow-export.md)|`environment`|`environmentName`
+[flow get](./cmd/groups/flow/flow-get.md)|`environment`|`environmentName`
+[flow list](./cmd/groups/flow/flow-list.md)|`environment`|`environmentName`
+[flow remove](./cmd/groups/flow/flow-remove.md)|`environment`|`environmentName`
+[flow run cancel](./cmd/groups/flow/run/run-cancel.md)|`flow`|`flowName`
+[flow run cancel](./cmd/groups/flow/run/run-cancel.md)|`environment`|`environmentName`
+[flow run get](./cmd/groups/flow/run/run-get.md)|`flow`|`flowName`
+[flow run get](./cmd/groups/flow/run/run-get.md)|`environment`|`environmentName`
+[flow run list](./cmd/groups/flow/run/run-list.md)|`flow`|`flowName`
+[flow run list](./cmd/groups/flow/run/run-list.md)|`environment`|`environmentName`
+[flow run resubmit](./cmd/groups/flow/run/run-resubmit.md)|`flow`|`flowName`
+[flow run resubmit](./cmd/groups/flow/run/run-resubmit.md)|`environment`|`environmentName`
+[outlook message move](./cmd/groups/outlook/message/message-move.md)|`messageId`|`id`
+[pa connector export](./cmd/groups/pa/connector/connector-export.md)|`environment`|`environmentName`
+[pa connector list](./cmd/groups/pa/connector/connector-list.md)|`environment`|`environmentName`
+[pa solution reference add](./cmd/groups/pa/solution/solution-reference-add.md)|`path`|`projectPath`
+[spfx package generate](./cmd/groups/spfx/package/package-generate.md)|`packageName`|`name`
+[spo app add](./cmd/groups/spo/app/app-add.md)|`scope`|`appCatalogScope`
+[spo app deploy](./cmd/groups/spo/app/app-deploy.md)|`scope`|`appCatalogScope`
+[spo app get](./cmd/groups/spo/app/app-get.md)|`scope`|`appCatalogScope`
+[spo app install](./cmd/groups/spo/app/app-install.md)|`scope`|`appCatalogScope`
+[spo app list](./cmd/groups/spo/app/app-list.md)|`scope`|`appCatalogScope`
+[spo app remove](./cmd/groups/spo/app/app-remove.md)|`scope`|`appCatalogScope`
+[spo app retract](./cmd/groups/spo/app/app-retract.md)|`scope`|`appCatalogScope`
+[spo app uninstall](./cmd/groups/spo/app/app-uninstall.md)|`scope`|`appCatalogScope`
+[spo app upgrade](./cmd/groups/spo/app/app-upgrade.md)|`scope`|`appCatalogScope`
+[spo apppage set](./cmd/groups/spo/apppage/apppage-set.md)|`pageName`|`name`
+[spo cdn policy list](./cmd/groups/spo/cdn/cdn-policy-list.md)|`type`|`cdnType`
+[spo cdn policy set](./cmd/groups/spo/cdn/cdn-policy-set.md)|`type`|`cdnType`
+[spo contenttype field set](./cmd/groups/spo/contenttype/contenttype-field-set.md)|`fieldId`|`id`
+[spo customaction add](./cmd/groups/spo/customaction/customaction-add.md)|`url`|`webUrl`
+[spo customaction clear](./cmd/groups/spo/customaction/customaction-clear.md)|`url`|`webUrl`
+[spo customaction get](./cmd/groups/spo/customaction/customaction-get.md)|`url`|`webUrl`
+[spo customaction list](./cmd/groups/spo/customaction/customaction-list.md)|`url`|`webUrl`
+[spo customaction remove](./cmd/groups/spo/customaction/customaction-remove.md)|`url`|`webUrl`
+[spo customaction set](./cmd/groups/spo/customaction/customaction-set.md)|`url`|`webUrl`
+[spo feature disable](./cmd/groups/spo/feature/feature-disable.md)|`featureId`|`id`
+[spo feature disable](./cmd/groups/spo/feature/feature-disable.md)|`url`|`webUrl`
+[spo feature enable](./cmd/groups/spo/feature/feature-enable.md)|`featureId`|`id`
+[spo feature enable](./cmd/groups/spo/feature/feature-enable.md)|`url`|`webUrl`
+[spo feature list](./cmd/groups/spo/feature/feature-list.md)|`url`|`webUrl`
+[spo field get](./cmd/groups/spo/field/field-get.md)|`fieldTitle`|`title`
+[spo field remove](./cmd/groups/spo/field/field-remove.md)|`fieldTitle`|`title`
+[spo file checkin](./cmd/groups/spo/file/file-checkin.md)|`fileUrl`|`url`
+[spo file checkout](./cmd/groups/spo/file/file-checkout.md)|`fileUrl`|`url`
+[spo file sharinginfo get](./cmd/groups/spo/file/file-sharinginfo-get.md)|`url`|`fileUrl`
+[spo file sharinginfo get](./cmd/groups/spo/file/file-sharinginfo-get.md)|`id`|`fileId`
+[spo folder get](./cmd/groups/spo/folder/folder-get.md)|`folderUrl`|`url`
+[spo folder remove](./cmd/groups/spo/folder/folder-remove.md)|`folderUrl`|`url`
+[spo folder rename](./cmd/groups/spo/folder/folder-rename.md)|`folderUrl`|`url`
+[spo site hubsite connect](./cmd/groups/spo/site/site-hubsite-connect.md)|`url`|`siteUrl`
+[spo site hubsite disconnect](./cmd/groups/spo/site/site-hubsite-disconnect.md)|`url`|`siteUrl`
+[spo hubsite register](./cmd/groups/spo/hubsite/hubsite-register.md)|`url`|`siteUrl`
+[spo hubsite rights grant](./cmd/groups/spo/hubsite/hubsite-rights-grant.md)|`url`|`hubSiteUrl`
+[spo hubsite rights revoke](./cmd/groups/spo/hubsite/hubsite-rights-revoke.md)|`url`|`hubSiteUrl`
+[spo knowledgehub set](./cmd/groups/spo/knowledgehub/knowledgehub-set.md)|`url`|`siteUrl`
+[spo list contenttype add](./cmd/groups/spo/list/list-contenttype-add.md)|`contentTypeId`|`id`
+[spo list contenttype remove](./cmd/groups/spo/list/list-contenttype-remove.md)|`contentTypeId`|`id`
+[spo list view field add](./cmd/groups/spo/list/list-view-field-add.md)|`fieldId`|`id`
+[spo list view field add](./cmd/groups/spo/list/list-view-field-add.md)|`fieldTitle`|`title`
+[spo list view field add](./cmd/groups/spo/list/list-view-field-add.md)|`fieldPosition`|`position`
+[spo list view field remove](./cmd/groups/spo/list/list-view-field-remove.md)|`fieldId`|`id`
+[spo list view field remove](./cmd/groups/spo/list/list-view-field-remove.md)|`fieldTitle`|`title`
+[spo list view field set](./cmd/groups/spo/list/list-view-field-set.md)|`fieldId`|`id`
+[spo list view field set](./cmd/groups/spo/list/list-view-field-set.md)|`fieldTitle`|`title`
+[spo list view field set](./cmd/groups/spo/list/list-view-field-set.md)|`fieldPosition`|`position`
+[spo list view get](./cmd/groups/spo/list/list-view-get.md)|`viewId`|`id`
+[spo list view get](./cmd/groups/spo/list/list-view-get.md)|`viewTitle`|`title`
+[spo list view remove](./cmd/groups/spo/list/list-view-remove.md)|`viewId`|`id`
+[spo list view remove](./cmd/groups/spo/list/list-view-remove.md)|`viewTitle`|`title`
+[spo list view set](./cmd/groups/spo/list/list-view-set.md)|`viewId`|`id`
+[spo list view set](./cmd/groups/spo/list/list-view-set.md)|`viewTitle`|`title`
+[spo listitem list](./cmd/groups/spo/listitem/listitem-list.md)|`id`|`listId`
+[spo listitem list](./cmd/groups/spo/listitem/listitem-list.md)|`title`|`listTitle`
+[spo listitem record declare](./cmd/groups/spo/listitem/listitem-record-declare.md)|`id`|`listItemId`
+[spo listitem record undeclare](./cmd/groups/spo/listitem/listitem-record-undeclare.md)|`id`|`listItemId`
+[spo page column get](./cmd/groups/spo/page/page-column-get.md)|`name`|`pageName`
+[spo page column list](./cmd/groups/spo/page/page-column-list.md)|`name`|`pageName`
+[spo page control get](./cmd/groups/spo/page/page-control-get.md)|`name`|`pageName`
+[spo page control list](./cmd/groups/spo/page/page-control-list.md)|`name`|`pageName`
+[spo page control set](./cmd/groups/spo/page/page-control-set.md)|`name`|`pageName`
+[spo page section add](./cmd/groups/spo/page/page-section-add.md)|`name`|`pageName`
+[spo page section get](./cmd/groups/spo/page/page-section-get.md)|`name`|`pageName`
+[spo page section list](./cmd/groups/spo/page/page-section-list.md)|`name`|`pageName`
+[spo serviceprincipal grant revoke](./cmd/groups/spo/serviceprincipal/serviceprincipal-grant-revoke.md)|`grantId`|`id`
+[spo serviceprincipal permissionrequest approve](./cmd/groups/spo/serviceprincipal/serviceprincipal-permissionrequest-approve.md)|`requestId`|`id`
+[spo serviceprincipal permissionrequest deny](./cmd/groups/spo/serviceprincipal/serviceprincipal-permissionrequest-deny.md)|`requestId`|`id`
+[spo site appcatalog add](./cmd/groups/spo/site/site-appcatalog-add.md)|`url`|`siteUrl`
+[spo site appcatalog remove](./cmd/groups/spo/site/site-appcatalog-remove.md)|`url`|`siteUrl`
+[spo site apppermission get](./cmd/groups/spo/site/site-apppermission-get.md)|`permissionId`|`id`
+[spo site apppermission remove](./cmd/groups/spo/site/site-apppermission-remove.md)|`permissionId`|`id`
+[spo site apppermission set](./cmd/groups/spo/site/site-apppermission-set.md)|`permissionId`|`id`
+[spo site chrome set](./cmd/groups/spo/site/site-chrome-set.md)|`url`|`siteUrl`
+[spo site groupify](./cmd/groups/spo/site/site-groupify.md)|`siteUrl`|`url`
+[spo site rename](./cmd/groups/spo/site/site-rename.md)|`siteUrl`|`url`
+[spo sitedesign rights grant](./cmd/groups/spo/sitedesign/sitedesign-rights-grant.md)|`id`|`siteDesignId`
+[spo sitedesign rights list](./cmd/groups/spo/sitedesign/sitedesign-rights-list.md)|`id`|`siteDesignId`
+[spo sitedesign rights revoke](./cmd/groups/spo/sitedesign/sitedesign-rights-revoke.md)|`id`|`siteDesignId`
+[spo sitedesign task get](./cmd/groups/spo/sitedesign/sitedesign-task-get.md)|`taskId`|`id`
+[spo sitedesign task remove](./cmd/groups/spo/sitedesign/sitedesign-task-remove.md)|`taskId`|`id`
+[spo tenant recyclebinitem remove](./cmd/groups/spo/tenant/tenant-recyclebinitem-remove.md)|`url`|`siteUrl`
+[spo tenant recyclebinitem restore](./cmd/groups/spo/tenant/tenant-recyclebinitem-restore.md)|`url`|`siteUrl`
+[spo web add](./cmd/groups/spo/web/web-add.md)|`webUrl`|`url`
+[spo web get](./cmd/groups/spo/web/web-get.md)|`webUrl`|`url`
+[spo web list](./cmd/groups/spo/web/web-list.md)|`webUrl`|`url`
+[spo web reindex](./cmd/groups/spo/web/web-reindex.md)|`webUrl`|`url`
+[spo web remove](./cmd/groups/spo/web/web-remove.md)|`webUrl`|`url`
+[spo web set](./cmd/groups/spo/web/web-set.md)|`webUrl`|`url`
+[teams app app install](./cmd/groups/teams/app/app-install.md)|`appId`|`id`
+[teams app app uninstall](./cmd/groups/teams/app/app-uninstall.md)|`appId`|`id`
+[teams channel get](./cmd/groups/teams/channel/channel-get.md)|`channelId`|`id`
+[teams channel get](./cmd/groups/teams/channel/channel-get.md)|`channelName`|`name`
+[teams channel remove](./cmd/groups/teams/channel/channel-remove.md)|`channelId`|`id`
+[teams channel remove](./cmd/groups/teams/channel/channel-remove.md)|`channelName`|`name`
+[teams channel set](./cmd/groups/teams/channel/channel-set.md)|`channelName`|`name`
+[teams message get](./cmd/groups/teams/message/message-get.md)|`messageId`|`id`
+[teams tab get](./cmd/groups/teams/tab/tab-get.md)|`tabId`|`id`
+[teams tab get](./cmd/groups/teams/tab/tab-get.md)|`tabName`|`name`
+[teams tab remove](./cmd/groups/teams/tab/tab-remove.md)|`tabId`|`id`
+[teams team archive](./cmd/groups/teams/team/team-archive.md)|`teamId`|`id`
+[teams team clone](./cmd/groups/teams/team/team-clone.md)|`teamId`|`id`
+[teams team remove](./cmd/groups/teams/team/team-remove.md)|`teamId`|`id`
+[teams team set](./cmd/groups/teams/team/team-set.md)|`teamId`|`id`
+[teams team unarchive](./cmd/groups/teams/team/team-unarchive.md)|`teamId`|`id`
+[teams user app add](./cmd/groups/teams/user/user-app-add.md)|`appId`|`id`
+[teams user app remove](./cmd/groups/teams/user/user-app-remove.md)|`appId`|`id`
+[viva connections app create](./cmd/groups/viva/connections/connections-app-create.md)|`appName`|`name`
+[yammer group user add](./cmd/groups/yammer/group/group-user-add.md)|`id`|`groupId`
+[yammer group user add](./cmd/groups/yammer/group/group-user-add.md)|`userId`|`id`
+[yammer group user remove](./cmd/groups/yammer/group/group-user-remove.md)|`id`|`groupId`
+[yammer group user remove](./cmd/groups/yammer/group/group-user-remove.md)|`userId`|`id`
+[yammer message like set](./cmd/groups/yammer/message/message-like-set.md)|`id`|`messageId`
+[yammer user get](./cmd/groups/yammer/user/user-get.md)|`userId`|`id`
 
 ### What action do I need to take?
 

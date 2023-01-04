@@ -13,15 +13,15 @@ This is a script which monitors the health status of your Microsoft 365 tenant a
 
 Following is the overview of the script package
 
-1. We use the command [tenant serviceannouncement health list](https://pnp.github.io/cli-microsoft365/cmd/tenant/serviceannouncement/serviceannouncement-health-list/)  for getting the current status.
+1. We use the command [tenant serviceannouncement health list](https://pnp.github.io/cli-microsoft365/cmd/groups/tenant/serviceannouncement/serviceannouncement-health-list/)  for getting the current status.
 
-2. If there is an outage or some of the service is not normal, we will be adding the information to SharePoint list using the command [spo listitem add](https://pnp.github.io/cli-microsoft365/cmd/spo/listitem/listitem-add/)
+2. If there is an outage or some of the service is not normal, we will be adding the information to SharePoint list using the command [spo listitem add](https://pnp.github.io/cli-microsoft365/cmd/groups/spo/listitem/listitem-add/)
    1. Advantage of adding to SharePoint list - You can configure Power Automate for List item Added so that you can define your business process if needed
-3. Script also will send an email to the configured user/s using the command [spo mail send](https://pnp.github.io/cli-microsoft365/cmd/spo/mail/mail-send/) so that concerned team could be notified
+3. Script also will send an email to the configured user/s using the command [spo mail send](https://pnp.github.io/cli-microsoft365/cmd/groups/spo/mail/mail-send/) so that concerned team could be notified
 
 ## Bonus Action
 
-All the pre-requisites would be completed by the script. Script checks whether SharePoint List exists in the SharePoint site. If it does not exist, it will create a SharePoint List using [spo list add](https://pnp.github.io/cli-microsoft365/cmd/spo/list/list-add/) command and will also [add the needed fields](https://pnp.github.io/cli-microsoft365/cmd/spo/field/field-add/). Person who is executing the script just need to have Edit permission in the site against which the script will be executed.
+All the pre-requisites would be completed by the script. Script checks whether SharePoint List exists in the SharePoint site. If it does not exist, it will create a SharePoint List using [spo list add](https://pnp.github.io/cli-microsoft365/cmd/groups/spo/list/list-add/) command and will also [add the needed fields](https://pnp.github.io/cli-microsoft365/cmd/groups/spo/field/field-add/). Person who is executing the script just need to have Edit permission in the site against which the script will be executed.
 
 If you want to schedule the script directly, you can go ahead without the need of any other configurations.
 

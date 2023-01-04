@@ -1,3 +1,8 @@
+---
+title: CLI output mode
+sidebar_position: 5
+---
+
 # CLI for Microsoft 365 output mode
 
 CLI for Microsoft 365 commands can present their output either as plain-text, JSON, or as CSV. Following is information on these three output modes along with information when to use which.
@@ -631,7 +636,7 @@ for appId in $notDeployedAppsIds; do
 done
 ```
 
-_First, you use the CLI for Microsoft 365 to get the list of all apps from the tenant app catalog using the [spo app list](../cmd/spo/app/app-list.md) command. You set the output type to JSON and store it in a shell variable `apps`. Next, you parse the JSON string using [jq](https://stedolan.github.io/jq/) and get IDs of apps that are not deployed. Finally, for each ID you run the [spo app deploy](../cmd/spo/app/app-deploy.md) CLI for Microsoft 365 command passing the ID as a command argument. Notice, that in the script, both `spo` commands are prepended with `m365` and executed as separate commands directly in the shell._
+_First, you use the CLI for Microsoft 365 to get the list of all apps from the tenant app catalog using the [spo app list](../cmd/groups/spo/app/app-list.md) command. You set the output type to JSON and store it in a shell variable `apps`. Next, you parse the JSON string using [jq](https://stedolan.github.io/jq/) and get IDs of apps that are not deployed. Finally, for each ID you run the [spo app deploy](../cmd/groups/spo/app/app-deploy.md) CLI for Microsoft 365 command passing the ID as a command argument. Notice, that in the script, both `spo` commands are prepended with `m365` and executed as separate commands directly in the shell._
 
 The same could be accomplished in PowerShell as well:
 

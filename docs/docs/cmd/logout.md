@@ -10,7 +10,7 @@ m365 logout [options]
 
 ## Options
 
---8<-- "docs/cmd/_global.md"
+--8<-- "docs/cmd/groups/_global.md"
 
 ## Remarks
 

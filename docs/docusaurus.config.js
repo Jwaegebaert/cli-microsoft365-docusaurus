@@ -1,5 +1,3 @@
-const importMd = require('./remarkable-plugins/import-md');
-
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
@@ -9,6 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'CLI for Microsoft 365',
+  titleDelimiter: '-',
   tagline: 'Docs',
   url: 'https://clidemo.github.io',
   baseUrl: '/',
@@ -36,11 +35,9 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          markdownPlugins: [importMd()],
-          editUrl:
-            'https://github.com/pnp/cli-microsoft365/blob/main/docs',
+          editUrl: 'https://github.com/pnp/cli-microsoft365/blob/main/docs',
+          showLastUpdateTime: true,
+          showLastUpdateAuthor: true
         },
         blog: false,
         theme: {
@@ -60,11 +57,49 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {
-            to: 'docs',
-            label: 'Docs',
+          {            
+            type: 'docSidebar',
+            label: 'Home',            
+            sidebarId: 'home',
             position: 'left'
           },
+          {            
+            type: 'docSidebar',
+            label: 'User Guide',            
+            sidebarId: 'userGuide',
+            position: 'left'
+          },
+          {            
+            type: 'docSidebar',
+            label: 'Commands',            
+            sidebarId: 'commands',
+            position: 'left'
+          },
+          // {
+          //   to: 'docs/user-guide',
+          //   label: 'User Guide',
+          //   position: 'left'
+          // },
+          // {
+          //   to: 'docs/cmd',
+          //   label: 'Commands',
+          //   position: 'left'
+          // },
+          // {
+          //   to: 'docs/concepts',
+          //   label: 'Concepts',
+          //   position: 'left'
+          // },
+          // {
+          //   to: 'docs/sample-scripts',
+          //   label: 'Sample Scripts',
+          //   position: 'left'
+          // },
+          // {
+          //   to: 'docs/about',
+          //   label: 'About',
+          //   position: 'left'
+          // },
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
