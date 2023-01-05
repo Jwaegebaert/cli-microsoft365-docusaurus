@@ -1,3 +1,10 @@
+---
+title: planner task reference list
+description: Retrieve the references associated to a Planner task
+---
+
+import Global from '../../_global.md'
+
 # planner task reference list
 
 Retrieve the references associated to a Planner task.
@@ -13,7 +20,7 @@ m365 planner task reference list [options]
 `-i, --taskId <taskId>`
 : ID of the task to retrieve references from
 
---8<-- "docs/cmd/_global.md"
+<Global />
 
 ## Examples
 

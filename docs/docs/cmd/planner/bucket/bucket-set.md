@@ -1,3 +1,8 @@
+---
+title: planner bucket set
+description: Updates a Microsoft Planner bucket
+---
+
 import Global from '../../_global.md'
 
 # planner bucket set

@@ -1,3 +1,10 @@
+---
+title: planner task add
+description: Adds a new Microsoft Planner task
+---
+
+import Global from '../../_global.md'
+
 # planner task add
 
 Adds a new Microsoft Planner task
@@ -64,7 +71,7 @@ m365 planner task add [options]
 `--priority [priority]`
 : Priority of the task: Urgent, Important, Medium, Low. Or an integer between 0 and 10 (check remarks section for more info). Default value is Medium.
 
---8<-- "docs/cmd/_global.md"
+<Global />
 
 ## Remarks
 

@@ -1,3 +1,8 @@
+---
+title: planner bucket get
+description: Gets the Microsoft Planner bucket in a plan
+---
+
 import Global from '../../_global.md'
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';

@@ -1,3 +1,12 @@
+---
+title: planner plan add
+description: Adds a new Microsoft Planner plan
+---
+
+import Global from '../../_global.md'
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # planner plan add
 
 Adds a new Microsoft Planner plan
@@ -24,6 +33,8 @@ m365 planner plan add [options]
 
 `--shareWithUserNames [shareWithUserNames]`
 : The comma-separated UPNs of the users with whom you want to share the plan. Specify either `shareWithUserIds` or `shareWithUserNames` but not both.
+
+<Global />
 
 ## Remarks
 
@@ -127,96 +138,104 @@ m365 planner plan add --title 'My Planner Plan' --ownerGroupName 'My Planner Gro
 
 When we make use of the option `shareWithUserIds` or `shareWithUserNames` the response will differ. 
 
-=== "JSON"
 
-    ```json
-    {
-      "createdDateTime": "2015-03-30T18:36:49.2407981Z",
-      "owner": "ebf3b108-5234-4e22-b93d-656d7dae5874",
-      "title": "My Planner Plan",
-      "id": "xqQg5FS2LkCp935s-FIFm2QAFkHM",
-      "createdBy": {
-        "user": {
-          "displayName": null,
-          "id": "95e27074-6c4a-447a-aa24-9d718a0b86fa"
-        },
-        "application": {
-          "displayName": null,
-          "id": "ebf3b108-5234-4e22-b93d-656d7dae5874"
-        }
+<Tabs>
+  <TabItem value="json" label="JSON">
+
+  ```json
+  {
+    "createdDateTime": "2015-03-30T18:36:49.2407981Z",
+    "owner": "ebf3b108-5234-4e22-b93d-656d7dae5874",
+    "title": "My Planner Plan",
+    "id": "xqQg5FS2LkCp935s-FIFm2QAFkHM",
+    "createdBy": {
+      "user": {
+        "displayName": null,
+        "id": "95e27074-6c4a-447a-aa24-9d718a0b86fa"
       },
-      "container": {
-        "containerId": "ebf3b108-5234-4e22-b93d-656d7dae5874",
-        "type": "group",
-        "url": "https://graph.microsoft.com/v1.0/groups/ebf3b108-5234-4e22-b93d-656d7dae5874"
-      },
-      "sharedWith": {
-        "ebf3b108-5234-4e22-b93d-656d7dae5874": true,
-        "6463a5ce-2119-4198-9f2a-628761df4a62": true
-      },
-      "categoryDescriptions": {
-        "category1": null,
-        "category2": null,
-        "category3": null,
-        "category4": null,
-        "category5": null,
-        "category6": null,
-        "category7": null,
-        "category8": null,
-        "category9": null,
-        "category10": null,
-        "category11": null,
-        "category12": null,
-        "category13": null,
-        "category14": null,
-        "category15": null,
-        "category16": null,
-        "category17": null,
-        "category18": null,
-        "category19": null,
-        "category20": null,
-        "category21": null,
-        "category22": null,
-        "category23": null,
-        "category24": null,
-        "category25": null
+      "application": {
+        "displayName": null,
+        "id": "ebf3b108-5234-4e22-b93d-656d7dae5874"
       }
+    },
+    "container": {
+      "containerId": "ebf3b108-5234-4e22-b93d-656d7dae5874",
+      "type": "group",
+      "url": "https://graph.microsoft.com/v1.0/groups/ebf3b108-5234-4e22-b93d-656d7dae5874"
+    },
+    "sharedWith": {
+      "ebf3b108-5234-4e22-b93d-656d7dae5874": true,
+      "6463a5ce-2119-4198-9f2a-628761df4a62": true
+    },
+    "categoryDescriptions": {
+      "category1": null,
+      "category2": null,
+      "category3": null,
+      "category4": null,
+      "category5": null,
+      "category6": null,
+      "category7": null,
+      "category8": null,
+      "category9": null,
+      "category10": null,
+      "category11": null,
+      "category12": null,
+      "category13": null,
+      "category14": null,
+      "category15": null,
+      "category16": null,
+      "category17": null,
+      "category18": null,
+      "category19": null,
+      "category20": null,
+      "category21": null,
+      "category22": null,
+      "category23": null,
+      "category24": null,
+      "category25": null
     }
-    ```
+  }
+  ```
 
-=== "Text"
+  </TabItem>
+  <TabItem value="text" label="Text">
 
-    ```text
-    createdDateTime: 2015-03-30T18:36:49.2407981Z
-    id             : xqQg5FS2LkCp935s-FIFm2QAFkHM
-    owner          : ebf3b108-5234-4e22-b93d-656d7dae5874
-    title          : My Planner Plan
-    ```
+  ```text
+  createdDateTime: 2015-03-30T18:36:49.2407981Z
+  id             : xqQg5FS2LkCp935s-FIFm2QAFkHM
+  owner          : ebf3b108-5234-4e22-b93d-656d7dae5874
+  title          : My Planner Plan
+  ```
 
-=== "CSV"
+  </TabItem>
+  <TabItem value="csv" label="CSV">
 
-    ```csv
-    id,title,createdDateTime,owner
-    xqQg5FS2LkCp935s-FIFm2QAFkHM,My Planner Plan,2015-03-30T18:36:49.2407981Z,ebf3b108-5234-4e22-b93d-656d7dae5874
-    ```
+  ```csv
+  id,title,createdDateTime,owner
+  xqQg5FS2LkCp935s-FIFm2QAFkHM,My Planner Plan,2015-03-30T18:36:49.2407981Z,ebf3b108-5234-4e22-b93d-656d7dae5874
+  ```
 
-=== "Markdown"
+  </TabItem>
+  <TabItem value="md" label="Markdown">
 
-    ```md
-    # planner plan add --title "My Planner Plan" --ownerGroupId "ebf3b108-5234-4e22-b93d-656d7dae5874" --shareWithUserNames "Allan.Carroll@contoso.com,Ida.Stevens@contoso.com"
+  ```md
+  # planner plan add --title "My Planner Plan" --ownerGroupId "ebf3b108-5234-4e22-b93d-656d7dae5874" --shareWithUserNames "Allan.Carroll@contoso.com,Ida.Stevens@contoso.com"
 
-    Date: 30/03/2015
+  Date: 30/03/2015
 
-    ## My Planner Plan (xqQg5FS2LkCp935s-FIFm2QAFkHM)
+  ## My Planner Plan (xqQg5FS2LkCp935s-FIFm2QAFkHM)
 
-    Property | Value
-    ---------|-------
-    createdDateTime | 2015-03-30T18:36:49.2407981Z
-    owner | ebf3b108-5234-4e22-b93d-656d7dae5874
-    title | My Planner Plan
-    id | xqQg5FS2LkCp935s-FIFm2QAFkHM
-    createdBy | {"user":{"displayName":null,"id":"dd8b99a7-77c6-4238-a609-396d27844921"},"application":{"displayName":null,"id":"31359c7f-bd7e-475c-86db-fdb8c937548e"}}
-    container | {"containerId":"ebf3b108-5234-4e22-b93d-656d7dae5874","type":"group","url":"https://graph.microsoft.com/v1.0/groups/ebf3b108-5234-4e22-b93d-656d7dae5874"}
-    sharedWith | {"ebf3b108-5234-4e22-b93d-656d7dae5874":true,"6463a5ce-2119-4198-9f2a-628761df4a62":true}
-    categoryDescriptions | {"category1":null,"category2":null,"category3":null,"category4":null,"category5":null,"category6":null,"category7":null,"category8":null,"category9":null,"category10":null,"category11":null,"category12":null,"category13":null,"category14":null,"category15":null,"category16":null,"category17":null,"category18":null,"category19":null,"category20":null,"category21":null,"category22":null,"category23":null,"category24":null,"category25":null}
-    ```
+  Property | Value
+  ---------|-------
+  createdDateTime | 2015-03-30T18:36:49.2407981Z
+  owner | ebf3b108-5234-4e22-b93d-656d7dae5874
+  title | My Planner Plan
+  id | xqQg5FS2LkCp935s-FIFm2QAFkHM
+  createdBy | {"user":{"displayName":null,"id":"dd8b99a7-77c6-4238-a609-396d27844921"},"application":{"displayName":null,"id":"31359c7f-bd7e-475c-86db-fdb8c937548e"}}
+  container | {"containerId":"ebf3b108-5234-4e22-b93d-656d7dae5874","type":"group","url":"https://graph.microsoft.com/v1.0/groups/ebf3b108-5234-4e22-b93d-656d7dae5874"}
+  sharedWith | {"ebf3b108-5234-4e22-b93d-656d7dae5874":true,"6463a5ce-2119-4198-9f2a-628761df4a62":true}
+  categoryDescriptions | {"category1":null,"category2":null,"category3":null,"category4":null,"category5":null,"category6":null,"category7":null,"category8":null,"category9":null,"category10":null,"category11":null,"category12":null,"category13":null,"category14":null,"category15":null,"category16":null,"category17":null,"category18":null,"category19":null,"category20":null,"category21":null,"category22":null,"category23":null,"category24":null,"category25":null}
+  ```
+
+  </TabItem>
+</Tabs>

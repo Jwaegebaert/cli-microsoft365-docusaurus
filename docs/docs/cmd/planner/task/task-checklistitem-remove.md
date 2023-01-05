@@ -1,3 +1,10 @@
+---
+title: planner task checklistitem remove
+description: Removes the checklist item from the Planner task
+---
+
+import Global from '../../_global.md'
+
 # planner task checklistitem remove
 
 Removes the checklist item from the Planner task.
@@ -19,7 +26,7 @@ m365 planner task checklistitem remove [options]
 `--confirm`
 : Don't prompt for confirmation
 
---8<-- "docs/cmd/_global.md"
+<Global />
 
 ## Examples
 

@@ -1,3 +1,8 @@
+---
+title: planner bucket add
+description: Adds a new Microsoft Planner bucket
+---
+
 import Global from '../../_global.md'
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';

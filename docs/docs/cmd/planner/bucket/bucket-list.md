@@ -1,3 +1,8 @@
+---
+title: planner bucket list
+description: Lists the Microsoft Planner buckets in a plan
+---
+
 import Global from '../../_global.md'
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';

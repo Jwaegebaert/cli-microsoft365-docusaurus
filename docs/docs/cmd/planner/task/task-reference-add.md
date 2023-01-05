@@ -1,3 +1,10 @@
+---
+title: planner task reference add
+description: Adds a new reference to a Planner task
+---
+
+import Global from '../../_global.md'
+
 # planner task reference add
 
 Adds a new reference to a Planner task.
@@ -22,7 +29,7 @@ m365 planner task reference add [options]
 `--type [type]`
 : Used to describe the type of the reference. Types include: `PowerPoint`, `Word`, `Excel`, `Other`.
 
---8<-- "docs/cmd/_global.md"
+<Global />
 
 ## Examples
 

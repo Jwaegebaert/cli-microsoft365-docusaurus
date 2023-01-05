@@ -1,3 +1,10 @@
+---
+title: planner task list
+description: Lists planner tasks in a bucket, plan, or tasks for the currently logged in user
+---
+
+import Global from '../../_global.md'
+
 # planner task list
 
 Lists planner tasks in a bucket, plan, or tasks for the currently logged in user
@@ -28,7 +35,7 @@ m365 planner task list [options]
 `--ownerGroupName [ownerGroupName]`
 : Name of the group to which the plan belongs. Specify `ownerGroupId` or `ownerGroupName` when using `planTitle`.
 
---8<-- "docs/cmd/_global.md"
+<Global />
 
 ## Remarks
 

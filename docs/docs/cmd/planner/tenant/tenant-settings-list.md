@@ -1,3 +1,10 @@
+---
+title: planner tenant settings list
+description: Lists the Microsoft Planner configuration of the tenant
+---
+
+import Global from '../../_global.md'
+
 # planner tenant settings list
 
 Lists the Microsoft Planner configuration of the tenant
@@ -10,7 +17,7 @@ m365 planner tenant settings list [options]
 
 ## Options
 
---8<-- "docs/cmd/_global.md"
+<Global />
 
 ## Remarks
 

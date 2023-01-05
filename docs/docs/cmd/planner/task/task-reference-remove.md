@@ -1,3 +1,10 @@
+---
+title: planner task reference remove
+description: Removes the reference from the Planner task
+---
+
+import Global from '../../_global.md'
+
 # planner task reference remove
 
 Removes the reference from the Planner task.
@@ -22,7 +29,7 @@ m365 planner task reference remove [options]
 `--confirm`
 : Don't prompt for confirmation
 
---8<-- "docs/cmd/_global.md"
+<Global />
 
 ## Examples
 

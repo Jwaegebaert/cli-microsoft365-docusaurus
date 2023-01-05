@@ -1,3 +1,10 @@
+---
+title: planner plan remove
+description: Removes the Microsoft Planner plan
+---
+
+import Global from '../../_global.md'
+
 # planner plan remove
 
 Removes the Microsoft Planner plan
@@ -25,7 +32,7 @@ m365 planner plan remove [options]
 `--confirm`
 : Don't prompt for confirmation.
 
---8<-- "docs/cmd/_global.md"
+<Global />
 
 ## Examples
 

@@ -1,3 +1,10 @@
+---
+title: planner task checklistitem list
+description: Lists the checklist items of a Planner task
+---
+
+import Global from '../../_global.md'
+
 # planner task checklistitem list
 
 Lists the checklist items of a Planner task.
@@ -13,7 +20,7 @@ m365 planner task checklistitem list [options]
 `-i, --taskId <taskId>`
 : ID of the task
 
---8<-- "docs/cmd/_global.md"
+<Global />
 
 ## Examples
 

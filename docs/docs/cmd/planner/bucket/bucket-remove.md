@@ -1,3 +1,8 @@
+---
+title: planner bucket remove
+description: Removes the Microsoft Planner bucket from a plan
+---
+
 import Global from '../../_global.md'
 
 # planner bucket remove

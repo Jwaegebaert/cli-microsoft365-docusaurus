@@ -1,3 +1,10 @@
+---
+title: planner task set
+description: Updates a Microsoft Planner task
+---
+
+import Global from '../../_global.md'
+
 # planner task set
 
 Updates a Microsoft Planner task
@@ -64,7 +71,7 @@ m365 planner task set [options]
 `--priority [priority]`
 : Priority of the task: Urgent, Important, Medium, Low. Or an integer between 0 and 10 (check remarks section for more info).
 
---8<-- "docs/cmd/_global.md"
+<Global />
 
 ## Remarks
 

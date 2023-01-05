@@ -10,15 +10,15 @@ const config = {
   titleDelimiter: '-',
   tagline: 'Docs',
   url: 'https://clidemo.github.io',
-  baseUrl: '/',
+  baseUrl: '/cli-microsoft365-docusaurus/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'PnP', // Usually your GitHub org/user name.
-  projectName: 'CLI for Microsoft 365', // Usually your repo name.
+  organizationName: 'jwaegebaert', // Usually your GitHub org/user name.
+  projectName: 'cli-microsoft365-docusaurus', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -37,8 +37,7 @@ const config = {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/pnp/cli-microsoft365/blob/main/docs',
-          showLastUpdateTime: true,
-          showLastUpdateAuthor: true
+          showLastUpdateTime: true
         },
         blog: false,
         theme: {
@@ -106,44 +105,35 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: 'docs',
-              },
-            ],
-          },
-          {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discordapp.com/invite/7rfW4kg6B5',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/climicrosoft365',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Resources',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'GitHub',
+                href: 'https://github.com/pnp/cli-microsoft365',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'YouTube',
+                href: 'http://aka.ms/sppnp-videos',
+              },
+              {
+                label: 'Microsoft 365 & Power Platform community',
+                href: 'https://aka.ms/sppnp',
               },
             ],
-          },
+          }
         ],
         copyright: `Copyright © ${new Date().getFullYear()} CLI for Microsoft 365. Built with Docusaurus.`,
       },

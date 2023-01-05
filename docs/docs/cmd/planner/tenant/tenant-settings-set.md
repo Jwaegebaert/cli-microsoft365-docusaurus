@@ -1,3 +1,10 @@
+---
+title: planner tenant settings set
+description: Sets Microsoft Planner configuration of the tenant
+---
+
+import Global from '../../_global.md'
+
 # planner tenant settings set
 
 Sets Microsoft Planner configuration of the tenant
@@ -28,7 +35,7 @@ m365 planner tenant settings set [options]
 `--allowPlannerMobilePushNotifications [allowPlannerMobilePushNotifications]`
 : Configure whether push notifications are enabled in the mobile app.
 
---8<-- "docs/cmd/_global.md"
+<Global />
 
 ## Remarks
 

@@ -1,3 +1,10 @@
+---
+title: planner task get
+description: Retrieve the specified planner task
+---
+
+import Global from '../../_global.md'
+
 # planner task get
 
 Retrieve the specified planner task
@@ -40,7 +47,7 @@ m365 planner task details get [options]
 `--ownerGroupName [ownerGroupName]`
 : Name of the group to which the plan belongs. Specify `ownerGroupId` or `ownerGroupName` when using `planTitle`.
 
---8<-- "docs/cmd/_global.md"
+<Global />
 
 ## Examples
 

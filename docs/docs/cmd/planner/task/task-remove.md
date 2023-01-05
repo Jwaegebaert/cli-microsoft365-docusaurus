@@ -1,3 +1,10 @@
+---
+title: planner task remove
+description: Removes the Microsoft Planner task from a plan
+---
+
+import Global from '../../_global.md'
+
 # planner task remove
 
 Removes the Microsoft Planner task from a plan
@@ -37,7 +44,7 @@ m365 planner task remove [options]
 `--confirm`
 : Don't prompt for confirmation
 
---8<-- "docs/cmd/_global.md"
+<Global />
 
 ## Examples
 

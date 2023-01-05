@@ -26,7 +26,7 @@
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^2.2.0",
     "@tsconfig/docusaurus": "^1.0.5",
-    "asciinema-player": "^3.0.1",
+    "asciinema-player": "^3.0.0-rc.1",
     "typescript": "^4.7.4"
   },
   "browserslist": {

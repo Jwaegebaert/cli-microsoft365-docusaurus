@@ -1,3 +1,10 @@
+---
+title: planner task checklistitem add
+description: Adds a new checklist item to a Planner task
+---
+
+import Global from '../../_global.md'
+
 # planner task checklistitem add
 
 Adds a new checklist item to a Planner task
@@ -19,7 +26,7 @@ m365 planner task checklistitem add [options]
 `--isChecked`
 : Mark the checklist item as checked.
 
---8<-- "docs/cmd/_global.md"
+<Global />
 
 ## Examples
 
