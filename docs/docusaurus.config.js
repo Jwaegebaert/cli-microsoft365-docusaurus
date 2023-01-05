@@ -1,8 +1,8 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require('prism-react-renderer/themes/nightOwlLight');
+const darkCodeTheme = require('prism-react-renderer/themes/oceanicNext');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -34,6 +34,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/pnp/cli-microsoft365/blob/main/docs',
           showLastUpdateTime: true,
@@ -51,10 +52,11 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: '',
+        style: 'primary',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'CLI for Microsoft 365 Logo',
+          src: 'img/pnp-cli-microsoft365-white.svg'
         },
         items: [
           {            
@@ -75,37 +77,30 @@ const config = {
             sidebarId: 'commands',
             position: 'left'
           },
-          // {
-          //   to: 'docs/user-guide',
-          //   label: 'User Guide',
-          //   position: 'left'
-          // },
-          // {
-          //   to: 'docs/cmd',
-          //   label: 'Commands',
-          //   position: 'left'
-          // },
-          // {
-          //   to: 'docs/concepts',
-          //   label: 'Concepts',
-          //   position: 'left'
-          // },
-          // {
-          //   to: 'docs/sample-scripts',
-          //   label: 'Sample Scripts',
-          //   position: 'left'
-          // },
-          // {
-          //   to: 'docs/about',
-          //   label: 'About',
-          //   position: 'left'
-          // },
+          {            
+            type: 'docSidebar',
+            label: 'Concepts',            
+            sidebarId: 'concepts',
+            position: 'left'
+          },
+          {            
+            type: 'docSidebar',
+            label: 'Sample Scripts',            
+            sidebarId: 'sampleScripts',
+            position: 'left'
+          },
+          {            
+            type: 'docSidebar',
+            label: 'About',            
+            sidebarId: 'about',
+            position: 'left'
+          },
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
-            position: 'right',
-          },
-        ],
+            position: 'right'
+          }
+        ]
       },
       footer: {
         style: 'dark',

@@ -1,0 +1,9 @@
+label: Microsoft Teams
+collapsible: true
+collapsed: true
+position: 7
+link:
+  type: generated-index
+  title: Microsoft Teams
+  description: All the sample script available based around Microsoft Teams.
+  slug: /sample-script/teams

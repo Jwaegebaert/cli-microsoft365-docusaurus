@@ -1,3 +1,7 @@
+---
+sidebar_position: 0
+---
+
 # status
 
 Shows Microsoft 365 login status
@@ -10,7 +14,7 @@ m365 status [options]
 
 ## Options
 
---8<-- "docs/cmd/groups/_global.md"
+--8<-- "docs/cmd/_global.md"
 
 ## Remarks
 

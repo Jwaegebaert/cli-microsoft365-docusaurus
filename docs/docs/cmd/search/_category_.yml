@@ -1,0 +1,9 @@
+label: Search (search)
+collapsible: true
+collapsed: true
+position: 18
+link:
+  type: generated-index
+  title: Search (search)
+  description: All the commands available for Microsoft Search.
+  slug: /cmd/groups/search

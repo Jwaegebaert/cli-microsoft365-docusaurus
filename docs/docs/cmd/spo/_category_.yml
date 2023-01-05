@@ -1,0 +1,9 @@
+label: SharePoint Online (spo)
+collapsible: true
+collapsed: true
+position: 21
+link:
+  type: generated-index
+  title: SharePoint Online (spo)
+  description: All the commands available for SharePoint Online.
+  slug: /cmd/groups/spo

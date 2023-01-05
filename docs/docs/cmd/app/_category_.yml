@@ -1,0 +1,9 @@
+label: Microsoft 365 apps (app)
+collapsible: true
+collapsed: true
+position: 7
+link:
+  type: generated-index
+  title: Microsoft 365 apps (app)
+  description: All the commands available for Microsoft 365 apps.
+  slug: /cmd/groups/app

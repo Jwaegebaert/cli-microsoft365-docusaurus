@@ -1,0 +1,9 @@
+label: Outlook (outlook)
+collapsible: true
+collapsed: true
+position: 12
+link:
+  type: generated-index
+  title: Outlook (outlook)
+  description: All the commands available for Microsoft Outlook.
+  slug: /cmd/groups/outlook

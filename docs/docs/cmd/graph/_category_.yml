@@ -1,0 +1,9 @@
+label: Microsoft Graph (graph)
+collapsible: true
+collapsed: true
+position: 9
+link:
+  type: generated-index
+  title: Microsoft Graph (graph)
+  description: All the commands available for Microsoft Graph.
+  slug: /cmd/groups/graph

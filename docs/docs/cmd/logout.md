@@ -1,3 +1,7 @@
+---
+sidebar_position: 0
+---
+
 # logout
 
 Log out from Microsoft 365
@@ -10,7 +14,7 @@ m365 logout [options]
 
 ## Options
 
---8<-- "docs/cmd/groups/_global.md"
+--8<-- "docs/cmd/_global.md"
 
 ## Remarks
 

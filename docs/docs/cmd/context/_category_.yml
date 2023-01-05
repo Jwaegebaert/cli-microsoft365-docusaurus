@@ -1,0 +1,9 @@
+label: Context (context)
+collapsible: true
+collapsed: true
+position: 5
+link:
+  type: generated-index
+  title: Context (context)
+  description: All the commands available for the CLI for Microsoft 365 context.
+  slug: /cmd/groups/context

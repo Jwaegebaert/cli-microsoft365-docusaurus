@@ -1,0 +1,7 @@
+collapsible: true
+collapsed: true
+link:
+  type: generated-index
+  title: Microsoft Planner task (task)
+  description: All the commands available for a Microsoft Planner task.
+  slug: /cmd/groups/planner/task

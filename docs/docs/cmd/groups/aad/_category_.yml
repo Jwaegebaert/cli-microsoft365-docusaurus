@@ -1,7 +1,0 @@
-label: 'Azure Active Directory (aad)'
-collapsible: true
-collapsed: true
-link:
-  type: generated-index
-  title: Azure Active Directory (aad)
-  description: All the commands available for the Azure Active Directory.

@@ -1,0 +1,9 @@
+label: Utilities (util)
+collapsible: true
+collapsed: true
+position: 26
+link:
+  type: generated-index
+  title: Utilities (util)
+  description: All the commands available for the Utilities.
+  slug: /cmd/groups/util

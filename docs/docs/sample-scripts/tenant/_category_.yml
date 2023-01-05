@@ -1,0 +1,9 @@
+label: Microsoft 365 Tenant
+collapsible: true
+collapsed: true
+position: 9
+link:
+  type: generated-index
+  title: Microsoft 365 Tenant
+  description: All the sample script available based around Microsoft 365 Tenant.
+  slug: /sample-script/terant

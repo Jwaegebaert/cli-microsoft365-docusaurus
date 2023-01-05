@@ -1,0 +1,9 @@
+label: Yammer (yammer)
+collapsible: true
+collapsed: true
+position: 25
+link:
+  type: generated-index
+  title: Yammer (yammer)
+  description: All the commands available for Microsoft Yammer.
+  slug: /cmd/groups/yammer

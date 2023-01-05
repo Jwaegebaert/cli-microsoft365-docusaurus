@@ -1,0 +1,9 @@
+label: Power Platform (pp)
+collapsible: true
+collapsed: true
+position: 16
+link:
+  type: generated-index
+  title: Power Platform (pp)
+  description: All the commands available for the Power Platform.
+  slug: /cmd/groups/pp

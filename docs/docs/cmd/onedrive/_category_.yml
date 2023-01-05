@@ -1,0 +1,9 @@
+label: OneDrive (onedrive)
+collapsible: true
+collapsed: true
+position: 10
+link:
+  type: generated-index
+  title: OneDrive (onedrive)
+  description: All the commands available for Microsoft OneDrive.
+  slug: /cmd/groups/onedrive

@@ -1,0 +1,9 @@
+label: Microsoft Graph
+collapsible: true
+collapsed: true
+position: 2
+link:
+  type: generated-index
+  title: Microsoft Graph
+  description: All the sample script available based around Microsoft Graph.
+  slug: /sample-script/graph

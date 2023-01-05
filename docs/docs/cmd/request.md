@@ -1,3 +1,7 @@
+---
+sidebar_position: 0
+---
+
 # request
 
 Executes the specified web request using CLI for Microsoft 365
@@ -26,7 +30,7 @@ the service.
 `-p, --filePath [filePath]`
 : The file path to save the response to. This option can be used when downloading files.
 
---8<-- "docs/cmd/groups/_global.md"
+--8<-- "docs/cmd/_global.md"
 
 ## Remarks
 

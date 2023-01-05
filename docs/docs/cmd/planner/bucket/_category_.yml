@@ -1,0 +1,7 @@
+collapsible: true
+collapsed: true
+link:
+  type: generated-index
+  title: Microsoft Planner bucket (bucket)
+  description: All the commands available for a Microsoft Planner bucket.
+  slug: /cmd/groups/planner/bucket

@@ -1,0 +1,9 @@
+label: Viva Connections (viva)
+collapsible: true
+collapsed: true
+position: 24
+link:
+  type: generated-index
+  title: Viva Connections (viva)
+  description: All the commands available for Viva Connections.
+  slug: /cmd/groups/viva

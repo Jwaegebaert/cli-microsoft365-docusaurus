@@ -1,0 +1,9 @@
+label: To Do (todo)
+collapsible: true
+collapsed: true
+position: 23
+link:
+  type: generated-index
+  title: To Do (todo)
+  description: All the commands available for the Microsoft To Do.
+  slug: /cmd/groups/todo

@@ -1,0 +1,9 @@
+label: File (file)
+collapsible: true
+collapsed: true
+position: 6
+link:
+  type: generated-index
+  title: File (file)
+  description: All the commands available for files.
+  slug: /cmd/groups/file

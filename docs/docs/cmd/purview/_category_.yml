@@ -1,0 +1,9 @@
+label: Purview (purview)
+collapsible: true
+collapsed: true
+position: 17
+link:
+  type: generated-index
+  title: Purview (purview)
+  description: All the commands available for Purview.
+  slug: /cmd/groups/purview

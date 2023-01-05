@@ -1,0 +1,9 @@
+label: Planner (planner)
+collapsible: true
+collapsed: true
+position: 13
+link:
+  type: generated-index
+  title: Microsoft Planner (planner)
+  description: All the commands available for Microsoft Planner.
+  slug: /cmd/groups/planner

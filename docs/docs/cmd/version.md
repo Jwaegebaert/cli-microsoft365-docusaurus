@@ -1,3 +1,7 @@
+---
+sidebar_position: 0
+---
+
 # version
 
 Shows CLI for Microsoft 365 version
@@ -10,7 +14,7 @@ m365 version [options]
 
 ## Options
 
---8<-- "docs/cmd/groups/_global.md"
+--8<-- "docs/cmd/_global.md"
 
 ## Examples
 

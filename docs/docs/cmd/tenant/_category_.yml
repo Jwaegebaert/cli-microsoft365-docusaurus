@@ -1,0 +1,9 @@
+label: Microsoft 365 tenant (tenant)
+collapsible: true
+collapsed: true
+position: 8
+link:
+  type: generated-index
+  title: Microsoft 365 tenant (tenant)
+  description: All the commands available for the Microsoft 365 tenant.
+  slug: /cmd/groups/tenant

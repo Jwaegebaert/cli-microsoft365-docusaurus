@@ -1,0 +1,9 @@
+label: Azure Active Directory
+collapsible: true
+collapsed: true
+position: 1
+link:
+  type: generated-index
+  title: Azure Active Directory
+  description: All the sample script available based around Azure Active Directory.
+  slug: /sample-script/aad

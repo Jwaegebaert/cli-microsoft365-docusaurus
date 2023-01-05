@@ -1,0 +1,9 @@
+label: SharePoint Framework (spfx)
+collapsible: true
+collapsed: true
+position: 20
+link:
+  type: generated-index
+  title: SharePoint Framework (spfx)
+  description: All the commands available for the SharePoint Framework.
+  slug: /cmd/groups/spfx

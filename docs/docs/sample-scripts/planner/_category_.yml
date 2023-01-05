@@ -1,0 +1,9 @@
+label: Planner
+collapsible: true
+collapsed: true
+position: 3
+link:
+  type: generated-index
+  title: Planner
+  description: All the sample script available based around Planner.
+  slug: /sample-script/planner

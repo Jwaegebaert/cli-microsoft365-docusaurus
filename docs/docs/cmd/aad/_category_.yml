@@ -1,0 +1,9 @@
+label: Azure Active Directory (aad)
+collapsible: true
+collapsed: true
+position: 1
+link:
+  type: generated-index
+  title: Azure Active Directory (aad)
+  description: All the commands available for the Azure Active Directory.
+  slug: /cmd/groups/aad

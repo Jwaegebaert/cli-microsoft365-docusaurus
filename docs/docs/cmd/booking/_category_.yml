@@ -1,0 +1,9 @@
+label: Bookings (booking)
+collapsible: true
+collapsed: true
+position: 3
+link:
+  type: generated-index
+  title: Bookings (booking)
+  description: All the commands available for Microsoft Bookings.
+  slug: /cmd/groups/booking

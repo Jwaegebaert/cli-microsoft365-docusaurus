@@ -1,0 +1,9 @@
+label: Skype (skype)
+collapsible: true
+collapsed: true
+position: 19
+link:
+  type: generated-index
+  title: Skype (skype)
+  description: All the commands available for Skype.
+  slug: /cmd/groups/skype

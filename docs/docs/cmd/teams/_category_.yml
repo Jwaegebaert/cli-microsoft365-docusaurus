@@ -1,0 +1,9 @@
+label: Teams (teams)
+collapsible: true
+collapsed: true
+position: 22
+link:
+  type: generated-index
+  title: Teams (teams)
+  description: All the commands available for Microsoft Teams.
+  slug: /cmd/groups/teams

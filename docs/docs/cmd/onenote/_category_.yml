@@ -1,0 +1,9 @@
+label: OneNote (onenote)
+collapsible: true
+collapsed: true
+position: 11
+link:
+  type: generated-index
+  title: OneNote (onenote)
+  description: All the commands available for Microsoft OneNote.
+  slug: /cmd/groups/onenote

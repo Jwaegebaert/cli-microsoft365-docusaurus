@@ -1,0 +1,9 @@
+label: Power Apps (pa)
+collapsible: true
+collapsed: true
+position: 14
+link:
+  type: generated-index
+  title: Power Apps (pa)
+  description: All the commands available for Power Apps.
+  slug: /cmd/groups/pa

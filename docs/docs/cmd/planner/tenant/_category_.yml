@@ -1,0 +1,7 @@
+collapsible: true
+collapsed: true
+link:
+  type: generated-index
+  title: Microsoft Planner tenant settings (tenant)
+  description: All the commands available for your Microsoft Planner tenant settings.
+  slug: /cmd/groups/planner/settings
