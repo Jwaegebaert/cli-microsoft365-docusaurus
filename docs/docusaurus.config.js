@@ -47,6 +47,10 @@ const config = {
     ],
   ],
 
+  clientModules: [
+    require.resolve('./src/components/AsciinemaPlayer.tsx')
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
