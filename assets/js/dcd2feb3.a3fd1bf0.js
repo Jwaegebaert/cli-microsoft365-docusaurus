@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[332],{44992:s=>{s.exports=JSON.parse('{"title":"About the CLI for Microsoft 365","slug":"/about","permalink":"/cli-microsoft365-docusaurus/about","navigation":{"next":{"title":"Why this CLI","permalink":"/cli-microsoft365-docusaurus/about/why-cli"}}}')}}]);
